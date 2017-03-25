@@ -1,0 +1,6 @@
+test
+.editorconfig
+.gitignore
+.sublimelinterrc
+.travis.yml
+eslint-config-node.sublime-project

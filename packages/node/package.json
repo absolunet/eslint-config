@@ -1,0 +1,19 @@
+ {
+  "name":        "@absolunet/eslint-config-node",
+  "version":     "0.0.1",
+  "description": "ESLint config for node packages",
+  "definition":  "",
+  "homepage":    "https://github.com/absolunet/eslint-config-node",
+  "author":      { "name": "Absolunet", "url": "http://absolunet.com/" },
+
+  "license":    "MIT",
+  "repository": { "url":   "git://github.com/absolunet/eslint-config-node.git", "type":"git" },
+  "bugs":       { "url": "https://github.com/absolunet/eslint-config-node/issues" },
+
+  "engines": { "node": ">= 7.7.3" },
+
+  "dependencies": {
+    "eslint":  "3.18.0",
+    "js-yaml": "^3.8.2"
+  }
+}
