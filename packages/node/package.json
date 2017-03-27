@@ -1,6 +1,6 @@
 {
   "name":        "@absolunet/eslint-config-node",
-  "version":     "0.0.3",
+  "version":     "0.0.4",
   "description": "ESLint config for node packages",
   "definition":  "",
   "homepage":    "https://github.com/absolunet/eslint-config-node",
@@ -13,6 +13,6 @@
   "engines": { "node": ">= 7.7.4" },
 
   "dependencies": {
-    "@absolunet/eslint-config-core": "0.0.1"
+    "@absolunet/eslint-config-core": "0.0.2"
   }
 }
