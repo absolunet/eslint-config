@@ -1,0 +1,43 @@
+extends: "@absolunet/eslint-config-core"
+
+# Environments
+env:
+  browser: true
+  jquery: true
+
+
+# Globals
+globals:
+  global: false
+
+  # nwayo
+  konstan: false
+  app: false
+  __: false
+  PROJECT: false
+  DOM_PARSE: false
+  DOCUMENT_LOAD: false
+
+  # nwayo vendors
+  $Global: false
+  _: false
+  Modernizr: false
+  PubSub: false
+
+  # Classic libs
+  addthis: false
+  addthis_config: true
+  addthis_share: true
+  Cookies: false
+  FastClick: false
+  Foundation: false
+  google: false
+  kafe: false
+  WebFont: false
+
+
+# Rules
+rules:
+
+  # Strict Mode
+  strict: [error, function]
