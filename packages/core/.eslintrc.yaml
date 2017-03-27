@@ -23,7 +23,7 @@ env:
 
 
 # Globals
-globals: []
+globals: {}
 
 
 # Plugins - Additional plugins
