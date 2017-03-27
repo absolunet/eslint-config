@@ -1,0 +1,18 @@
+{
+  "name":        "@absolunet/eslint-config-nwayo",
+  "version":     "0.0.1",
+  "description": "ESLint config for nwayo",
+  "definition":  "",
+  "homepage":    "https://github.com/absolunet/eslint-config-nwayo",
+  "author":      { "name": "Absolunet", "url": "http://absolunet.com/" },
+
+  "license":    "MIT",
+  "repository": { "url":   "git://github.com/absolunet/eslint-config-nwayo.git", "type":"git" },
+  "bugs":       { "url": "https://github.com/absolunet/eslint-config-nwayo/issues" },
+
+  "engines": { "node": ">= 7.7.4" },
+
+  "dependencies": {
+    "@absolunet/eslint-config-core": "0.0.2"
+  }
+}
