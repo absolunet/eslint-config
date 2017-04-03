@@ -1,6 +1,6 @@
 {
   "name":        "@absolunet/eslint-config-node",
-  "version":     "0.0.4",
+  "version":     "0.0.5",
   "description": "ESLint config for node packages",
   "definition":  "",
   "homepage":    "https://github.com/absolunet/eslint-config-node",
