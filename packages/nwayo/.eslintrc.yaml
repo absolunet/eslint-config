@@ -1,4 +1,4 @@
-extends: "@absolunet/eslint-config-core"
+extends: "@absolunet/core"
 
 # Environments
 env:

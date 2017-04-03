@@ -1,6 +1,6 @@
 {
   "name":        "@absolunet/eslint-config-nwayo",
-  "version":     "0.0.1",
+  "version":     "0.0.2",
   "description": "ESLint config for nwayo",
   "definition":  "",
   "homepage":    "https://github.com/absolunet/eslint-config-nwayo",
