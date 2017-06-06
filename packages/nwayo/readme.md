@@ -5,5 +5,31 @@
 
 > ESLint config for [nwayo](https://github.com/absolunet/nwayo)
 
+Opinionated ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for [nwayo](https://github.com/absolunet/nwayo).
+
+Extends [eslint-config-core](https://github.com/absolunet/eslint-config-core) 
+
+
+## Install
+
+```
+$ npm install @absolunet/eslint-config-nwayo
+```
+
+
+## Usage
+
+Add some ESLint config to your `.eslintrc.yaml`:
+
+```yaml
+extends: "@absolunet/nwayo"
+```
+
+
+## Related
+
+- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config yaml loader.
+
+
 ## License 
-See the [license](https://github.com/absolunet/eslint-config-nwayo/blob/master/license).
+MIT © [Absolunet](https://absolunet.com)
