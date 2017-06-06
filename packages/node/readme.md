@@ -7,7 +7,7 @@
 
 Opinionated ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Node.js.
 
-Extends [@absolunet/core](https://github.com/absolunet/eslint-config-core) 
+Extends [eslint-config-core](https://github.com/absolunet/eslint-config-core) 
 
 
 ## Install
@@ -28,8 +28,9 @@ extends: "@absolunet/node"
 
 ## Related
 
-- [eslint-config-core](https://github.com/absolunet/eslint-config-core) - ESLint shareable config core rules.
-- [eslint-config-nwayo](https://github.com/absolunet/eslint-config-nwayo) - ESLint shareable config with [nwayo](https://github.com/absolunet/nwayo) rules.
+- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config yaml loader.
+
+- [@absolunet/tester](https://github.com/absolunet/node-tester) - Test suite for node projects.
 
 
 ## License 
