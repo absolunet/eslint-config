@@ -5,5 +5,29 @@
 
 > ESLint config - Core
 
+Opinionated ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) good for Node.js and browser environment.
+
+## Install
+
+```
+$ npm install @absolunet/eslint-config-core
+```
+
+
+## Usage
+
+Add some ESLint config to your `.eslintrc.yaml`:
+
+```yaml
+extends: "@absolunet/core"
+```
+
+
+## Related
+
+- [eslint-config-node](https://github.com/absolunet/eslint-config-node) - ESLint shareable config with Node.js rules.
+- [eslint-config-nwayo](https://github.com/absolunet/eslint-config-nwayo) - ESLint shareable config with [nwayo](https://github.com/absolunet/nwayo) rules.
+
+
 ## License 
-See the [license](https://github.com/absolunet/eslint-config-core/blob/master/license).
+MIT © [Absolunet](https://absolunet.com)
