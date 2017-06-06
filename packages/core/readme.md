@@ -25,6 +25,7 @@ extends: "@absolunet/core"
 
 ## Related
 
+- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config yaml loader.
 - [eslint-config-node](https://github.com/absolunet/eslint-config-node) - ESLint shareable config with Node.js rules.
 - [eslint-config-nwayo](https://github.com/absolunet/eslint-config-nwayo) - ESLint shareable config with [nwayo](https://github.com/absolunet/nwayo) rules.
 
