@@ -171,7 +171,7 @@ rules:
   # Stylistic Issues
   array-bracket-newline: [error, { multiline: true }]
   array-bracket-spacing: [error, never]
-  array-element-newline: [error, { multiline: true }]
+  array-element-newline: [off]
   block-spacing: [error, always]
   brace-style: [error, 1tbs, { allowSingleLine: true }]
   camelcase: [error, { properties: always }]
@@ -246,7 +246,7 @@ rules:
   one-var-declaration-per-line: [error, always]
   one-var: [error, never]
   operator-assignment: [error, always]
-  operator-linebreak: [error, after, { overrides: {'?': before, ':': before} }]
+  operator-linebreak: [error, after, { overrides: { '?': before, ':': before } }]
   padded-blocks: [error, { classes: always, switches: always }]
   padding-line-between-statements:
     - error
