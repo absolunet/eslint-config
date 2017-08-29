@@ -39,6 +39,7 @@ rules:
 
   # Possible Errors
   for-direction: [error]
+  getter-return: [error]
   no-await-in-loop: [error]
   no-compare-neg-zero: [error]
   no-cond-assign: [error, always]
@@ -189,7 +190,24 @@ rules:
   id-blacklist: [off]
   id-length: [off]
   id-match: [off]
-  indent: [error, tab, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1, MemberExpression: 1, CallExpression: { arguments: 1 }, ArrayExpression: 1, ObjectExpression: 1 }]
+  indent:
+    - error
+    - tab
+    - SwitchCase: 1
+      VariableDeclarator: 1
+      outerIIFEBody: 1
+      MemberExpression: 1
+      FunctionDeclaration:
+        parameters: 1
+        body: 1
+      FunctionExpression:
+        parameters: 1
+        body: 1
+      CallExpression:
+        arguments: 1
+      ArrayExpression: 1
+      ImportDeclaration: 1
+      ObjectExpression: 1
   jsx-quotes: [error, prefer-double]
   key-spacing:
     - error
@@ -199,10 +217,6 @@ rules:
       multiLine:
         beforeColon: false
         afterColon: true
-      align:
-        beforeColon: false
-        afterColon: true
-        on: value
         mode: minimum
   keyword-spacing: [error, { before: true, after: true }]
   line-comment-position: [off]
