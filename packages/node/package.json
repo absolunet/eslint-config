@@ -1,18 +1,25 @@
 {
-  "name":        "@absolunet/eslint-config-node",
-  "version":     "0.1.1",
+  "name": "@absolunet/eslint-config-node",
+  "version": "0.2.0",
   "description": "ESLint config for node packages",
-  "definition":  "",
-  "homepage":    "https://github.com/absolunet/eslint-config-node",
-  "author":      { "name": "Absolunet", "url": "http://absolunet.com/" },
-
-  "license":    "MIT",
-  "repository": { "url":   "git://github.com/absolunet/eslint-config-node.git", "type":"git" },
-  "bugs":       { "url": "https://github.com/absolunet/eslint-config-node/issues" },
-
-  "engines": { "node": ">= 8.1.0" },
-
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config-node",
+  "author": {
+    "name": "Absolunet",
+    "url": "http://absolunet.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config-node.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config-node/issues"
+  },
+  "engines": {
+    "node": ">= 8.4.0"
+  },
   "dependencies": {
-    "@absolunet/eslint-config-core": "0.1.1"
+    "@absolunet/eslint-config-core": "0.2.0"
   }
 }
