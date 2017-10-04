@@ -17,6 +17,7 @@ globals:
   PROJECT: false
   DOM_PARSE: false
   DOCUMENT_LOAD: false
+  GLOBAL_JQUERY_LOAD: false
 
   # nwayo vendors
   $Global: false
