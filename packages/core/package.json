@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-core",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "ESLint config - Core",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-core",
@@ -17,10 +17,10 @@
     "url": "https://github.com/absolunet/eslint-config-core/issues"
   },
   "engines": {
-    "node": ">= 8.4.0"
+    "node": ">= 9.7.1"
   },
   "dependencies": {
-   "eslint": "4.5.0",
-   "@absolunet/eslint-loader": "^0.0.2"
+   "eslint": "4.18.2",
+   "@absolunet/eslint-loader": "^0.0.3"
   }
 }
