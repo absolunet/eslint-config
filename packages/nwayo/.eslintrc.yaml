@@ -15,15 +15,14 @@ globals:
   app: false
   __: false
   PROJECT: false
-  DOM_PARSE: false
-  DOCUMENT_LOAD: false
-  GLOBAL_JQUERY_LOAD: false
+  DOM_PARSED: false
+  DOCUMENT_LOADED: false
+  GLOBAL_JQUERY_LOADED: false
 
   # nwayo vendors
-  $Global: false
   _: false
   Modernizr: false
-  PubSub: false
+  pinki: false
 
   # Classic libs
   addthis: false
