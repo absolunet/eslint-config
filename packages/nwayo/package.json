@@ -1,12 +1,12 @@
 {
   "name": "@absolunet/eslint-config-nwayo",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "ESLint config for nwayo",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-nwayo",
   "author": {
     "name": "Absolunet",
-    "url": "http://absolunet.com/"
+    "url": "https://absolunet.com"
   },
   "license": "MIT",
   "repository": {
@@ -17,9 +17,16 @@
     "url": "https://github.com/absolunet/eslint-config-nwayo/issues"
   },
   "engines": {
-    "node": ">= 9.11.1"
+    "node": ">= 10.4.1"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "1.7.0"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "0.3.0"
+    "@absolunet/eslint-config-core": "1.0.0",
+    "@absolunet/eslint-loader": "^1.0.1"
   }
 }
