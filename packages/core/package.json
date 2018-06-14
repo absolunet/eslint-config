@@ -23,7 +23,7 @@
     "test": "ava"
   },
   "devDependencies": {
-    "@absolunet/tester": "1.7.0"
+    "@absolunet/tester": "1.7.1"
   },
   "dependencies": {
     "eslint": "4.19.1",
