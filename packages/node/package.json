@@ -20,7 +20,7 @@
     "node": ">= 10.4.1"
   },
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava"
   },
   "devDependencies": {
     "@absolunet/tester": "1.7.0"
