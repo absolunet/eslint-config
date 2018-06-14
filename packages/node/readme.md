@@ -1,19 +1,21 @@
 # @absolunet/eslint-config-node
 
-[![NPM version](https://img.shields.io/npm/v/@absolunet/eslint-config-node.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-node)
-[![Dependencies](https://david-dm.org/absolunet/eslint-config-node/status.svg)](https://david-dm.org/absolunet/eslint-config-node)
+[![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-node.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-node)
+[![npm dependencies](https://david-dm.org/absolunet/eslint-config-node/status.svg)](https://david-dm.org/absolunet/eslint-config-node)
+[![npms](https://badges.npms.io/%40absolunet%2Feslint-config-node.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-node)
+[![Travis CI](https://api.travis-ci.org/absolunet/eslint-config-node.svg?branch=master)](https://travis-ci.org/absolunet/eslint-config-node/builds)
 
-> ESLint config for node packages
+> ESLint config for Node.js packages
 
-Opinionated ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Node.js.
+Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for Node.js.
 
-Extends [eslint-config-core](https://github.com/absolunet/eslint-config-core) 
+Extends [eslint-config-core](https://github.com/absolunet/eslint-config-core)
 
 
 ## Install
 
 ```
-$ npm install @absolunet/eslint-config-node
+$ npm i @absolunet/eslint-config-node
 ```
 
 
@@ -22,7 +24,7 @@ $ npm install @absolunet/eslint-config-node
 Add some ESLint config to your `.eslintrc.yaml`:
 
 ```yaml
-extends: "@absolunet/node"
+extends: '@absolunet/node'
 ```
 
 
@@ -33,5 +35,5 @@ extends: "@absolunet/node"
 - [@absolunet/tester](https://github.com/absolunet/node-tester) - Test suite for node projects.
 
 
-## License 
+## License
 MIT © [Absolunet](https://absolunet.com)

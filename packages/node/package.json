@@ -1,12 +1,12 @@
 {
   "name": "@absolunet/eslint-config-node",
-  "version": "0.3.0",
-  "description": "ESLint config for node packages",
+  "version": "1.0.0",
+  "description": "ESLint config for Node.js packages",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-node",
   "author": {
     "name": "Absolunet",
-    "url": "http://absolunet.com/"
+    "url": "https://absolunet.com"
   },
   "license": "MIT",
   "repository": {
@@ -17,9 +17,16 @@
     "url": "https://github.com/absolunet/eslint-config-node/issues"
   },
   "engines": {
-    "node": ">= 9.7.1"
+    "node": ">= 10.4.1"
+  },
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "1.7.0"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "0.3.0"
+    "@absolunet/eslint-config-core": "1.0.0",
+    "@absolunet/eslint-loader": "^1.0.1"
   }
 }
