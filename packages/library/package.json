@@ -1,0 +1,32 @@
+{
+  "name": "@absolunet/eslint-config-library",
+  "version": "1.1.0",
+  "description": "ESLint config for library (exported for Node.js/browser)",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config-library",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config-library.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config-library/issues"
+  },
+  "engines": {
+    "node": ">= 10.7.0"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "1.7.1"
+  },
+  "dependencies": {
+    "@absolunet/eslint-config-core": "1.1.0",
+    "@absolunet/eslint-loader": "^1.0.1"
+  }
+}
