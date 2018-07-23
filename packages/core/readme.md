@@ -25,6 +25,10 @@ extends: '@absolunet/core'
 ```
 
 
+## Used plugins
+
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) - Various awesome rules
+
 ## Related
 
 - [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config YAML loader.
