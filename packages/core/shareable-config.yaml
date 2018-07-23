@@ -8,13 +8,12 @@
 root: true
 parser: espree
 parserOptions:
-  ecmaVersion: 2017
+  ecmaVersion: 2018
   sourceType: script
   ecmaFeatures:
     globalReturn: false
     impliedStrict: false
     jsx: false
-    experimentalObjectRestSpread: true
 
 
 # Environments
@@ -78,7 +77,7 @@ rules:
   accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: true }]
   array-callback-return: [error]
   block-scoped-var: [error]
-  class-methods-use-this: [error]
+  class-methods-use-this: [off]
   complexity: [off]
   consistent-return: [error]
   curly: [error, all]
@@ -87,6 +86,7 @@ rules:
   dot-notation: [error, { allowKeywords: true }]
   eqeqeq: [error, always]
   guard-for-in: [error]
+  max-classes-per-file: [off]
   no-alert: [warn]
   no-caller: [error]
   no-case-declarations: [error]
@@ -152,7 +152,6 @@ rules:
 
   # Variables
   init-declarations: [off]
-  no-catch-shadow: [error]
   no-delete-var: [error]
   no-label-var: [error]
   no-restricted-globals: [error, window]
@@ -172,7 +171,7 @@ rules:
   # Stylistic Issues
   array-bracket-newline: [error, consistent]
   array-bracket-spacing: [error, never]
-  array-element-newline: [off]
+  array-element-newline: [error, consistent]
   block-spacing: [error, always]
   brace-style: [error, 1tbs, { allowSingleLine: true }]
   camelcase: [error, { properties: always }]
@@ -229,6 +228,7 @@ rules:
   max-depth: [off]
   max-len: [off]
   max-lines: [off]
+  max-lines-per-function: [off]
   max-nested-callbacks: [off]
   max-params: [off]
   max-statements: [off]
@@ -271,9 +271,10 @@ rules:
     - error
     - { blankLine: always, prev: directive, next: '*' }
     - { blankLine: always, prev: '*', next: return }
+  prefer-object-spread: [off]
   quote-props: [error, consistent-as-needed, { keywords: true }]
   quotes: [error, single, { avoidEscape: true, allowTemplateLiterals: true }]
-  require-jsdoc: [off] # toco:chceck
+  require-jsdoc: [off] # todo:check
   semi: [error, always]
   semi-spacing: [error, { before: false, after: true }]
   semi-style: [off]

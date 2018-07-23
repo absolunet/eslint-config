@@ -17,7 +17,7 @@
     "url": "https://github.com/absolunet/eslint-config-core/issues"
   },
   "engines": {
-    "node": ">= 10.4.1"
+    "node": ">= 10.7.0"
   },
   "scripts": {
     "test": "ava"
@@ -26,7 +26,7 @@
     "@absolunet/tester": "1.7.1"
   },
   "dependencies": {
-    "eslint": "4.19.1",
+    "eslint": "5.2.0",
     "@absolunet/eslint-loader": "^1.0.1"
   }
 }
