@@ -62,3 +62,10 @@ rules:
     - util
     - vm
     - zlib
+
+
+
+
+  # 🦄 Unicorn
+  unicorn/no-process-exit: [error]
+  unicorn/no-new-buffer: [error]

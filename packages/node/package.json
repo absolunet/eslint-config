@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint config for Node.js packages",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-node",
@@ -17,16 +17,16 @@
     "url": "https://github.com/absolunet/eslint-config-node/issues"
   },
   "engines": {
-    "node": ">= 10.4.1"
+    "node": ">= 10.7.0"
   },
   "scripts": {
     "test": "ava"
   },
   "devDependencies": {
-    "@absolunet/tester": "1.7.0"
+    "@absolunet/tester": "1.7.1"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "1.0.0",
+    "@absolunet/eslint-config-core": "1.1.0",
     "@absolunet/eslint-loader": "^1.0.1"
   }
 }
