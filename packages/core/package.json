@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "eslint": "5.2.0",
+    "eslint-plugin-unicorn": "4.0.3",
     "@absolunet/eslint-loader": "^1.0.1"
   }
 }

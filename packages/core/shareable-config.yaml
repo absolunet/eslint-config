@@ -26,7 +26,8 @@ globals: {}
 
 
 # Plugins - Additional plugins
-# plugins:
+plugins:
+  - unicorn
 
 
 # Settings - Shared Settings
@@ -330,3 +331,30 @@ rules:
   sort-imports: [off]
   template-curly-spacing: [error, never]
   yield-star-spacing: [error, before]
+
+
+
+
+  # 🦄 Unicorn
+  unicorn/catch-error-name: [error, { name: error }]
+  unicorn/explicit-length-check: [error]
+  unicorn/filename-case: [error, { case: kebabCase }]
+  unicorn/no-abusive-eslint-disable: [warn]
+  # unicorn/no-process-exit (Per sub-config)
+  unicorn/throw-new-error: [error]
+  unicorn/number-literal-case: [error]
+  unicorn/escape-case: [error]
+  unicorn/no-array-instanceof: [error]
+  # unicorn/no-new-buffer (Per sub-config)
+  unicorn/no-hex-escape: [error]
+  unicorn/custom-error-definition: [error]
+  unicorn/prefer-starts-ends-with: [error]
+  unicorn/prefer-type-error: [error]
+  unicorn/no-fn-reference-in-iterator: [off]
+  unicorn/import-index: [error]
+  unicorn/new-for-builtins: [error]
+  unicorn/regex-shorthand: [error]
+  unicorn/prefer-spread: [error]
+  unicorn/error-message: [error]
+  unicorn/no-unsafe-regex: [error]
+  # unicorn/prefer-add-event-listener (Per sub-config)
