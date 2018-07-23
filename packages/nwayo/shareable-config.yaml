@@ -42,3 +42,9 @@ rules:
 
   # Strict Mode
   strict: [error, function]
+
+
+
+
+  # 🦄 Unicorn
+  unicorn/prefer-add-event-listener: [error]
