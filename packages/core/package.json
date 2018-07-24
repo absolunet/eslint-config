@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-core",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "ESLint config - Core",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-core",
@@ -8,6 +8,11 @@
     "name": "Absolunet",
     "url": "https://absolunet.com"
   },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
   "license": "MIT",
   "repository": {
     "url": "git://github.com/absolunet/eslint-config-core.git",
@@ -19,15 +24,16 @@
   "engines": {
     "node": ">= 10.7.0"
   },
+  "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "devDependencies": {
-    "@absolunet/tester": "1.7.1"
+    "@absolunet/tester": "2.0.3"
   },
   "dependencies": {
     "eslint": "5.2.0",
     "eslint-plugin-unicorn": "4.0.3",
-    "@absolunet/eslint-loader": "^1.0.1"
+    "@absolunet/eslint-loader": "^1.0.2"
   }
 }
