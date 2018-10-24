@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-nwayo",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "ESLint config for nwayo",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-nwayo",
@@ -23,17 +23,17 @@
     "url": "https://github.com/absolunet/eslint-config-nwayo/issues"
   },
   "engines": {
-    "node": ">= 10.7.0"
+    "node": ">= 10.12.0"
   },
   "main": "index.js",
   "scripts": {
     "test": "ava"
   },
   "devDependencies": {
-    "@absolunet/tester": "2.0.3"
+    "@absolunet/tester": "2.1.1"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "1.1.1",
+    "@absolunet/eslint-config-core": "1.2.0",
     "@absolunet/eslint-loader": "^1.0.2"
   }
 }
