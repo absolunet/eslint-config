@@ -40,6 +40,7 @@ rules:
   # Possible Errors
   for-direction: [error]
   getter-return: [error]
+  no-async-promise-executor: [error]
   no-await-in-loop: [error]
   no-compare-neg-zero: [error]
   no-cond-assign: [error, always]
@@ -60,6 +61,7 @@ rules:
   no-inner-declarations: [error, both]
   no-invalid-regexp: [error]
   no-irregular-whitespace: [error]
+  no-misleading-character-class: [error]
   no-obj-calls: [error]
   no-prototype-builtins: [error]
   no-regex-spaces: [error]
@@ -69,6 +71,7 @@ rules:
   no-unreachable: [error]
   no-unsafe-finally: [error]
   no-unsafe-negation: [error]
+  require-atomic-updates: [error]
   use-isnan: [error]
   valid-jsdoc: [off]
   valid-typeof: [error, { requireStringLiterals: true }]
@@ -142,6 +145,7 @@ rules:
   prefer-promise-reject-errors: [error]
   radix: [error, always]
   require-await: [error]
+  require-unicode-regexp: [error]
   vars-on-top: [error]
   wrap-iife: [error, inside, { functionPrototypeMethods: true }]
   yoda: [error, never]
@@ -253,7 +257,7 @@ rules:
   no-new-object: [error]
   no-plusplus: [off]
   no-restricted-syntax: [off]
-  no-tabs: [off]
+  no-tabs: [error, { allowIndentationTabs: true }]
   no-ternary: [off]
   no-trailing-spaces: [error, { skipBlankLines: false }]
   no-underscore-dangle: [off]
@@ -282,7 +286,7 @@ rules:
   sort-keys: [off]
   sort-vars: [off]
   space-before-blocks: [error, always]
-  space-before-function-paren: [error, never]
+  space-before-function-paren: [error, { anonymous: never, named: never, asyncArrow: always }]
   space-in-parens: [error, never]
   space-infix-ops: [error, { int32Hint: false }]
   space-unary-ops: [error, { words: true, nonwords: false }]
@@ -336,7 +340,7 @@ rules:
 
 
   # 🦄 Unicorn
-  unicorn/catch-error-name: [error, { name: error }]
+  unicorn/catch-error-name: [error]
   unicorn/explicit-length-check: [error]
   unicorn/filename-case: [error, { case: kebabCase }]
   unicorn/no-abusive-eslint-disable: [warn]
@@ -358,3 +362,4 @@ rules:
   unicorn/error-message: [error]
   unicorn/no-unsafe-regex: [error]
   # unicorn/prefer-add-event-listener (Per sub-config)
+  unicorn/prefer-exponentiation-operator: [error]
