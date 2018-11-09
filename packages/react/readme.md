@@ -9,7 +9,7 @@
 
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for React
 
-Extends [eslint-config-core](https://github.com/absolunet/eslint-config-core)
+Extends [eslint-config-nwayo](https://github.com/absolunet/eslint-config-nwayo)
 
 
 ## Install

@@ -1,4 +1,4 @@
-extends: "@absolunet/core"
+extends: "@absolunet/nwayo"
 
 parser: babel-eslint
 parserOptions:
@@ -13,6 +13,8 @@ plugins:
   - react
 
 rules:
+  unicorn/filename-case: [off]
+
   # https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
   import/first: error
   import/no-amd: error

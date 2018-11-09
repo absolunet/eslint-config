@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint config for library (exported for Node.js/browser)",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config-react",
@@ -22,7 +22,7 @@
     "url": "https://github.com/absolunet/eslint-config-react/issues"
   },
   "engines": {
-    "node": ">= 11.0.0"
+    "node": ">= 11.1.0"
   },
   "main": "index.js",
   "scripts": {
