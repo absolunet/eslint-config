@@ -1,3 +1,8 @@
 extends: '@absolunet/core'
 parserOptions:
   sourceType: module
+
+rules:
+
+  # IE11 incompatibility
+  require-unicode-regexp: [off]
