@@ -43,6 +43,9 @@ rules:
   # Strict Mode
   strict: [error, function]
 
+  # IE11 incompatibility
+  require-unicode-regexp: [off]
+
 
 
 
