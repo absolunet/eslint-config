@@ -1,9 +1,9 @@
 {
   "name": "@absolunet/eslint-config-react",
   "version": "0.2.0",
-  "description": "ESLint config for library (exported for Node.js/browser)",
+  "description": "ESLint config for React",
   "definition": "",
-  "homepage": "https://github.com/absolunet/eslint-config-react",
+  "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
     "name": "Absolunet",
     "url": "https://absolunet.com"
@@ -11,25 +11,23 @@
   "keywords": [
     "eslint",
     "eslintconfig",
-    "eslint-config"
+    "eslint-config",
+    "react"
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/absolunet/eslint-config-react.git",
+    "url": "git://github.com/absolunet/eslint-config.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/absolunet/eslint-config-react/issues"
+    "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 11.1.0"
+    "node": ">= 11.2.0"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "ava"
-  },
-  "devDependencies": {
-    "@absolunet/tester": "2.3.1"
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@absolunet/eslint-config-core": "1.2.0",

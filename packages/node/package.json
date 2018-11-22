@@ -1,9 +1,9 @@
 {
   "name": "@absolunet/eslint-config-node",
   "version": "1.2.0",
-  "description": "ESLint config for Node.js packages",
+  "description": "ESLint config for Node.js",
   "definition": "",
-  "homepage": "https://github.com/absolunet/eslint-config-node",
+  "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
     "name": "Absolunet",
     "url": "https://absolunet.com"
@@ -15,21 +15,18 @@
   ],
   "license": "MIT",
   "repository": {
-    "url": "git://github.com/absolunet/eslint-config-node.git",
+    "url": "git://github.com/absolunet/eslint-config.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/absolunet/eslint-config-node/issues"
+    "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 10.12.0"
+    "node": ">= 11.2.0"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "ava"
-  },
-  "devDependencies": {
-    "@absolunet/tester": "2.1.1"
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@absolunet/eslint-config-core": "1.2.0",

@@ -1,4 +1,4 @@
-extends: "@absolunet/nwayo"
+extends: '@absolunet/nwayo'
 
 parser: babel-eslint
 parserOptions:
