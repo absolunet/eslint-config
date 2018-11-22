@@ -5,4 +5,9 @@
 
 const tester = require('@absolunet/tester');
 
-tester.npmPackage.validateEslintConfig();
+
+tester.npmPackage.validateMulti();
+
+tester.npmPackage.multiPackagesPaths.forEach((path) => {
+	tester.npmPackage.validateEslintConfig({ cwd:path });
+});

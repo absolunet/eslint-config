@@ -1,8 +1,8 @@
 //--------------------------------------------------------
-//-- Tester
+//-- Scripts
 //--------------------------------------------------------
 'use strict';
 
-const tester = require('@absolunet/tester');
+const manager = require('@absolunet-manager');
 
-tester.npmPackage.validateEslintConfig();
+manager.multiScriptsRunner();
