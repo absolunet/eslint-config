@@ -25,9 +25,6 @@
     "node": ">= 11.2.0"
   },
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@absolunet/eslint-loader": "^1.0.2",
     "eslint": "5.9.0",
