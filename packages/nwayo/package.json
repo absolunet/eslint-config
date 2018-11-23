@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-nwayo",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "ESLint config for nwayo",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -30,7 +30,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "1.2.0",
+    "@absolunet/eslint-config-core": "1.2.2",
     "@absolunet/eslint-loader": "^1.0.2"
   }
 }
