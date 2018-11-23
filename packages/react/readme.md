@@ -10,6 +10,7 @@
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for React
 
 Extends [@absolunet/eslint-config-nwayo](https://github.com/absolunet/eslint-config)
+Based on [eslint-config-react-app](https://github.com/facebook/create-react-app)
 
 
 ## Install
@@ -26,6 +27,15 @@ Add some ESLint config to your `.eslintrc.yaml`:
 ```yaml
 extends: '@absolunet/react'
 ```
+
+
+## Used plugins
+
+- [babel-eslint](https://github.com/babel/babel-eslint) - For flow
+- [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype) - Flow type linting rules
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - import/export syntax rules
+- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) - Accessibility rules on JSX elements
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) - React rules
 
 
 ## Related
