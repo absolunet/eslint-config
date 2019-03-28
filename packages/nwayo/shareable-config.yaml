@@ -1,53 +1,31 @@
-extends: '@absolunet/core'
-
-# Environments
-env:
-  browser: true
-  jquery: true
-
+extends: '@absolunet/browser'
 
 # Globals
 globals:
-  global: false
+  global: readonly
 
   # nwayo
-  konstan: false
-  app: false
-  __: false
-  PROJECT: false
-  DOM_PARSED: false
-  DOCUMENT_LOADED: false
-  GLOBAL_JQUERY_LOADED: false
+  konstan: readonly
+  app: readonly
+  __: readonly
+  PROJECT: readonly
+  DOM_PARSED: readonly
+  DOCUMENT_LOADED: readonly
+  GLOBAL_JQUERY_LOADED: readonly
 
   # nwayo vendors
-  _: false
-  Modernizr: false
-  pinki: false
+  _: readonly
+  Modernizr: readonly
+  pinki: readonly
 
   # Classic libs
-  addthis: false
-  addthis_config: true
-  addthis_share: true
-  Cookies: false
-  FastClick: false
-  Foundation: false
-  google: false
-  kafe: false
-  toolbox: false
-  WebFont: false
-
-
-# Rules
-rules:
-
-  # Strict Mode
-  strict: [error, function]
-
-  # IE11 incompatibility
-  require-unicode-regexp: [off]
-
-
-
-
-  # 🦄 Unicorn
-  unicorn/prefer-add-event-listener: [error]
+  addthis: readonly
+  addthis_config: writable
+  addthis_share: writable
+  Cookies: readonly
+  FastClick: readonly
+  Foundation: readonly
+  google: readonly
+  kafe: readonly
+  toolbox: readonly
+  WebFont: readonly

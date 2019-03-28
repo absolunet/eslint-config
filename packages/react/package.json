@@ -23,16 +23,16 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 11.2.0"
+    "node": ">= 11.12.0"
   },
   "main": "index.js",
   "dependencies": {
-    "@absolunet/eslint-config-nwayo": "1.2.2",
-    "@absolunet/eslint-loader": "^1.0.2",
+    "@absolunet/eslint-config-browser": "1.2.2",
+    "@absolunet/eslint-loader": "^1.1.0",
     "babel-eslint": "10.0.1",
-    "eslint-plugin-flowtype": "3.2.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-react": "7.11.1"
+    "eslint-plugin-flowtype": "3.4.2",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4"
   }
 }

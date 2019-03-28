@@ -2,6 +2,11 @@ extends: '@absolunet/core'
 parserOptions:
   sourceType: module
 
+
+globals:
+  require: readonly
+
+
 rules:
 
   # IE11 incompatibility

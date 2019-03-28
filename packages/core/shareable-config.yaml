@@ -8,7 +8,7 @@
 root: true
 parser: espree
 parserOptions:
-  ecmaVersion: 2018
+  ecmaVersion: 2019
   sourceType: script
   ecmaFeatures:
     globalReturn: false
@@ -73,12 +73,11 @@ rules:
   no-unsafe-negation: [error]
   require-atomic-updates: [error]
   use-isnan: [error]
-  valid-jsdoc: [off]
   valid-typeof: [error, { requireStringLiterals: true }]
 
 
   # Best Practices
-  accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: true }]
+  accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: false }]
   array-callback-return: [error]
   block-scoped-var: [error]
   class-methods-use-this: [off]
@@ -136,12 +135,14 @@ rules:
   no-unused-expressions: [error]
   no-unused-labels: [error]
   no-useless-call: [error]
+  no-useless-catch: [error]
   no-useless-concat: [error]
   no-useless-escape: [error]
   no-useless-return: [error]
   no-void: [error]
   no-warning-comments: [warn, { location: anywhere }]
   no-with: [error]
+  prefer-named-capture-group: [error]
   prefer-promise-reject-errors: [error]
   radix: [error, always]
   require-await: [error]
@@ -200,7 +201,7 @@ rules:
     - error
     - tab
     - SwitchCase: 1
-      VariableDeclarator: 1
+      VariableDeclarator: first
       outerIIFEBody: 1
       MemberExpression: 1
       FunctionDeclaration:
@@ -220,7 +221,7 @@ rules:
     - error
     - singleLine:
         beforeColon: false
-        afterColon: false
+        afterColon: true
       multiLine:
         beforeColon: false
         afterColon: true
@@ -257,7 +258,7 @@ rules:
   no-new-object: [error]
   no-plusplus: [off]
   no-restricted-syntax: [off]
-  no-tabs: [error, { allowIndentationTabs: true }]
+  no-tabs: [off] # Cuz of comments
   no-ternary: [off]
   no-trailing-spaces: [error, { skipBlankLines: false }]
   no-underscore-dangle: [off]
@@ -279,7 +280,6 @@ rules:
   prefer-object-spread: [off]
   quote-props: [error, consistent-as-needed, { keywords: true }]
   quotes: [error, single, { avoidEscape: true, allowTemplateLiterals: true }]
-  require-jsdoc: [off] # todo:check
   semi: [error, always]
   semi-spacing: [error, { before: false, after: true }]
   semi-style: [off]
@@ -341,25 +341,36 @@ rules:
 
   # 🦄 Unicorn
   unicorn/catch-error-name: [error]
+  unicorn/custom-error-definition: [error]
+  unicorn/error-message: [error]
+  unicorn/escape-case: [error]
   unicorn/explicit-length-check: [error]
   unicorn/filename-case: [error, { case: kebabCase }]
-  unicorn/no-abusive-eslint-disable: [warn]
-  # unicorn/no-process-exit (Per sub-config)
-  unicorn/throw-new-error: [error]
-  unicorn/number-literal-case: [error]
-  unicorn/escape-case: [error]
-  unicorn/no-array-instanceof: [error]
-  # unicorn/no-new-buffer (Per sub-config)
-  unicorn/no-hex-escape: [error]
-  unicorn/custom-error-definition: [error]
-  unicorn/prefer-starts-ends-with: [error]
-  unicorn/prefer-type-error: [error]
-  unicorn/no-fn-reference-in-iterator: [off]
   unicorn/import-index: [error]
   unicorn/new-for-builtins: [error]
-  unicorn/regex-shorthand: [error]
-  unicorn/prefer-spread: [error]
-  unicorn/error-message: [error]
-  unicorn/no-unsafe-regex: [error]
+  unicorn/no-abusive-eslint-disable: [warn]
+  unicorn/no-array-instanceof: [error]
+  unicorn/no-console-spaces: [error]
+  unicorn/no-fn-reference-in-iterator: [off]
+  unicorn/no-for-loop: [error]
+  unicorn/no-hex-escape: [error]
+  # unicorn/no-new-buffer (Per sub-config)
+  # unicorn/no-process-exit (Per sub-config)
+  unicorn/no-unreadable-array-destructuring: [error]
+  unicorn/no-unsafe-regex: [off]
+  unicorn/no-unused-properties: [error]
+  unicorn/no-zero-fractions: [error]
+  unicorn/number-literal-case: [error]
   # unicorn/prefer-add-event-listener (Per sub-config)
   unicorn/prefer-exponentiation-operator: [error]
+  unicorn/prefer-includes: [error]
+  # unicorn/prefer-node-append (Per sub-config)
+  # unicorn/prefer-node-remove (Per sub-config)
+  # unicorn/prefer-query-selector (Per sub-config)
+  unicorn/prefer-spread: [error]
+  unicorn/prefer-starts-ends-with: [error]
+  # unicorn/prefer-text-content (Per sub-config)
+  unicorn/prefer-type-error: [error]
+  unicorn/prevent-abbreviations: [error]
+  unicorn/regex-shorthand: [error]
+  unicorn/throw-new-error: [error]

@@ -10,9 +10,31 @@
 |---|---|---|
 | **[@absolunet/eslint-config-core](packages/core)** | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-core.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-core) | **Core rules** *(included in all other configs)* |
 | [@absolunet/eslint-config-node](packages/node) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-node.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-node) | Node.js rules |
-| [@absolunet/eslint-config-nwayo](packages/nwayo) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-nwayo.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-nwayo) | [nwayo](https://absolunet.github.io/nwayo/) rules |
 | [@absolunet/eslint-config-library](packages/library) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-library.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-library) | Library rules *(exported for Node.js / browser)* |
+| [@absolunet/eslint-config-browser](packages/browser) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-browser.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-browser) | Browser rules |
+| [@absolunet/eslint-config-nwayo](packages/nwayo) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-nwayo.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-nwayo) | [nwayo](https://absolunet.github.io/nwayo/) rules |
 | [@absolunet/eslint-config-react](packages/react) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-react.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-react) | React rules |
+
+### Dependency tree
+```
+                                          ┌────────────────┐
+                                          │      core      │
+                                          └────────────────┘
+                                                   │
+                        ┌──────────────────────────┼──────────────────────────┐
+                        │                          │                          │
+                        ▼                          ▼                          ▼
+               ┌────────────────┐         ┌────────────────┐         ┌────────────────┐
+               │    browser     │         │      node      │         │    library     │
+               └────────────────┘         └────────────────┘         └────────────────┘
+                        │
+             ┌──────────┴──────────┐
+             │                     │
+             ▼                     ▼
+    ┌────────────────┐    ┌────────────────┐
+    │     nwayo      │    │     react      │
+    └────────────────┘    └────────────────┘
+```
 
 
 ## Install

@@ -22,12 +22,12 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 11.2.0"
+    "node": ">= 11.12.0"
   },
   "main": "index.js",
   "dependencies": {
-    "@absolunet/eslint-loader": "^1.0.2",
-    "eslint": "5.9.0",
-    "eslint-plugin-unicorn": "6.0.1"
+    "@absolunet/eslint-loader": "^1.1.0",
+    "eslint": "5.15.3",
+    "eslint-plugin-unicorn": "8.0.1"
   }
 }

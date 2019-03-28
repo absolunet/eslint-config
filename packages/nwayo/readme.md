@@ -9,7 +9,7 @@
 
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [nwayo](https://absolunet.github.io/nwayo).
 
-Extends [@absolunet/eslint-config-core](https://github.com/absolunet/eslint-config)
+Extends [@absolunet/eslint-config-browser](https://github.com/absolunet/eslint-config)
 
 
 ## Install
