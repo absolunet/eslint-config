@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/eslint-config-node",
+  "name": "@absolunet/eslint-config-browser",
   "version": "1.2.2",
-  "description": "ESLint config for Node.js",
+  "description": "ESLint config for browser",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
@@ -9,6 +9,7 @@
     "url": "https://absolunet.com"
   },
   "keywords": [
+    "browser",
     "eslint",
     "eslintconfig",
     "eslint-config"

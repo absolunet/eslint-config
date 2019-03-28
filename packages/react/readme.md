@@ -9,7 +9,7 @@
 
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for React
 
-Extends [@absolunet/eslint-config-nwayo](https://github.com/absolunet/eslint-config)
+Extends [@absolunet/eslint-config-browser](https://github.com/absolunet/eslint-config)
 Based on [eslint-config-react-app](https://github.com/facebook/create-react-app)
 
 
