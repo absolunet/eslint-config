@@ -19,6 +19,7 @@ rules:
 
   # 🦄 Unicorn
   unicorn/prefer-add-event-listener: [error]
+  unicorn/prefer-event-key: [error]
   unicorn/prefer-node-append: [error]
   unicorn/prefer-node-remove: [error]
   unicorn/prefer-query-selector: [error]

@@ -28,6 +28,6 @@
   "main": "index.js",
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint-plugin-jsdoc": "^15.8.0"
+    "eslint-plugin-jsdoc": "15.8.0"
   }
 }
