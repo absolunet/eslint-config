@@ -1,0 +1,33 @@
+{
+  "name": "@absolunet/eslint-config-jsdoc",
+  "version": "1.3.0",
+  "description": "ESLint config for JSDoc",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "jsdoc"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 11.12.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@absolunet/eslint-loader": "^1.1.0",
+    "eslint-plugin-jsdoc": "^15.8.0"
+  }
+}
