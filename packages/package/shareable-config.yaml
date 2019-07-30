@@ -1,0 +1,4 @@
+extends: '@absolunet/jsdoc'
+
+parserOptions:
+  sourceType: module
