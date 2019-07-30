@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/eslint-config-library",
+  "name": "@absolunet/eslint-config-package",
   "version": "1.3.0",
-  "description": "ESLint config for library (exported for Node.js / browser)",
+  "description": "ESLint config for packages",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
@@ -26,7 +26,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@absolunet/eslint-config-core": "1.3.0",
+    "@absolunet/eslint-config-jsdoc": "1.3.0",
     "@absolunet/eslint-loader": "^1.1.0"
   }
 }
