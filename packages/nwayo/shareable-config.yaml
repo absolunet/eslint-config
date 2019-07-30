@@ -1,5 +1,10 @@
 extends: '@absolunet/browser'
 
+# Environments
+env:
+  jquery: true
+
+
 # Globals
 globals:
   global: readonly
@@ -8,6 +13,7 @@ globals:
   konstan: readonly
   app: readonly
   __: readonly
+  toolbox: readonly
   PROJECT: readonly
   DOM_PARSED: readonly
   DOCUMENT_LOADED: readonly
@@ -27,5 +33,4 @@ globals:
   Foundation: readonly
   google: readonly
   kafe: readonly
-  toolbox: readonly
   WebFont: readonly
