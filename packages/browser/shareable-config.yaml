@@ -3,7 +3,6 @@ extends: '@absolunet/core'
 # Environments
 env:
   browser: true
-  jquery: true
 
 
 # Rules
