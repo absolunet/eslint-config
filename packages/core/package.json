@@ -27,7 +27,7 @@
   "main": "index.js",
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint": "5.15.3",
-    "eslint-plugin-unicorn": "8.0.1"
+    "eslint": "6.1.0",
+    "eslint-plugin-unicorn": "10.0.0"
   }
 }
