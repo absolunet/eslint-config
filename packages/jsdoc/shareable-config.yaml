@@ -1,0 +1,52 @@
+settings:
+  jsdoc:
+    tagNamePreference:
+      linkcode: link
+      linkplain: link
+    preferredTypes:
+      'any': '*'
+      '[]': '<>'
+      '.<>': '<>'
+
+plugins:
+  - jsdoc
+
+rules:
+  no-restricted-imports: [off]
+
+  jsdoc/check-alignment: [error]
+  jsdoc/check-examples: [off]
+  jsdoc/check-indentation: [off] # cuz of @example
+  jsdoc/check-param-names: [error]
+  jsdoc/check-syntax: [error]
+  jsdoc/check-tag-names: [error]
+  jsdoc/check-types: [error, { unifyParentAndChildTypeChecks: true }]
+  jsdoc/implements-on-classes: [error]
+  jsdoc/match-description: [off]
+  jsdoc/newline-after-description: [error, always]
+  jsdoc/no-types: [off] # Remove for TypeScript
+  jsdoc/no-undefined-types: [off] # Custom types too complicated
+  jsdoc/require-description-complete-sentence: [error]
+  jsdoc/require-description: [error, { descriptionStyle: body }]
+  jsdoc/require-example: [off]
+  jsdoc/require-hyphen-before-param-description: [error]
+  jsdoc/require-jsdoc: [error, {
+    require: {
+      ArrowFunctionExpression: false,
+      ClassDeclaration: true,
+      ClassExpression: true,
+      FunctionDeclaration: false,
+      FunctionExpression: false,
+      MethodDefinition: true
+    }
+  }]
+  jsdoc/require-param-description: [error]
+  jsdoc/require-param-name: [error]
+  jsdoc/require-param-type: [error]
+  jsdoc/require-param: [error]
+  jsdoc/require-returns-check: [error]
+  jsdoc/require-returns-description: [error]
+  jsdoc/require-returns-type: [error]
+  jsdoc/require-returns: [error, { forceReturnsWithAsync: true }]
+  jsdoc/valid-types: [error]
+
