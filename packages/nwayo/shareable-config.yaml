@@ -1,5 +1,6 @@
 extends: '@absolunet/browser'
 
+
 # Environments
 env:
   jquery: true
