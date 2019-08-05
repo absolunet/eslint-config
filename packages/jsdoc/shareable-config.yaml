@@ -1,3 +1,4 @@
+# Settings
 settings:
   jsdoc:
     tagNamePreference:
@@ -8,11 +9,16 @@ settings:
       '[]': '<>'
       '.<>': '<>'
 
+
+# Plugins
 plugins:
   - jsdoc
 
+
+# Rules
 rules:
   no-restricted-imports: [off]
+
 
   jsdoc/check-alignment: [error]
   jsdoc/check-examples: [off]
@@ -49,4 +55,3 @@ rules:
   jsdoc/require-returns-type: [error]
   jsdoc/require-returns: [error, { forceReturnsWithAsync: true }]
   jsdoc/valid-types: [error]
-

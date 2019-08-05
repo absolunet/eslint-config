@@ -2,14 +2,19 @@ extends:
   - 'airbnb'
   - '@absolunet/browser'
 
-parser: babel-eslint
 
+# Parser Options
+parser: babel-eslint
 parserOptions:
   sourceType: module
 
+
+# Globals
 globals:
   pinki: readonly
 
+
+# Rules
 rules:
 
   no-restricted-globals: [off]

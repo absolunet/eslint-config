@@ -1,5 +1,6 @@
 extends: '@absolunet/core'
 
+
 # Environments
 env:
   node: true
@@ -62,8 +63,6 @@ rules:
     - util
     - vm
     - zlib
-
-
 
 
   # 🦄 Unicorn
