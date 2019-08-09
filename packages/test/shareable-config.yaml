@@ -1,0 +1,53 @@
+extends: '@absolunet/node'
+
+
+# Environments
+env:
+  jest: true
+
+
+# Plugins
+plugins:
+  - jest
+
+
+# Rules
+rules:
+  jest/consistent-test-it: [error, { fn: test }]
+  jest/expect-expect: [off]
+  jest/lowercase-name: [off]
+  jest/no-alias-methods: [off]
+  jest/no-commented-out-tests: [off]
+  jest/no-disabled-tests: [off]
+  jest/no-duplicate-hooks: [off]
+  jest/no-empty-title: [off]
+  jest/no-expect-resolves: [off]
+  jest/no-export: [off]
+  jest/no-focused-tests: [off]
+  jest/no-hooks: [off]
+  jest/no-identical-title: [off]
+  jest/no-if: [off]
+  jest/no-jasmine-globals: [off]
+  jest/no-jest-import: [off]
+  jest/no-large-snapshots: [off]
+  jest/no-mocks-import: [off]
+  jest/no-standalone-expect: [off]
+  jest/no-test-callback: [off]
+  jest/no-test-prefixes: [off]
+  jest/no-test-return-statement: [off]
+  jest/no-truthy-falsy: [off]
+  jest/no-try-expect: [off]
+  jest/prefer-called-with: [off]
+  jest/prefer-expect-assertions: [off]
+  jest/prefer-inline-snapshots: [off]
+  jest/prefer-spy-on: [off]
+  jest/prefer-strict-equal: [off]
+  jest/prefer-to-be-null: [off]
+  jest/prefer-to-be-undefined: [off]
+  jest/prefer-to-contain: [off]
+  jest/prefer-to-have-length: [off]
+  jest/prefer-todo: [off]
+  jest/require-tothrow-message: [off]
+  jest/valid-describe: [off]
+  jest/valid-expect-in-promise: [off]
+  jest/valid-expect: [off]
