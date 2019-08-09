@@ -4,8 +4,3 @@ extends: '@absolunet/jsdoc'
 # Parser Options
 parserOptions:
   sourceType: module
-
-
-# Environments
-env:
-  - jest
