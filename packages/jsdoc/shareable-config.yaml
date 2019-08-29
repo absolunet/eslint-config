@@ -17,9 +17,6 @@ plugins:
 
 # Rules
 rules:
-  no-restricted-imports: [off]
-
-
   jsdoc/check-alignment: [error]
   jsdoc/check-examples: [off]
   jsdoc/check-indentation: [off] # cuz of @example
