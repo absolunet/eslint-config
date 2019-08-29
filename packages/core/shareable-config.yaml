@@ -8,7 +8,7 @@
 root: true
 parser: espree
 parserOptions:
-  ecmaVersion: 2019
+  ecmaVersion: 2020
   sourceType: script
   ecmaFeatures:
     globalReturn: false
@@ -192,6 +192,7 @@ rules:
   func-name-matching: [error]
   func-names: [error, never]
   func-style: [error, expression]
+  function-call-argument-newline: [error, consistent]
   function-paren-newline: [error, never]
   id-blacklist: [off]
   id-length: [off]
