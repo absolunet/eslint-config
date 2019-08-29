@@ -52,6 +52,7 @@ rules:
   jest/prefer-to-contain: [off]
   jest/prefer-to-have-length: [off]
   jest/prefer-todo: [off]
+  jest/require-top-level-describe: [off]
   jest/require-tothrow-message: [off]
   jest/valid-describe: [off]
   jest/valid-expect-in-promise: [off]
