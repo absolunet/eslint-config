@@ -1,6 +1,11 @@
 extends: '@absolunet/node'
 
 
+# Parser Options
+parserOptions:
+  sourceType: module
+
+
 # Environments
 env:
   jest: true
