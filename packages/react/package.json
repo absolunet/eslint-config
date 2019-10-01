@@ -23,9 +23,9 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 12.9.1"
+    "node": ">= 12.10.0"
   },
-  "main": "index.js",
+  "main": "dist/node",
   "dependencies": {
     "@absolunet/eslint-config-browser": "1.4.0-beta.3",
     "@absolunet/eslint-loader": "^1.1.0",
@@ -33,6 +33,7 @@
     "eslint-config-airbnb": "18.0.1",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.14.3"
+    "eslint-plugin-react": "7.14.3",
+    "pkg-dir": "^4.2.0"
   }
 }

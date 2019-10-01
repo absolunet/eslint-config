@@ -3,6 +3,11 @@
 //--------------------------------------------------------
 'use strict';
 
-const manager = require('@absolunet/manager');
+const { manager } = require('@absolunet/manager');
 
-manager.multiScriptsRunner();
+manager.init({
+	repositoryType: 'multi-package',
+	dist: {
+		node: true
+	}
+});
