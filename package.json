@@ -2,15 +2,28 @@
   "name": "eslint-config",
   "private": true,
   "scripts": {
-    "test": "ava test/index.js",
-    "postinstall": "rm -rf packages/*/package-lock.json; lerna clean --yes; lerna bootstrap --no-ci",
-    "outdated": "node manager.js --task=outdated",
-    "build": "node manager.js --task=build",
-    "deploy": "node manager.js --task=deploy"
+    "postinstall": "npm run manager:install",
+    "manager:install": "node manager --task=install",
+    "manager:outdated": "node manager --task=outdated",
+    "manager:build": "node manager --task=build",
+    "manager:watch": "node manager --task=watch",
+    "manager:documentation": "node manager --task=documentation",
+    "manager:prepare": "node manager --task=prepare",
+    "manager:rebuild": "node manager --task=rebuild",
+    "manager:publish": "node manager --task=publish",
+    "manager:publish:unsafe": "node manager --task=publish:unsafe",
+    "test": "node test --scope=all",
+    "test:standards": "node test --scope=standards",
+    "test:unit": "node test --scope=unit",
+    "test:feature": "node test --scope=feature",
+    "test:integration": "node test --scope=integration",
+    "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/manager": "1.1.0",
-    "@absolunet/tester": "2.6.9",
-    "lerna": "3.16.4"
-  }
+    "@absolunet/fss": "1.6.1",
+    "@absolunet/manager": "2.0.0-beta.1",
+    "@absolunet/tester": "3.0.0-beta.1",
+    "lerna": "3.16.4",
+    "react": "16.10.1"
+    }
 }

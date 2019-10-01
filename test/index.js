@@ -1,13 +1,11 @@
 //--------------------------------------------------------
 //-- Tester
 //--------------------------------------------------------
-'use strict';
+'use strict';  // eslint-disable-line strict
 
-const tester = require('@absolunet/tester');
+const { tester } = require('@absolunet/tester');
 
-
-tester.npmPackage.validateMulti();
-
-tester.npmPackage.multiPackagesPaths.forEach((path) => {
-	tester.npmPackage.validateEslintConfig({ cwd: path, group: path.split('/').pop() });
+tester.init({
+	repositoryType: 'multi-package',
+	packageType:    'simple'
 });

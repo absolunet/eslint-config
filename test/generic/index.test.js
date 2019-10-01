@@ -1,6 +1,6 @@
 //--------------------------------------------------------
-//-- ESLint config
+//-- Tester
 //--------------------------------------------------------
-'use strict';
+import { tester } from '@absolunet/tester';
 
-module.exports = require('@absolunet/eslint-loader')(__dirname);
+tester.genericRepositoryTests();
