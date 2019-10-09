@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@absolunet/fss": "1.6.2",
-    "@absolunet/manager": "2.0.0-beta.1",
-    "@absolunet/tester": "3.0.0-beta.1",
+    "@absolunet/manager": "2.0.0",
+    "@absolunet/tester": "3.0.0",
     "lerna": "3.16.5",
     "react": "16.10.2"
   }
