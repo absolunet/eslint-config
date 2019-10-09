@@ -20,10 +20,10 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/fss": "1.6.1",
+    "@absolunet/fss": "1.6.2",
     "@absolunet/manager": "2.0.0-beta.1",
     "@absolunet/tester": "3.0.0-beta.1",
-    "lerna": "3.16.4",
-    "react": "16.10.1"
-    }
+    "lerna": "3.16.5",
+    "react": "16.10.2"
+  }
 }
