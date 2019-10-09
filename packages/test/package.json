@@ -24,13 +24,13 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 12.10.0"
+    "node": ">= 12.11.1"
   },
   "main": "dist/node",
   "dependencies": {
     "@absolunet/eslint-config-node": "1.4.0-beta.3",
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint-plugin-jest": "^22.16.0",
+    "eslint-plugin-jest": "^22.17.0",
     "pkg-dir": "^4.2.0"
   }
 }

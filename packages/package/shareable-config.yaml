@@ -4,3 +4,10 @@ extends: '@absolunet/jsdoc'
 # Parser Options
 parserOptions:
   sourceType: module
+
+
+# Rules
+rules:
+
+  # 🦄 Unicorn
+  unicorn/expiring-todo-comments: [error, { allowWarningComments: false }]
