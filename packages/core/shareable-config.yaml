@@ -378,7 +378,7 @@ rules:
   # unicorn/prefer-node-append (Per sub-config)
   # unicorn/prefer-node-remove (Per sub-config)
   # unicorn/prefer-query-selector (Per sub-config)
-  unicorn/prefer-reflect-apply: [error]
+  unicorn/prefer-reflect-apply: [off]
   unicorn/prefer-spread: [error]
   unicorn/prefer-starts-ends-with: [error]
   unicorn/prefer-string-slice: [error]
