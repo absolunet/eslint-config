@@ -35,5 +35,16 @@ extends: '@absolunet/core'
 
 - [Other configs](https://github.com/absolunet/eslint-config)
 
+## Documentation
+
+View [documentation](https://absolunet.github.io/eslint-config/core)
+
+
+
+
+
+
+<br><br>
+
 ## License
 MIT © [Absolunet](https://absolunet.com)

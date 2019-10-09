@@ -37,5 +37,16 @@ extends: '@absolunet/package'
 - [Other configs](https://github.com/absolunet/eslint-config)
 
 
+## Documentation
+
+View [documentation](https://absolunet.github.io/eslint-config/package)
+
+
+
+
+
+
+<br><br>
+
 ## License
 MIT © [Absolunet](https://absolunet.com)

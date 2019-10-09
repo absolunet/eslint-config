@@ -41,5 +41,16 @@ extends: '@absolunet/jsdoc'
 - [Other configs](https://github.com/absolunet/eslint-config)
 
 
+## Documentation
+
+View [documentation](https://absolunet.github.io/eslint-config/jsdoc)
+
+
+
+
+
+
+<br><br>
+
 ## License
 MIT © [Absolunet](https://absolunet.com)
