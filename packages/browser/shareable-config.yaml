@@ -12,12 +12,14 @@ rules:
   # Strict Mode
   strict: [error, function]
 
+
   # IE11 incompatibility
   require-unicode-regexp: [off]
 
 
   # 🦄 Unicorn
   unicorn/prefer-add-event-listener: [error]
+  unicorn/prefer-dataset: [error]
   unicorn/prefer-event-key: [error]
   unicorn/prefer-node-append: [error]
   unicorn/prefer-node-remove: [error]
