@@ -35,5 +35,16 @@ extends: '@absolunet/browser'
 - [Other configs](https://github.com/absolunet/eslint-config)
 
 
+## Documentation
+
+View [documentation](https://absolunet.github.io/eslint-config/browser)
+
+
+
+
+
+
+<br><br>
+
 ## License
 MIT © [Absolunet](https://absolunet.com)
