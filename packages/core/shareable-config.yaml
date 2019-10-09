@@ -58,6 +58,7 @@ rules:
   no-extra-parens: [error, all, { nestedBinaryExpressions: false, ignoreJSX: 'all' }]
   no-extra-semi: [error]
   no-func-assign: [error]
+  no-import-assign: [error]
   no-inner-declarations: [error, both]
   no-invalid-regexp: [error]
   no-irregular-whitespace: [error]
@@ -72,12 +73,12 @@ rules:
   no-unsafe-finally: [error]
   no-unsafe-negation: [error]
   require-atomic-updates: [error]
-  use-isnan: [error]
+  use-isnan: [error, { enforceForSwitchCase: true }]
   valid-typeof: [error, { requireStringLiterals: true }]
 
 
   # Best Practices
-  accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: false }]
+  accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: false, enforceForClassMembers: true }]
   array-callback-return: [error]
   block-scoped-var: [error]
   class-methods-use-this: [off]
@@ -85,6 +86,7 @@ rules:
   consistent-return: [error]
   curly: [error, all]
   default-case: [error]
+  default-param-last: [off]
   dot-location: [error, property]
   dot-notation: [error, { allowKeywords: true }]
   eqeqeq: [error, always]
@@ -144,6 +146,7 @@ rules:
   no-with: [error]
   prefer-named-capture-group: [error]
   prefer-promise-reject-errors: [error]
+  prefer-regex-literals: [error]
   radix: [error, always]
   require-await: [error]
   require-unicode-regexp: [error]
@@ -185,7 +188,7 @@ rules:
   comma-dangle: [error, never] #always-multiline
   comma-spacing: [error, { before: false, after: true }]
   comma-style: [error, last]
-  computed-property-spacing: [error, never]
+  computed-property-spacing: [error, never, { enforceForClassMembers: true }]
   consistent-this: [error, self]
   eol-last: [error, always]
   func-call-spacing: [error, never]
@@ -342,20 +345,23 @@ rules:
 
   # 🦄 Unicorn
   unicorn/catch-error-name: [error]
+  unicorn/consistent-function-scoping: [error]
   unicorn/custom-error-definition: [error]
   unicorn/error-message: [error]
   unicorn/escape-case: [error]
+  unicorn/expiring-todo-comments: [off]
   unicorn/explicit-length-check: [error]
   unicorn/filename-case: [off]
   unicorn/import-index: [error]
   unicorn/new-for-builtins: [error]
-  unicorn/no-abusive-eslint-disable: [warn]
+  unicorn/no-abusive-eslint-disable: [error]
   unicorn/no-array-instanceof: [error]
   unicorn/no-console-spaces: [error]
   unicorn/no-fn-reference-in-iterator: [off]
   unicorn/no-for-loop: [error]
   unicorn/no-hex-escape: [error]
   unicorn/no-keyword-prefix: [error]
+  unicorn/no-nested-ternary: [error]
   # unicorn/no-new-buffer (Per sub-config)
   # unicorn/no-process-exit (Per sub-config)
   unicorn/no-unreadable-array-destructuring: [error]
@@ -364,6 +370,7 @@ rules:
   unicorn/no-zero-fractions: [error]
   unicorn/number-literal-case: [error]
   # unicorn/prefer-add-event-listener (Per sub-config)
+  # unicorn/prefer-dataset (Per sub-config)
   # unicorn/prefer-event-key (Per sub-config)
   unicorn/prefer-exponentiation-operator: [error]
   unicorn/prefer-flat-map: [error]
@@ -371,8 +378,10 @@ rules:
   # unicorn/prefer-node-append (Per sub-config)
   # unicorn/prefer-node-remove (Per sub-config)
   # unicorn/prefer-query-selector (Per sub-config)
+  unicorn/prefer-reflect-apply: [error]
   unicorn/prefer-spread: [error]
   unicorn/prefer-starts-ends-with: [error]
+  unicorn/prefer-string-slice: [error]
   # unicorn/prefer-text-content (Per sub-config)
   unicorn/prefer-type-error: [error]
   unicorn/prevent-abbreviations: [error]
