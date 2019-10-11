@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+
+
+## [1.4.1] - 2019-10-11
 ### Changed
 - Update to Unicorn 12.0.2
 - Convert all warnings in `@absolunet/eslint-config-core` in errors and moved them in sub configs
@@ -204,7 +208,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.0...HEAD
+[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.1...HEAD
+[1.4.1]: https://github.com/absolunet/eslint-config/compare/1.4.0...1.4.1
 [1.4.0]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.3...1.4.0
 [1.4.0-beta.3]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.2...1.4.0-beta.3
 [1.4.0-beta.2]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.1...1.4.0-beta.2
