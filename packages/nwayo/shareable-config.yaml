@@ -35,3 +35,16 @@ globals:
   google: readonly
   kafe: readonly
   WebFont: readonly
+
+
+# Rules
+rules:
+
+  # Possible Errors
+  no-console: [warn]
+  no-debugger: [warn]
+
+
+  # Best Practices
+  no-alert: [warn]
+  no-warning-comments: [warn, { location: anywhere }]
