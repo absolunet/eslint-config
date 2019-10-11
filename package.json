@@ -23,7 +23,7 @@
     "@absolunet/fss": "1.6.2",
     "@absolunet/manager": "2.0.0",
     "@absolunet/tester": "3.0.0",
-    "lerna": "3.16.5",
+    "lerna": "3.17.0",
     "react": "16.10.2"
   }
 }

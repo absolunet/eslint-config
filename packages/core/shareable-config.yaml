@@ -384,6 +384,6 @@ rules:
   unicorn/prefer-string-slice: [error]
   # unicorn/prefer-text-content (Per sub-config)
   unicorn/prefer-type-error: [error]
-  unicorn/prevent-abbreviations: [error]
+  unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false }]
   unicorn/regex-shorthand: [error]
   unicorn/throw-new-error: [error]
