@@ -39,7 +39,7 @@ extends: '@absolunet/package'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/package)
+View [documentation](https://documentation.absolunet.com/eslint-config/package)
 
 
 

@@ -37,7 +37,7 @@ extends: '@absolunet/core'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/core)
+View [documentation](https://documentation.absolunet.com/eslint-config/core)
 
 
 

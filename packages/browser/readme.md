@@ -37,7 +37,7 @@ extends: '@absolunet/browser'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/browser)
+View [documentation](https://documentation.absolunet.com/eslint-config/browser)
 
 
 

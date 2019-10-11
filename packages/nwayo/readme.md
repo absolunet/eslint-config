@@ -5,9 +5,9 @@
 [![npms](https://badges.npms.io/%40absolunet%2Feslint-config-nwayo.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-nwayo)
 [![Travis CI](https://travis-ci.com/absolunet/eslint-config.svg?branch=master)](https://travis-ci.com/absolunet/eslint-config/builds)
 
-> ESLint config for [nwayo](https://absolunet.github.io/nwayo)
+> ESLint config for [nwayo](https://documentation.absolunet.com/nwayo)
 
-Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [nwayo](https://absolunet.github.io/nwayo).
+Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [nwayo](https://documentation.absolunet.com/nwayo).
 
 Extends [@absolunet/eslint-config-browser](https://github.com/absolunet/eslint-config)
 
@@ -37,7 +37,7 @@ extends: '@absolunet/nwayo'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/nwayo)
+View [documentation](https://documentation.absolunet.com/eslint-config/nwayo)
 
 
 
