@@ -43,7 +43,7 @@ extends: '@absolunet/test'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/test)
+View [documentation](https://documentation.absolunet.com/eslint-config/test)
 
 
 

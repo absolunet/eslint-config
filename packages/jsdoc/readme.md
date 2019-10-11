@@ -43,7 +43,7 @@ extends: '@absolunet/jsdoc'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/jsdoc)
+View [documentation](https://documentation.absolunet.com/eslint-config/jsdoc)
 
 
 

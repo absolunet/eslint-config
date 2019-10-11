@@ -45,7 +45,7 @@ extends: '@absolunet/react'
 
 ## Documentation
 
-View [documentation](https://absolunet.github.io/eslint-config/react)
+View [documentation](https://documentation.absolunet.com/eslint-config/react)
 
 
 
