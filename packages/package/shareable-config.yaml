@@ -9,5 +9,9 @@ parserOptions:
 # Rules
 rules:
 
+  # Best Practices
+  no-warning-comments: [warn, { location: anywhere }]
+
+
   # 🦄 Unicorn
   unicorn/expiring-todo-comments: [error, { allowWarningComments: false }]
