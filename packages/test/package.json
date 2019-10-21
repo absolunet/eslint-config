@@ -30,7 +30,7 @@
   "dependencies": {
     "@absolunet/eslint-config-node": "1.4.1",
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-jest": "^22.19.0",
     "pkg-dir": "^4.2.0"
   }
 }
