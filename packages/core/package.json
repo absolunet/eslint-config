@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-core",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "ESLint config - Core rules",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",

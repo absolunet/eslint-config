@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [1.4.2] - 2019-10-21
 ### Added
 - GitHub community files
 
@@ -221,7 +225,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.1...HEAD
+[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.2...HEAD
+[1.4.2]: https://github.com/absolunet/eslint-config/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/absolunet/eslint-config/compare/1.4.0...1.4.1
 [1.4.0]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.3...1.4.0
 [1.4.0-beta.3]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.2...1.4.0-beta.3
