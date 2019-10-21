@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - GitHub community files
 
+### Changed
+- Update JSDoc (jsdoc) to 15.12.0
+- Update Jest (test) to 22.19.0
+- Maintenance updates
+
 
 
 ## [1.4.1] - 2019-10-11
