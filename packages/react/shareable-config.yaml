@@ -19,7 +19,7 @@ rules:
 
   no-restricted-globals: [off]
 
-  unicorn/prevent-abbreviations: [error, { replacements: { props: false } }]
+  unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false, replacements: { props: false } }]
 
   import/prefer-default-export: [off]
 
