@@ -35,6 +35,7 @@ globals:
   google: readonly
   kafe: readonly
   WebFont: readonly
+  whatInput: readonly
 
 
 # Rules
@@ -48,3 +49,7 @@ rules:
   # Best Practices
   no-alert: [warn]
   no-warning-comments: [warn, { location: anywhere }]
+
+
+  # 🦄 Unicorn
+  unicorn/consistent-function-scoping: [off]

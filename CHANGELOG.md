@@ -10,6 +10,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- In `@absolunet/eslint-config-nwayo` added `whatInput` as a global variable
+
+### Changed
+- Switch `function-paren-newline` rule to `multiline` for more flexibility
+- In `@absolunet/eslint-config-nwayo` disabled `unicorn/consistent-function-scoping` because it conflicts with nwayo's architecture
+- Update Jest (test) to 23.0.2
+- Maintenance updates
+
+#### Update to ESLint 6.6.0
+- Enforce `enforceForOrderingRelations` on `no-unsafe-negation`
+- Enforce `enforceForIndexOf` on `use-isnan`
+
+#### Update JSDoc (jsdoc) to 16.1.1
+- Enable 'jsdoc' mode
+
+### Fixed
+- In `@absolunet/eslint-config-react` disabled `unicorn/prevent-abbreviations` on filenames like in version 1.4.1
 
 
 
