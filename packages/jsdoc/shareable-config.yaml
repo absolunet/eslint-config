@@ -1,6 +1,7 @@
 # Settings
 settings:
   jsdoc:
+    mode: 'jsdoc'
     tagNamePreference:
       linkcode: link
       linkplain: link
