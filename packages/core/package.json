@@ -27,7 +27,7 @@
   "main": "dist/node",
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint": "6.5.1",
+    "eslint": "6.6.0",
     "eslint-plugin-unicorn": "12.1.0",
     "pkg-dir": "^4.2.0"
   }

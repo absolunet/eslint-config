@@ -71,9 +71,9 @@ rules:
   no-unexpected-multiline: [error]
   no-unreachable: [error]
   no-unsafe-finally: [error]
-  no-unsafe-negation: [error]
+  no-unsafe-negation: [error, { enforceForOrderingRelations: true }]
   require-atomic-updates: [error]
-  use-isnan: [error, { enforceForSwitchCase: true }]
+  use-isnan: [error, { enforceForSwitchCase: true, enforceForIndexOf: true }]
   valid-typeof: [error, { requireStringLiterals: true }]
 
 
