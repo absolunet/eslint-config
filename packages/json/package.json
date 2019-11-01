@@ -1,0 +1,34 @@
+{
+  "name": "@absolunet/eslint-config-json",
+  "version": "1.4.3",
+  "description": "ESLint config for JSON",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "json"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "main": "dist/node",
+  "dependencies": {
+    "@absolunet/eslint-loader": "^1.1.0",
+    "eslint-plugin-json": "^2.0.1",
+    "pkg-dir": "^4.2.0"
+  }
+}
