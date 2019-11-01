@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [1.4.4] - 2019-11-01
 ### Added
 - Creation of `@absolunet/eslint-config-json` - With JSON rules
 
@@ -252,7 +256,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.3...HEAD
+[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.4...HEAD
+[1.4.4]: https://github.com/absolunet/eslint-config/compare/1.4.3...1.4.4
 [1.4.3]: https://github.com/absolunet/eslint-config/compare/1.4.2...1.4.3
 [1.4.2]: https://github.com/absolunet/eslint-config/compare/1.4.1...1.4.2
 [1.4.1]: https://github.com/absolunet/eslint-config/compare/1.4.0...1.4.1
