@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- Creation of `@absolunet/eslint-config-json` - With JSON rules
+
+### Changed
+- Update JSDoc (jsdoc) to 17.0.0
 
 
 

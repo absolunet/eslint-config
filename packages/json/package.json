@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/eslint-config-jsdoc",
+  "name": "@absolunet/eslint-config-json",
   "version": "1.4.3",
-  "description": "ESLint config for JSDoc",
+  "description": "ESLint config for JSON",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
@@ -12,7 +12,7 @@
     "eslint",
     "eslintconfig",
     "eslint-config",
-    "jsdoc"
+    "json"
   ],
   "license": "MIT",
   "repository": {
@@ -28,7 +28,7 @@
   "main": "dist/node",
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint-plugin-jsdoc": "17.0.0",
+    "eslint-plugin-json": "^2.0.1",
     "pkg-dir": "^4.2.0"
   }
 }
