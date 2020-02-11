@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-json",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "ESLint config for JSON",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
