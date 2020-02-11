@@ -11,8 +11,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Update Import (react) to 2.20.1
+- Update React (react) to 7.18.3
+- Update Jest (test) to 23.7.0
 - Update manager and tester
 - Convert tests to Given-When-Then
+- Maintenance updates
+
+#### Update to ESLint 6.8.0
+- Added `no-dupe-else-if`
+- Added `no-setter-return`
+- Added `grouped-accessor-pairs` with `getBeforeSet` option
+- Added `no-constructor-return`
+- Added `prefer-exponentiation-operator`
+- Replaced `unicorn/prefer-exponentiation-operator` with `prefer-exponentiation-operator`
+
+#### Update to Unicorn 16.0.0
+- Added `unicorn/prefer-modern-dom-apis`
+- Added `unicorn/prefer-negative-index`
+- Added `unicorn/prefer-replace-all`
+- Added `unicorn/prefer-trim-start-end`
+
+#### Update JSDoc (jsdoc) to 21.0.0
+- Added `jsdoc/check-access`
+- Added `jsdoc/check-property-names`
+- Added `jsdoc/check-values`
+- Added `jsdoc/empty-tags`
+- Added `jsdoc/require-property`
+- Added `jsdoc/require-property-description`
+- Added `jsdoc/require-property-name`
+- Added `jsdoc/require-property-type`
 
 
 
@@ -74,24 +102,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 #### Update to ESLint 6.5.1
-- Added `no-import-assign` rule
-- Added `prefer-regex-literals` rule
+- Added `no-import-assign`
+- Added `prefer-regex-literals`
 - Enforce these rules on classes
   - `use-isnan`
   - `accessor-pairs`
   - `computed-property-spacing`
 
 #### Update to Unicorn 12.0.2
-- Added `unicorn/consistent-function-scoping` rule
-- Added `unicorn/no-nested-ternary` rule
-- Added `unicorn/prefer-string-slice` rule
+- Added `unicorn/consistent-function-scoping`
+- Added `unicorn/no-nested-ternary`
+- Added `unicorn/prefer-string-slice`
 - Upgraded `unicorn/no-abusive-eslint-disable` rule from warning to error
 
 #### @absolunet/eslint-config-browser
-- Added `unicorn/prefer-dataset` rule
+- Added `unicorn/prefer-dataset`
 
 #### @absolunet/eslint-config-package
-- Added `unicorn/expiring-todo-comments` rule
+- Added `unicorn/expiring-todo-comments`
 
 #### Dependencies updates
 - JSDoc (jsdoc) to 15.10.0
