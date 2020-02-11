@@ -49,6 +49,7 @@ rules:
   no-control-regex: [error]
   no-debugger: [error]
   no-dupe-args: [error]
+  no-dupe-else-if: [error]
   no-dupe-keys: [error]
   no-duplicate-case: [error]
   no-empty-character-class: [error]
@@ -66,6 +67,7 @@ rules:
   no-obj-calls: [error]
   no-prototype-builtins: [error]
   no-regex-spaces: [error]
+  no-setter-return: [error]
   no-sparse-arrays: [error]
   no-template-curly-in-string: [error]
   no-unexpected-multiline: [error]
@@ -90,11 +92,13 @@ rules:
   dot-location: [error, property]
   dot-notation: [error, { allowKeywords: true }]
   eqeqeq: [error, always]
+  grouped-accessor-pairs: [error, getBeforeSet]
   guard-for-in: [error]
   max-classes-per-file: [off]
   no-alert: [error]
   no-caller: [error]
   no-case-declarations: [error]
+  no-constructor-return: [error]
   no-div-regex: [error]
   no-else-return: [error]
   no-empty-function: [error]
@@ -281,6 +285,7 @@ rules:
     - error
     - { blankLine: always, prev: directive, next: '*' }
     - { blankLine: always, prev: '*', next: return }
+  prefer-exponentiation-operator: [error]
   prefer-object-spread: [off]
   quote-props: [error, consistent-as-needed, { keywords: true }]
   quotes: [error, single, { avoidEscape: true, allowTemplateLiterals: true }]
@@ -372,17 +377,20 @@ rules:
   # unicorn/prefer-add-event-listener (Per sub-config)
   # unicorn/prefer-dataset (Per sub-config)
   # unicorn/prefer-event-key (Per sub-config)
-  unicorn/prefer-exponentiation-operator: [error]
   unicorn/prefer-flat-map: [error]
   unicorn/prefer-includes: [error]
+  # unicorn/prefer-modern-dom-apis (Per sub-config)
+  unicorn/prefer-negative-index: [error]
   # unicorn/prefer-node-append (Per sub-config)
   # unicorn/prefer-node-remove (Per sub-config)
   # unicorn/prefer-query-selector (Per sub-config)
   unicorn/prefer-reflect-apply: [off]
+  unicorn/prefer-replace-all: [error]
   unicorn/prefer-spread: [error]
   unicorn/prefer-starts-ends-with: [error]
   unicorn/prefer-string-slice: [error]
   # unicorn/prefer-text-content (Per sub-config)
+  unicorn/prefer-trim-start-end: [error]
   unicorn/prefer-type-error: [error]
   unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false }]
   unicorn/regex-shorthand: [error]
