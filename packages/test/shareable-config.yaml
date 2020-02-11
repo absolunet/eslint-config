@@ -25,7 +25,6 @@ rules:
   jest/no-commented-out-tests: [off]
   jest/no-disabled-tests: [off]
   jest/no-duplicate-hooks: [off]
-  jest/no-empty-title: [off]
   jest/no-expect-resolves: [off]
   jest/no-export: [off]
   jest/no-focused-tests: [off]
