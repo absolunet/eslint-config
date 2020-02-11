@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Update manager and tester
+- Convert tests to Given-When-Then
 
 
 
@@ -256,24 +259,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/absolunet/eslint-config/compare/1.4.4...HEAD
-[1.4.4]: https://github.com/absolunet/eslint-config/compare/1.4.3...1.4.4
-[1.4.3]: https://github.com/absolunet/eslint-config/compare/1.4.2...1.4.3
-[1.4.2]: https://github.com/absolunet/eslint-config/compare/1.4.1...1.4.2
-[1.4.1]: https://github.com/absolunet/eslint-config/compare/1.4.0...1.4.1
-[1.4.0]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.3...1.4.0
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/1.4.4...HEAD
+[1.4.4]:        https://github.com/absolunet/eslint-config/compare/1.4.3...1.4.4
+[1.4.3]:        https://github.com/absolunet/eslint-config/compare/1.4.2...1.4.3
+[1.4.2]:        https://github.com/absolunet/eslint-config/compare/1.4.1...1.4.2
+[1.4.1]:        https://github.com/absolunet/eslint-config/compare/1.4.0...1.4.1
+[1.4.0]:        https://github.com/absolunet/eslint-config/compare/1.4.0-beta.3...1.4.0
 [1.4.0-beta.3]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.2...1.4.0-beta.3
 [1.4.0-beta.2]: https://github.com/absolunet/eslint-config/compare/1.4.0-beta.1...1.4.0-beta.2
 [1.4.0-beta.1]: https://github.com/absolunet/eslint-config/compare/1.3.0...1.4.0-beta.1
-[1.3.0]: https://github.com/absolunet/eslint-config/compare/1.2.2...1.3.0
-[1.2.2]: https://github.com/absolunet/eslint-config/compare/1.2.0...1.2.2
-[1.2.0]: https://github.com/absolunet/eslint-config/compare/1.1.1...1.2.0
-[1.1.1]: https://github.com/absolunet/eslint-config/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/absolunet/eslint-config/compare/1.0.0...1.1.0
-[1.0.0]: https://github.com/absolunet/eslint-config/compare/0.3.0...1.0.0
-[0.3.0]: https://github.com/absolunet/eslint-config/compare/0.2.0...0.3.0
-[0.2.0]: https://github.com/absolunet/eslint-config/compare/0.1.1...0.2.0
-[0.1.1]: https://github.com/absolunet/eslint-config/compare/0.1.0...0.1.1
-[0.1.0]: https://github.com/absolunet/eslint-config/compare/0.0.2...0.1.0
-[0.0.2]: https://github.com/absolunet/eslint-config/compare/0.0.1...0.0.2
-[0.0.1]: https://github.com/absolunet/eslint-config/releases/tag/0.0.1
+[1.3.0]:        https://github.com/absolunet/eslint-config/compare/1.2.2...1.3.0
+[1.2.2]:        https://github.com/absolunet/eslint-config/compare/1.2.0...1.2.2
+[1.2.0]:        https://github.com/absolunet/eslint-config/compare/1.1.1...1.2.0
+[1.1.1]:        https://github.com/absolunet/eslint-config/compare/1.1.0...1.1.1
+[1.1.0]:        https://github.com/absolunet/eslint-config/compare/1.0.0...1.1.0
+[1.0.0]:        https://github.com/absolunet/eslint-config/compare/0.3.0...1.0.0
+[0.3.0]:        https://github.com/absolunet/eslint-config/compare/0.2.0...0.3.0
+[0.2.0]:        https://github.com/absolunet/eslint-config/compare/0.1.1...0.2.0
+[0.1.1]:        https://github.com/absolunet/eslint-config/compare/0.1.0...0.1.1
+[0.1.0]:        https://github.com/absolunet/eslint-config/compare/0.0.2...0.1.0
+[0.0.2]:        https://github.com/absolunet/eslint-config/compare/0.0.1...0.0.2
+[0.0.1]:        https://github.com/absolunet/eslint-config/releases/tag/0.0.1
