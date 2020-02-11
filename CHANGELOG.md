@@ -22,7 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `no-dupe-else-if`
 - Added `no-setter-return`
 - Added `grouped-accessor-pairs` with `getBeforeSet` option
-- Added `no-constructor-return`
 - Added `prefer-exponentiation-operator`
 - Replaced `unicorn/prefer-exponentiation-operator` with `prefer-exponentiation-operator`
 
