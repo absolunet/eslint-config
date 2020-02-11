@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `prefer-exponentiation-operator`
 - Replaced `unicorn/prefer-exponentiation-operator` with `prefer-exponentiation-operator`
 
-#### Update to Unicorn 16.0.0
+#### Update to Unicorn 16.1.0
 - Added `unicorn/prefer-modern-dom-apis`
 - Added `unicorn/prefer-negative-index`
 - Added `unicorn/prefer-replace-all`
