@@ -22,7 +22,7 @@
   "devDependencies": {
     "@absolunet/fss": "1.6.2",
     "@absolunet/manager": "2.1.0",
-    "@absolunet/tester": "3.2.1",
+    "@absolunet/tester": "3.2.2",
     "react": "16.12.0"
   }
 }
