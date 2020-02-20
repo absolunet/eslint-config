@@ -365,7 +365,7 @@ rules:
   unicorn/no-fn-reference-in-iterator: [off]
   unicorn/no-for-loop: [error]
   unicorn/no-hex-escape: [error]
-  unicorn/no-keyword-prefix: [error]
+  unicorn/no-keyword-prefix: [off]
   unicorn/no-nested-ternary: [off]
   # unicorn/no-new-buffer (Per sub-config)
   # unicorn/no-process-exit (Per sub-config)
