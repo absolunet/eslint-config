@@ -28,6 +28,12 @@ extends: '@absolunet/node'
 ```
 
 
+## Used plugins
+
+- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) - Additional ESLint's rules for Node.js
+
+
+
 ## Related
 
 - [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config YAML loader.
