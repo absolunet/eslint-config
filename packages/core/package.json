@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
-    "eslint": "6.8.0",
-    "eslint-plugin-unicorn": "16.1.1",
-    "pkg-dir": "^4.2.0"
+    "eslint": "7.17.0",
+    "eslint-plugin-unicorn": "26.0.0",
+    "pkg-dir": "^5.0.0"
   }
 }

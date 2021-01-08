@@ -8,7 +8,7 @@
 root: true
 parser: espree
 parserOptions:
-  ecmaVersion: 2020
+  ecmaVersion: 2021
   sourceType: script
   ecmaFeatures:
     globalReturn: false
@@ -56,15 +56,17 @@ rules:
   no-empty: [error, { allowEmptyCatch: false }]
   no-ex-assign: [error]
   no-extra-boolean-cast: [error]
-  no-extra-parens: [error, all, { nestedBinaryExpressions: false, ignoreJSX: 'all' }]
+  no-extra-parens: [error, all, { nestedBinaryExpressions: false, ignoreJSX: 'all', enforceForFunctionPrototypeMethods: false }]
   no-extra-semi: [error]
   no-func-assign: [error]
   no-import-assign: [error]
   no-inner-declarations: [error, both]
   no-invalid-regexp: [error]
   no-irregular-whitespace: [error]
+  no-loss-of-precision: [error]
   no-misleading-character-class: [error]
   no-obj-calls: [error]
+  no-promise-executor-return: [error]
   no-prototype-builtins: [error]
   no-regex-spaces: [error]
   no-setter-return: [error]
@@ -72,8 +74,10 @@ rules:
   no-template-curly-in-string: [error]
   no-unexpected-multiline: [error]
   no-unreachable: [error]
+  no-unreachable-loop: [error]
   no-unsafe-finally: [error]
   no-unsafe-negation: [error, { enforceForOrderingRelations: true }]
+  no-unsafe-optional-chaining: [error]
   require-atomic-updates: [error]
   use-isnan: [error, { enforceForSwitchCase: true, enforceForIndexOf: true }]
   valid-typeof: [error, { requireStringLiterals: true }]
@@ -81,7 +85,7 @@ rules:
 
   # Best Practices
   accessor-pairs: [error, { setWithoutGet: true, getWithoutSet: false, enforceForClassMembers: true }]
-  array-callback-return: [error]
+  array-callback-return: [error, { allowImplicit: true }]
   block-scoped-var: [error]
   class-methods-use-this: [off]
   complexity: [off]
@@ -123,6 +127,7 @@ rules:
   no-multi-spaces: [off]
   no-multi-str: [error]
   no-new-func: [error]
+  no-nonoctal-decimal-escape: [error]
   no-new-wrappers: [error]
   no-new: [error]
   no-octal-escape: [error]
@@ -130,6 +135,7 @@ rules:
   no-param-reassign: [error]
   no-proto: [error]
   no-redeclare: [error, { builtinGlobals: true }]
+  no-restricted-properties: [off]
   no-return-assign: [error, always]
   no-return-await: [error]
   no-script-url: [error]
@@ -177,10 +183,6 @@ rules:
   no-use-before-define: [error]
 
 
-  # Node.js and CommonJS
-  # --- Per sub-config ------
-
-
   # Stylistic Issues
   array-bracket-newline: [error, consistent]
   array-bracket-spacing: [error, never]
@@ -201,7 +203,7 @@ rules:
   func-style: [error, expression]
   function-call-argument-newline: [error, consistent]
   function-paren-newline: [error, multiline]
-  id-blacklist: [off]
+  id-denylist: [off]
   id-length: [off]
   id-match: [off]
   implicit-arrow-linebreak: [off]
@@ -349,49 +351,71 @@ rules:
 
 
   # 🦄 Unicorn
+  unicorn/better-regex: [error]
   unicorn/catch-error-name: [error]
+  unicorn/consistent-destructuring: [error]
   unicorn/consistent-function-scoping: [error]
   unicorn/custom-error-definition: [error]
+  unicorn/empty-brace-spaces: [error]
   unicorn/error-message: [error]
   unicorn/escape-case: [error]
   unicorn/expiring-todo-comments: [off]
   unicorn/explicit-length-check: [error]
   unicorn/filename-case: [off]
   unicorn/import-index: [error]
+  unicorn/import-style: [off]
   unicorn/new-for-builtins: [error]
   unicorn/no-abusive-eslint-disable: [error]
-  unicorn/no-array-instanceof: [error]
+  unicorn/no-array-callback-reference: [off]
+  unicorn/no-array-reduce: [error]
   unicorn/no-console-spaces: [error]
-  unicorn/no-fn-reference-in-iterator: [off]
   unicorn/no-for-loop: [error]
   unicorn/no-hex-escape: [error]
+  unicorn/no-instanceof-array: [error]
   unicorn/no-keyword-prefix: [off]
+  unicorn/no-lonely-if: [error]
   unicorn/no-nested-ternary: [off]
+  unicorn/no-new-array: [error]
   # unicorn/no-new-buffer (Per sub-config)
   # unicorn/no-process-exit (Per sub-config)
+  unicorn/no-null: [off]
+  unicorn/no-object-as-default-parameter: [error]
   unicorn/no-unreadable-array-destructuring: [error]
   unicorn/no-unsafe-regex: [off]
   unicorn/no-unused-properties: [error]
+  unicorn/no-useless-undefined: [error]
   unicorn/no-zero-fractions: [error]
   unicorn/number-literal-case: [error]
+  unicorn/numeric-separators-style: [error]
   # unicorn/prefer-add-event-listener (Per sub-config)
-  # unicorn/prefer-dataset (Per sub-config)
-  # unicorn/prefer-event-key (Per sub-config)
-  unicorn/prefer-flat-map: [error]
+  unicorn/prefer-array-find: [error]
+  unicorn/prefer-array-flat-map: [error]
+  unicorn/prefer-array-index-of: [error]
+  unicorn/prefer-array-some: [error]
+  unicorn/prefer-date-now: [error]
+  unicorn/prefer-default-parameters: [error]
+  # unicorn/prefer-dom-node-append (Per sub-config)
+  # unicorn/prefer-dom-node-dataset (Per sub-config)
+  # unicorn/prefer-dom-node-remove (Per sub-config)
+  # unicorn/prefer-dom-node-text-content (Per sub-config)
   unicorn/prefer-includes: [error]
+  # unicorn/prefer-keyboard-event-key (Per sub-config)
   # unicorn/prefer-modern-dom-apis (Per sub-config)
   unicorn/prefer-negative-index: [error]
-  # unicorn/prefer-node-append (Per sub-config)
-  # unicorn/prefer-node-remove (Per sub-config)
+  unicorn/prefer-math-trunc: [error]
+  unicorn/prefer-number-properties: [error]
+  unicorn/prefer-optional-catch-binding: [error]
   # unicorn/prefer-query-selector (Per sub-config)
   unicorn/prefer-reflect-apply: [off]
-  unicorn/prefer-replace-all: [error]
+  unicorn/prefer-set-has: [error]
   unicorn/prefer-spread: [error]
-  unicorn/prefer-starts-ends-with: [error]
+  unicorn/prefer-string-replace-all: [error]
+  unicorn/prefer-string-starts-ends-with: [error]
   unicorn/prefer-string-slice: [error]
-  # unicorn/prefer-text-content (Per sub-config)
-  unicorn/prefer-trim-start-end: [error]
+  unicorn/prefer-string-trim-start-end: [error]
+  unicorn/prefer-ternary: [error]
+  unicorn/prefer-regexp-test: [error]
   unicorn/prefer-type-error: [error]
   unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false }]
-  unicorn/regex-shorthand: [error]
+  unicorn/string-content: [off]
   unicorn/throw-new-error: [error]

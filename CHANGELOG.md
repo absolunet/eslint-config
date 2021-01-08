@@ -10,6 +10,112 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Moved `no-restricted-properties` from `@absolunet/eslint-config-node` to `@absolunet/eslint-config-core`
+- Maintenance updates
+
+#### Update to ESLint 7.17.0
+- Update ECMAScript version to 2021
+- Added `no-loss-of-precision`
+- Added `no-promise-executor-return`
+- Added `no-unreachable-loop`
+- Added `no-unsafe-optional-chaining`
+- Added `no-nonoctal-decimal-escape`
+- Modified `no-extra-parens` to add `enforceForFunctionPrototypeMethods` option
+- Modified `array-callback-return` to add `allowImplicit` option
+- Renamed `id-blacklist` to `id-denylist`
+- Removed `no-buffer-constructor`
+
+#### Update to Unicorn 26.0.0
+- Added `unicorn/consistent-destructuring`
+- Added `unicorn/empty-brace-spaces`
+- Added `unicorn/no-lonely-if`
+- Added `unicorn/no-array-reduce`
+- Added `unicorn/no-new-array`
+- Added `unicorn/no-object-as-default-parameter`
+- Added `unicorn/no-useless-undefined`
+- Added `unicorn/numeric-separators-style`
+- Added `unicorn/prefer-array-find`
+- Added `unicorn/prefer-array-index-of`
+- Added `unicorn/prefer-array-some`
+- Added `unicorn/prefer-date-now`
+- Added `unicorn/prefer-default-parameters`
+- Added `unicorn/prefer-math-trunc`
+- Added `unicorn/prefer-number-properties`
+- Added `unicorn/prefer-optional-catch-binding`
+- Added `unicorn/prefer-regexp-test`
+- Added `unicorn/prefer-set-has`
+- Added `unicorn/prefer-ternary`
+- Ignored `unicorn/import-style`
+- Ignored `unicorn/no-null`
+- Ignored `unicorn/string-content`
+- Renamed `unicorn/regex-shorthand` to `unicorn/better-regex`
+- Renamed `unicorn/no-fn-reference-in-iterator` to `unicorn/no-array-callback-reference`
+- Renamed `unicorn/no-array-instanceof` to `unicorn/no-instanceof-array`
+- Renamed `unicorn/no-reduce` to `unicorn/no-array-reduce`
+- Renamed `unicorn/prefer-dataset` to `unicorn/prefer-dom-node-dataset`
+- Renamed `unicorn/prefer-flat-map` to `unicorn/prefer-array-flat-map`
+- Renamed `unicorn/prefer-replace-all` to `unicorn/prefer-string-replace-all`
+- Renamed `unicorn/prefer-starts-ends-with` to `unicorn/prefer-string-starts-ends-with`
+- Renamed `unicorn/prefer-text-content` to `unicorn/prefer-dom-node-text-content`
+- Renamed `unicorn/prefer-trim-start-end` to `unicorn/prefer-string-trim-start-end`
+- Renamed `unicorn/prefer-event-key` to `unicorn/prefer-keyboard-event-key`
+- Renamed `unicorn/prefer-node-append` to `unicorn/prefer-dom-node-append`
+- Renamed `unicorn/prefer-node-remove` to `unicorn/prefer-dom-node-remove`
+
+#### Addition of Node (node) 11.1.0
+- Added `node/no-callback-literal`
+- Added `node/no-exports-assign`
+- Added `node/no-extraneous-import`
+- Added `node/no-extraneous-require`
+- Added `node/no-missing-import`
+- Added `node/no-missing-require`
+- Added `node/no-unpublished-bin`
+- Added `node/no-unpublished-import`
+- Added `node/no-unpublished-require`
+- Added `node/no-unsupported-features/node-builtins`
+- Added `node/process-exit-as-throw`
+- Added `node/shebang`
+- Added `node/no-deprecated-api`
+- Added `node/exports-style`
+- Added `node/file-extension-in-import`
+- Added `node/prefer-global/buffer`
+- Added `node/prefer-global/console`
+- Added `node/prefer-global/process`
+- Added `node/prefer-global/text-decoder`
+- Added `node/prefer-global/text-encoder`
+- Added `node/prefer-global/url-search-params`
+- Added `node/prefer-global/url`
+- Added `node/prefer-promises/dns`
+- Added `node/prefer-promises/fs`
+- Ignored `node/no-restricted-import`
+- Ignored `node/no-unsupported-features/es-builtins`
+- Ignored `node/no-unsupported-features/es-syntax` 
+- Renamed `callback-return` to `node/callback-return`
+- Renamed `global-require` to `node/global-require`
+- Renamed `handle-callback-err` to `node/handle-callback-err`
+- Renamed `no-mixed-requires` to `node/no-mixed-requires`
+- Renamed `no-new-require` to `node/no-new-require`
+- Renamed `no-path-concat` to `node/no-path-concat`
+- Renamed `no-process-env` to `node/no-process-env`
+- Renamed `no-process-exit` to `node/no-process-exit`
+- Renamed `no-restricted-modules` to `node/no-restricted-require`
+- Renamed `no-sync` to `node/no-sync`
+
+#### Update to JSDoc (jsdoc) to 31.0.3
+- Added `jsdoc/no-bad-blocks`
+- Added `jsdoc/require-throws`
+- Ignored `jsdoc/check-line-alignment`
+- Ignored `jsdoc/no-defaults`
+
+#### Dependencies updates
+- Update JSON (json) to 2.1.2
+- Update Airbnb (react) to 18.2.1
+- Update Import (react) to 2.22.1
+- Update jsx-a11y (react) to 6.4.1
+- Update React (react) to 7.22.0
+- Update Jest (test) to 24.1.3
+
 ### Removed
 - Remove distribution from git repository
 
