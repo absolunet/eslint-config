@@ -7,7 +7,7 @@ const given = { ...gwt.given };
 const when  = { ...gwt.when };
 const then  = { ...gwt.then };
 
-const { CLIEngine } = require(require.resolve('eslint', { paths: [`${__dirname}/../../packages/core`] }));
+const { ESLint } = require(require.resolve('eslint', { paths: [`${__dirname}/../../packages/core`] }));
 
 let root;
 let config;
@@ -47,7 +47,7 @@ when.configIsParsed = () => {
 	when.configIsLoaded();
 
 	when.attempting(() => {
-		eslint = new CLIEngine({
+		eslint = new ESLint({
 			baseConfig: config,
 			cwd: root,
 			useEslintrc: false
@@ -58,8 +58,8 @@ when.configIsParsed = () => {
 when.configIsUsed = () => {
 	when.configIsParsed();
 
-	when.attempting(() => {
-		eslint.executeOnText('');
+	when.attemptingAsync(async () => {
+		await eslint.lintText('');
 	});
 };
 
