@@ -39,7 +39,7 @@
   "dependencies": {
     "@absolunet/eslint-loader": "^1.1.0",
     "eslint": "7.17.0",
-    "eslint-plugin-unicorn": "26.0.0",
+    "eslint-plugin-unicorn": "26.0.1",
     "pkg-dir": "^5.0.0"
   }
 }
