@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- Creation of `@absolunet/eslint-config-node-package` - With Node.js package rules
+
 ### Changed
 - Moved `no-restricted-properties` from `@absolunet/eslint-config-node` to `@absolunet/eslint-config-core`
 - Maintenance updates
@@ -65,10 +68,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Addition of Node (node) 11.1.0
 - Added `node/no-exports-assign`
-- Added `node/no-extraneous-import`
-- Added `node/no-extraneous-require`
-- Added `node/no-missing-import`
-- Added `node/no-missing-require`
+- Added `node/no-extraneous-import` (in node-package)
+- Added `node/no-extraneous-require` (in node-package)
+- Added `node/no-missing-import` (in node-package)
+- Added `node/no-missing-require` (in node-package)
 - Added `node/no-unpublished-bin`
 - Added `node/no-unpublished-import`
 - Added `node/no-unpublished-require`
