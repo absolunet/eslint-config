@@ -26,11 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `id-blacklist` to `id-denylist`
 - Removed `no-buffer-constructor`
 
-#### Update to Unicorn 26.0.0
-- Added `unicorn/consistent-destructuring`
+#### Update to Unicorn 26.0.1
 - Added `unicorn/empty-brace-spaces`
 - Added `unicorn/no-lonely-if`
-- Added `unicorn/no-array-reduce`
 - Added `unicorn/no-new-array`
 - Added `unicorn/no-object-as-default-parameter`
 - Added `unicorn/no-useless-undefined`
@@ -44,10 +42,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `unicorn/prefer-number-properties`
 - Added `unicorn/prefer-optional-catch-binding`
 - Added `unicorn/prefer-regexp-test`
-- Added `unicorn/prefer-set-has`
-- Added `unicorn/prefer-ternary`
+- Ignored `unicorn/consistent-destructuring`
 - Ignored `unicorn/import-style`
+- Ignored `unicorn/no-array-reduce`
 - Ignored `unicorn/no-null`
+- Ignored `unicorn/prefer-set-has`
+- Ignored `unicorn/prefer-ternary`
 - Ignored `unicorn/string-content`
 - Renamed `unicorn/regex-shorthand` to `unicorn/better-regex`
 - Renamed `unicorn/no-fn-reference-in-iterator` to `unicorn/no-array-callback-reference`
@@ -64,7 +64,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `unicorn/prefer-node-remove` to `unicorn/prefer-dom-node-remove`
 
 #### Addition of Node (node) 11.1.0
-- Added `node/no-callback-literal`
 - Added `node/no-exports-assign`
 - Added `node/no-extraneous-import`
 - Added `node/no-extraneous-require`
@@ -88,6 +87,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `node/prefer-global/url`
 - Added `node/prefer-promises/dns`
 - Added `node/prefer-promises/fs`
+- Ignored `node/no-callback-literal`
 - Ignored `node/no-restricted-import`
 - Ignored `node/no-unsupported-features/es-builtins`
 - Ignored `node/no-unsupported-features/es-syntax` 
@@ -102,7 +102,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `no-restricted-modules` to `node/no-restricted-require`
 - Renamed `no-sync` to `node/no-sync`
 
-#### Update to JSDoc (jsdoc) to 31.0.3
+#### Update to JSDoc (jsdoc) to 31.0.5
 - Added `jsdoc/no-bad-blocks`
 - Added `jsdoc/require-throws`
 - Ignored `jsdoc/check-line-alignment`
