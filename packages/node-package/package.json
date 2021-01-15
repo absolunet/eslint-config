@@ -1,0 +1,45 @@
+{
+  "name": "@absolunet/eslint-config-node-package",
+  "version": "1.5.1",
+  "description": "ESLint config for Node.js packages",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "dist/node",
+  "scripts": {
+    "test": "node test --scope=all",
+    "test:standards": "node test --scope=standards",
+    "test:unit": "node test --scope=unit",
+    "test:feature": "node test --scope=feature",
+    "test:integration": "node test --scope=integration",
+    "test:endtoend": "node test --scope=endtoend"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "3.2.2"
+  },
+  "dependencies": {
+    "@absolunet/eslint-config-node": "1.5.1",
+    "@absolunet/eslint-config-package": "1.5.1",
+    "@absolunet/eslint-loader": "^1.1.0",
+    "pkg-dir": "^5.0.0"
+  }
+}
