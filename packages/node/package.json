@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-node",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "description": "ESLint config for Node.js",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -37,7 +37,7 @@
     "@absolunet/tester": "3.2.2"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "1.5.1",
+    "@absolunet/eslint-config-core": "2.0.0",
     "@absolunet/eslint-loader": "^1.1.0",
     "eslint-plugin-node": "11.1.0",
     "pkg-dir": "^5.0.0"
