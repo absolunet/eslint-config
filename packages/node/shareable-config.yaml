@@ -28,8 +28,8 @@ rules:
   node/no-path-concat: [error]
   node/no-process-exit: [error]
   node/no-unpublished-bin: [error]
-  node/no-unpublished-import: [error]
-  node/no-unpublished-require: [error]
+  node/no-unpublished-import: [off]  # Conflicts with manager/tests
+  node/no-unpublished-require: [off] # Conflicts with manager/tests
   node/no-unsupported-features/es-builtins: [off]  # Transpiler
   node/no-unsupported-features/es-syntax: [off]  # Transpiler
   node/no-unsupported-features/node-builtins: [error]
