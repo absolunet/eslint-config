@@ -1,0 +1,13 @@
+extends:
+  - '@absolunet/node'
+  - '@absolunet/package'
+
+
+# Rules
+rules:
+
+  # Node - Possible Errors
+  node/no-extraneous-import: [error]
+  node/no-extraneous-require: [error]
+  node/no-missing-import: [error]
+  node/no-missing-require: [error]

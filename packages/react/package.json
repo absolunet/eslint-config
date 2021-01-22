@@ -40,11 +40,11 @@
   "dependencies": {
     "@absolunet/eslint-config-browser": "1.5.1",
     "@absolunet/eslint-loader": "^1.1.0",
-    "babel-eslint": "10.0.3",
-    "eslint-config-airbnb": "18.0.1",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.18.3",
-    "pkg-dir": "^4.2.0"
+    "babel-eslint": "10.1.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.22.0",
+    "pkg-dir": "^5.0.0"
   }
 }

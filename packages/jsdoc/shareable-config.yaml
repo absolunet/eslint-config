@@ -22,6 +22,7 @@ rules:
   jsdoc/check-alignment: [error]
   jsdoc/check-examples: [off]
   jsdoc/check-indentation: [off] # cuz of @example
+  jsdoc/check-line-alignment: [off]
   jsdoc/check-param-names: [error]
   jsdoc/check-property-names: [error]
   jsdoc/check-syntax: [error]
@@ -32,6 +33,8 @@ rules:
   jsdoc/implements-on-classes: [error]
   jsdoc/match-description: [off]
   jsdoc/newline-after-description: [error, always]
+  jsdoc/no-bad-blocks: [error]
+  jsdoc/no-defaults: [off]
   jsdoc/no-types: [off] # Remove for TypeScript
   jsdoc/no-undefined-types: [off] # Custom types too complicated
   jsdoc/require-description-complete-sentence: [error]
@@ -61,4 +64,5 @@ rules:
   jsdoc/require-returns-description: [error]
   jsdoc/require-returns-type: [error]
   jsdoc/require-returns: [error, { forceReturnsWithAsync: true }]
+  jsdoc/require-throws: [error]
   jsdoc/valid-types: [error]
