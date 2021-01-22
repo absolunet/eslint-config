@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [2.0.0] - 2021-01-22
 ### Added
 - Creation of `@absolunet/eslint-config-node-package` - With Node.js package rules
 
@@ -408,7 +412,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/1.5.1...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.0.0...HEAD
+[1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
 [1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.0...1.5.1
 [1.5.0]:        https://github.com/absolunet/eslint-config/compare/1.4.4...1.5.0
 [1.4.4]:        https://github.com/absolunet/eslint-config/compare/1.4.3...1.4.4
