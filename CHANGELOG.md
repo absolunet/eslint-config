@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Moved `no-restricted-properties` from `@absolunet/eslint-config-node` to `@absolunet/eslint-config-core`
 - Maintenance updates
 
-#### Update to ESLint 7.17.0
+#### Update to ESLint 7.18.0
 - Update ECMAScript version to 2021
 - Added `no-loss-of-precision`
 - Added `no-promise-executor-return`
@@ -105,7 +105,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `no-restricted-modules` to `node/no-restricted-require`
 - Renamed `no-sync` to `node/no-sync`
 
-#### Update to JSDoc (jsdoc) to 31.0.5
+#### Update to JSDoc (jsdoc) to 31.0.8
 - Added `jsdoc/no-bad-blocks`
 - Added `jsdoc/require-throws`
 - Ignored `jsdoc/check-line-alignment`
