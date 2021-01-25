@@ -1,6 +1,7 @@
 //--------------------------------------------------------
 //-- json - Given-When-Then
 //--------------------------------------------------------
+import path     from 'path';
 import * as gwt from '../../../../test/standards/package.gwt';
 
 const given = { ...gwt.given };
@@ -9,7 +10,7 @@ const then  = { ...gwt.then };
 
 
 given.currentRoot = () => {
-	given.root(`${__dirname}/../..`);
+	given.root(path.join(__dirname, '..', '..'));
 };
 
 

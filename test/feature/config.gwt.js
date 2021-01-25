@@ -1,13 +1,14 @@
 //--------------------------------------------------------
 //-- Config - Given-When-Then
 //--------------------------------------------------------
+import path     from 'path';
 import * as gwt from '../base.gwt';
 
 const given = { ...gwt.given };
 const when  = { ...gwt.when };
 const then  = { ...gwt.then };
 
-const { ESLint } = require(require.resolve('eslint', { paths: [`${__dirname}/../../packages/core`] }));
+const { ESLint } = require(require.resolve('eslint', { paths: [path.join(__dirname, '..', '..', 'packages', 'core')] }));
 
 let root;
 let config;
@@ -39,7 +40,7 @@ given.root = (value) => {
 //-- When - Config
 when.configIsLoaded = () => {
 	when.attempting(() => {
-		config = require(root);  // eslint-disable-line global-require
+		config = require(root);  // eslint-disable-line node/global-require
 	});
 };
 

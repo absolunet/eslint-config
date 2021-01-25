@@ -1,6 +1,9 @@
 {
   "name": "eslint-config",
   "private": true,
+  "engines": {
+    "node": ">= 10"
+  },
   "scripts": {
     "postinstall": "npm run manager:install",
     "manager:install": "node manager --task=install",
