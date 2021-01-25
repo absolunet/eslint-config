@@ -11,9 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- Disable rule `node/no-unpublished-import`
-- Disable rule `node/no-unpublished-require`
 - Support Node.js 10+
+- Disable rule `node/no-unpublished-import` (in `test`)
+- Disable rule `node/no-unpublished-require` (in `test`)
 
 ### Fixed
 - Add missing config files for `node-package`
