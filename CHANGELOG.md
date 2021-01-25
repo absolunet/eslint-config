@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ignored `unicorn/no-array-for-each`
 - Modified `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
 
-#### Update to JSDoc (jsdoc) to 31.3.3
+#### Update to JSDoc (jsdoc) to 31.4.0
 - Added `jsdoc/require-yields`
 - Added `jsdoc/require-yields-check`
 

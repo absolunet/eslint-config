@@ -1,6 +1,7 @@
 //--------------------------------------------------------
 //-- nwayo - Given-When-Then
 //--------------------------------------------------------
+import path     from 'path';
 import * as gwt from '../../../../test/feature/config.gwt';
 
 const given = { ...gwt.given };
@@ -9,7 +10,7 @@ const then  = { ...gwt.then };
 
 
 given.currentRoot = () => {
-	given.root(`${__dirname}/../../dist/node`);
+	given.root(path.join(__dirname, '..', '..', 'dist', 'node'));
 };
 
 
