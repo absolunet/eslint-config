@@ -15,6 +15,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disable rule `node/no-unpublished-import` (in `test`)
 - Disable rule `node/no-unpublished-require` (in `test`)
 
+#### Update to Unicorn 27.0.0
+- Added `unicorn/no-array-push-push`
+- Added `unicorn/no-this-assignment`
+- Ignored `unicorn/no-array-for-each`
+- Modified `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
+
+#### Update to JSDoc (jsdoc) to 31.3.3
+- Added `jsdoc/require-yields`
+- Added `jsdoc/require-yields-check`
+
 ### Fixed
 - Add missing config files for `node-package`
 
