@@ -58,3 +58,7 @@ rules:
   jest/valid-expect-in-promise: [off]
   jest/valid-expect: [off]
   jest/valid-title: [off]
+
+  # Disable unpublished checks in tests
+  node/no-unpublished-import: [off]
+  node/no-unpublished-require: [off]

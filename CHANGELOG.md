@@ -10,6 +10,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Support Node.js 10+
+- Disable rule `node/no-unpublished-import` (in `test`)
+- Disable rule `node/no-unpublished-require` (in `test`)
+
+#### Update to Unicorn 27.0.0
+- Added `unicorn/no-array-push-push`
+- Added `unicorn/no-this-assignment`
+- Ignored `unicorn/no-array-for-each`
+- Modified `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
+
+#### Update to JSDoc (jsdoc) to 31.3.3
+- Added `jsdoc/require-yields`
+- Added `jsdoc/require-yields-check`
+
+### Fixed
+- Add missing config files for `node-package`
 
 
 
@@ -413,7 +430,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 [Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.0.0...HEAD
-[1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
+[2.0.0]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
 [1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.0...1.5.1
 [1.5.0]:        https://github.com/absolunet/eslint-config/compare/1.4.4...1.5.0
 [1.4.4]:        https://github.com/absolunet/eslint-config/compare/1.4.3...1.4.4

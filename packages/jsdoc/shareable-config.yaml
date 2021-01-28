@@ -65,4 +65,6 @@ rules:
   jsdoc/require-returns-type: [error]
   jsdoc/require-returns: [error, { forceReturnsWithAsync: true }]
   jsdoc/require-throws: [error]
+  jsdoc/require-yields: [error]
+  jsdoc/require-yields-check: [error]
   jsdoc/valid-types: [error]
