@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-react",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "ESLint config for React",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -38,7 +38,7 @@
     "@absolunet/tester": "3.2.2"
   },
   "dependencies": {
-    "@absolunet/eslint-config-browser": "2.0.0",
+    "@absolunet/eslint-config-browser": "2.1.0",
     "@absolunet/eslint-loader": "^1.1.0",
     "babel-eslint": "10.1.0",
     "eslint-config-airbnb": "18.2.1",
