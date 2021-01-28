@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-node-package.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-node-package)
 [![npm dependencies](https://david-dm.org/absolunet/eslint-config/status.svg?path=packages/node-package)](https://david-dm.org/absolunet/eslint-config?path=packages/node-package)
 [![npms](https://badges.npms.io/%40absolunet%2Feslint-config-node-package.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-node-package)
-[![Travis CI](https://travis-ci.com/absolunet/eslint-config.svg?branch=master)](https://travis-ci.com/absolunet/eslint-config/builds)
+[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
 
 > ESLint config for Node.js packages
 
