@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-core.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-core)
 [![npm dependencies](https://david-dm.org/absolunet/eslint-config/status.svg?path=packages/core)](https://david-dm.org/absolunet/eslint-config?path=packages/core)
 [![npms](https://badges.npms.io/%40absolunet%2Feslint-config-core.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-core)
-[![Travis CI](https://travis-ci.com/absolunet/eslint-config.svg?branch=master)](https://travis-ci.com/absolunet/eslint-config/builds)
+[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
 
 > ESLint config - Core rules
 

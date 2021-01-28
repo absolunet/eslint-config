@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-package.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-package)
 [![npm dependencies](https://david-dm.org/absolunet/eslint-config/status.svg?path=packages/package)](https://david-dm.org/absolunet/eslint-config?path=packages/package)
 [![npms](https://badges.npms.io/%40absolunet%2Feslint-config-package.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-package)
-[![Travis CI](https://travis-ci.com/absolunet/eslint-config.svg?branch=master)](https://travis-ci.com/absolunet/eslint-config/builds)
+[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
 
 > ESLint config for packages
 

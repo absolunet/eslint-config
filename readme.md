@@ -1,5 +1,5 @@
 # ESLint config
-[![Travis CI](https://travis-ci.com/absolunet/eslint-config.svg?branch=master)](https://travis-ci.com/absolunet/eslint-config/builds)
+[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
 > Opinionated ESLint [shareable configs](https://eslint.org/docs/developer-guide/shareable-configs.html).
