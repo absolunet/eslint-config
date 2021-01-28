@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [2.1.0] - 2021-01-28
 ### Changed
 - Support Node.js 10+
 - Disable rule `node/no-unpublished-import` (in `test`)
@@ -429,7 +433,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.0.0...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.1.0...HEAD
+[2.1.0]:        https://github.com/absolunet/eslint-config/compare/2.0.0...2.1.0
 [2.0.0]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
 [1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.0...1.5.1
 [1.5.0]:        https://github.com/absolunet/eslint-config/compare/1.4.4...1.5.0
