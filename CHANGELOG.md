@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [2.2.0] - 2021-02-15
 ### Changed
 - Modified `no-unused-vars` to add `ignoreRestSiblings` option
 - Update to ESLint 7.20.0
@@ -438,7 +442,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.1.0...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.2.0...HEAD
+[2.2.0]:        https://github.com/absolunet/eslint-config/compare/2.1.0...2.2.0
 [2.1.0]:        https://github.com/absolunet/eslint-config/compare/2.0.0...2.1.0
 [2.0.0]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
 [1.5.1]:        https://github.com/absolunet/eslint-config/compare/1.5.0...1.5.1
