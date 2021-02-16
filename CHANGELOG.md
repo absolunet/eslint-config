@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
-- Ignore rest siblings on unused variable
+- Modified `no-unused-vars` to add `ignoreRestSiblings` option
 
 
 
