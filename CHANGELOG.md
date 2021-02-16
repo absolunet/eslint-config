@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Modified `no-unused-vars` to add `ignoreRestSiblings` option
+- Update to ESLint 7.20.0
+- Update to Unicorn 28.0.1
+- Update to JSDoc (jsdoc) to 32.0.0
 
 
 
