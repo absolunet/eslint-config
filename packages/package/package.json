@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-package",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ESLint config for packages",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -37,7 +37,7 @@
     "@absolunet/tester": "4.1.1"
   },
   "dependencies": {
-    "@absolunet/eslint-config-jsdoc": "2.1.0",
+    "@absolunet/eslint-config-jsdoc": "2.2.0",
     "@absolunet/eslint-loader": "^1.1.0",
     "pkg-dir": "^5.0.0"
   }

@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-jsdoc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ESLint config for JSDoc",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
