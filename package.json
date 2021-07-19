@@ -26,6 +26,6 @@
     "@absolunet/fss": "1.7.0",
     "@absolunet/manager": "2.1.0",
     "@absolunet/tester": "4.2.0",
-    "react": "17.0.1"
+    "react": "17.0.2"
   }
 }

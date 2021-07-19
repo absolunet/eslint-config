@@ -39,12 +39,13 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-browser": "2.2.0",
-    "@absolunet/fss": "^1.7.0",
-    "babel-eslint": "10.1.0",
+    "@absolunet/eslint-loader": "^1.1.0",
+    "@babel/core": "7.14.6",
+    "@babel/eslint-parser": "7.14.7",
     "eslint-config-airbnb": "18.2.1",
-    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-import": "2.23.4",
     "eslint-plugin-jsx-a11y": "6.4.1",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "7.24.0",
     "pkg-dir": "^5.0.0"
   }
 }

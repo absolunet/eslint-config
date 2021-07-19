@@ -32,11 +32,17 @@ rules:
   jsdoc/empty-tags: [error]
   jsdoc/implements-on-classes: [error]
   jsdoc/match-description: [off]
+  jsdoc/match-name: [off]
+  jsdoc/multiline-blocks: [off]
   jsdoc/newline-after-description: [error, always]
   jsdoc/no-bad-blocks: [error]
   jsdoc/no-defaults: [off]
+  jsdoc/no-missing-syntax: [off]
+  jsdoc/no-multi-asterisks: [error]
+  jsdoc/no-restricted-syntax: [off]
   jsdoc/no-types: [off] # Remove for TypeScript
   jsdoc/no-undefined-types: [off] # Custom types too complicated
+  jsdoc/require-asterisk-prefix: [error]
   jsdoc/require-description-complete-sentence: [error]
   jsdoc/require-description: [error, { descriptionStyle: body }]
   jsdoc/require-example: [off]
@@ -67,4 +73,5 @@ rules:
   jsdoc/require-throws: [error]
   jsdoc/require-yields: [error]
   jsdoc/require-yields-check: [error]
+  jsdoc/tag-lines: [off]
   jsdoc/valid-types: [error]

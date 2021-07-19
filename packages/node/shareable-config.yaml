@@ -65,3 +65,5 @@ rules:
   # 🦄 Unicorn
   unicorn/no-process-exit: [error]
   unicorn/no-new-buffer: [error]
+  unicorn/prefer-module: [error]
+  unicorn/prefer-node-protocol: [error]

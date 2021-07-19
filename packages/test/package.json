@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-node": "2.2.0",
-    "@absolunet/fss": "^1.7.0",
-    "eslint-plugin-jest": "24.1.3",
+    "@absolunet/eslint-loader": "^1.1.0",
+    "eslint-plugin-jest": "24.3.6",
     "pkg-dir": "^5.0.0"
   }
 }
