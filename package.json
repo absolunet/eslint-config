@@ -2,7 +2,7 @@
   "name": "eslint-config",
   "private": true,
   "engines": {
-    "node": ">= 10"
+    "node": ">= 12"
   },
   "scripts": {
     "postinstall": "npm run manager:install",
@@ -23,9 +23,9 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/fss": "1.6.2",
+    "@absolunet/fss": "1.7.0",
     "@absolunet/manager": "2.1.0",
-    "@absolunet/tester": "4.1.1",
+    "@absolunet/tester": "4.2.0",
     "react": "17.0.1"
   }
 }

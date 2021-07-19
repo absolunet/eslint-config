@@ -10,12 +10,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Drop support for Node.js 10
+- Maintenance updates
 
 
 
 ## [2.2.0] - 2021-02-15
 ### Changed
-- Modified `no-unused-vars` to add `ignoreRestSiblings` option
+- Modify `no-unused-vars` to add `ignoreRestSiblings` option
 - Update to ESLint 7.20.0
 - Update to Unicorn 28.0.1
 - Update to JSDoc (jsdoc) to 32.0.0
@@ -29,14 +32,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disable rule `node/no-unpublished-require` (in `test`)
 
 #### Update to Unicorn 27.0.0
-- Added `unicorn/no-array-push-push`
-- Added `unicorn/no-this-assignment`
-- Ignored `unicorn/no-array-for-each`
-- Modified `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
+- Add `unicorn/no-array-push-push`
+- Add `unicorn/no-this-assignment`
+- Ignore `unicorn/no-array-for-each`
+- Modify `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
 
-#### Update to JSDoc (jsdoc) to 31.4.0
-- Added `jsdoc/require-yields`
-- Added `jsdoc/require-yields-check`
+#### Update to JSDoc (jsdoc) 31.4.0
+- Add `jsdoc/require-yields`
+- Add `jsdoc/require-yields-check`
 
 ### Fixed
 - Add missing config files for `node-package`
@@ -45,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2021-01-22
 ### Added
-- Creation of `@absolunet/eslint-config-node-package` - With Node.js package rules
+- Create `@absolunet/eslint-config-node-package` - With Node.js package rules
 
 ### Changed
 - Moved `no-restricted-properties` from `@absolunet/eslint-config-node` to `@absolunet/eslint-config-core`
@@ -53,39 +56,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Update to ESLint 7.18.0
 - Update ECMAScript version to 2021
-- Added `no-loss-of-precision`
-- Added `no-promise-executor-return`
-- Added `no-unreachable-loop`
-- Added `no-unsafe-optional-chaining`
-- Added `no-nonoctal-decimal-escape`
-- Modified `no-extra-parens` to add `enforceForFunctionPrototypeMethods` option
-- Modified `array-callback-return` to add `allowImplicit` option
+- Add `no-loss-of-precision`
+- Add `no-promise-executor-return`
+- Add `no-unreachable-loop`
+- Add `no-unsafe-optional-chaining`
+- Add `no-nonoctal-decimal-escape`
+- Modify `no-extra-parens` to add `enforceForFunctionPrototypeMethods` option
+- Modify `array-callback-return` to add `allowImplicit` option
 - Renamed `id-blacklist` to `id-denylist`
-- Removed `no-buffer-constructor`
+- Remove `no-buffer-constructor`
 
 #### Update to Unicorn 26.0.1
-- Added `unicorn/empty-brace-spaces`
-- Added `unicorn/no-lonely-if`
-- Added `unicorn/no-new-array`
-- Added `unicorn/no-object-as-default-parameter`
-- Added `unicorn/no-useless-undefined`
-- Added `unicorn/numeric-separators-style`
-- Added `unicorn/prefer-array-find`
-- Added `unicorn/prefer-array-index-of`
-- Added `unicorn/prefer-array-some`
-- Added `unicorn/prefer-date-now`
-- Added `unicorn/prefer-default-parameters`
-- Added `unicorn/prefer-math-trunc`
-- Added `unicorn/prefer-number-properties`
-- Added `unicorn/prefer-optional-catch-binding`
-- Added `unicorn/prefer-regexp-test`
-- Ignored `unicorn/consistent-destructuring`
-- Ignored `unicorn/import-style`
-- Ignored `unicorn/no-array-reduce`
-- Ignored `unicorn/no-null`
-- Ignored `unicorn/prefer-set-has`
-- Ignored `unicorn/prefer-ternary`
-- Ignored `unicorn/string-content`
+- Add `unicorn/empty-brace-spaces`
+- Add `unicorn/no-lonely-if`
+- Add `unicorn/no-new-array`
+- Add `unicorn/no-object-as-default-parameter`
+- Add `unicorn/no-useless-undefined`
+- Add `unicorn/numeric-separators-style`
+- Add `unicorn/prefer-array-find`
+- Add `unicorn/prefer-array-index-of`
+- Add `unicorn/prefer-array-some`
+- Add `unicorn/prefer-date-now`
+- Add `unicorn/prefer-default-parameters`
+- Add `unicorn/prefer-math-trunc`
+- Add `unicorn/prefer-number-properties`
+- Add `unicorn/prefer-optional-catch-binding`
+- Add `unicorn/prefer-regexp-test`
+- Ignore `unicorn/consistent-destructuring`
+- Ignore `unicorn/import-style`
+- Ignore `unicorn/no-array-reduce`
+- Ignore `unicorn/no-null`
+- Ignore `unicorn/prefer-set-has`
+- Ignore `unicorn/prefer-ternary`
+- Ignore `unicorn/string-content`
 - Renamed `unicorn/regex-shorthand` to `unicorn/better-regex`
 - Renamed `unicorn/no-fn-reference-in-iterator` to `unicorn/no-array-callback-reference`
 - Renamed `unicorn/no-array-instanceof` to `unicorn/no-instanceof-array`
@@ -101,33 +104,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `unicorn/prefer-node-remove` to `unicorn/prefer-dom-node-remove`
 
 #### Addition of Node (node) 11.1.0
-- Added `node/no-exports-assign`
-- Added `node/no-extraneous-import` (in node-package)
-- Added `node/no-extraneous-require` (in node-package)
-- Added `node/no-missing-import` (in node-package)
-- Added `node/no-missing-require` (in node-package)
-- Added `node/no-unpublished-bin`
-- Added `node/no-unpublished-import`
-- Added `node/no-unpublished-require`
-- Added `node/no-unsupported-features/node-builtins`
-- Added `node/process-exit-as-throw`
-- Added `node/shebang`
-- Added `node/no-deprecated-api`
-- Added `node/exports-style`
-- Added `node/file-extension-in-import`
-- Added `node/prefer-global/buffer`
-- Added `node/prefer-global/console`
-- Added `node/prefer-global/process`
-- Added `node/prefer-global/text-decoder`
-- Added `node/prefer-global/text-encoder`
-- Added `node/prefer-global/url-search-params`
-- Added `node/prefer-global/url`
-- Added `node/prefer-promises/dns`
-- Added `node/prefer-promises/fs`
-- Ignored `node/no-callback-literal`
-- Ignored `node/no-restricted-import`
-- Ignored `node/no-unsupported-features/es-builtins`
-- Ignored `node/no-unsupported-features/es-syntax` 
+- Add `node/no-exports-assign`
+- Add `node/no-extraneous-import` (in node-package)
+- Add `node/no-extraneous-require` (in node-package)
+- Add `node/no-missing-import` (in node-package)
+- Add `node/no-missing-require` (in node-package)
+- Add `node/no-unpublished-bin`
+- Add `node/no-unpublished-import`
+- Add `node/no-unpublished-require`
+- Add `node/no-unsupported-features/node-builtins`
+- Add `node/process-exit-as-throw`
+- Add `node/shebang`
+- Add `node/no-deprecated-api`
+- Add `node/exports-style`
+- Add `node/file-extension-in-import`
+- Add `node/prefer-global/buffer`
+- Add `node/prefer-global/console`
+- Add `node/prefer-global/process`
+- Add `node/prefer-global/text-decoder`
+- Add `node/prefer-global/text-encoder`
+- Add `node/prefer-global/url-search-params`
+- Add `node/prefer-global/url`
+- Add `node/prefer-promises/dns`
+- Add `node/prefer-promises/fs`
+- Ignore `node/no-callback-literal`
+- Ignore `node/no-restricted-import`
+- Ignore `node/no-unsupported-features/es-builtins`
+- Ignore `node/no-unsupported-features/es-syntax` 
 - Renamed `callback-return` to `node/callback-return`
 - Renamed `global-require` to `node/global-require`
 - Renamed `handle-callback-err` to `node/handle-callback-err`
@@ -140,10 +143,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `no-sync` to `node/no-sync`
 
 #### Update to JSDoc (jsdoc) to 31.0.8
-- Added `jsdoc/no-bad-blocks`
-- Added `jsdoc/require-throws`
-- Ignored `jsdoc/check-line-alignment`
-- Ignored `jsdoc/no-defaults`
+- Add `jsdoc/no-bad-blocks`
+- Add `jsdoc/require-throws`
+- Ignore `jsdoc/check-line-alignment`
+- Ignore `jsdoc/no-defaults`
 
 #### Dependencies updates
 - Update JSON (json) to 2.1.2
@@ -175,33 +178,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Maintenance updates
 
 #### Update to ESLint 6.8.0
-- Added `no-dupe-else-if`
-- Added `no-setter-return`
-- Added `grouped-accessor-pairs` with `getBeforeSet` option
-- Added `prefer-exponentiation-operator`
+- Add `no-dupe-else-if`
+- Add `no-setter-return`
+- Add `grouped-accessor-pairs` with `getBeforeSet` option
+- Add `prefer-exponentiation-operator`
 - Replaced `unicorn/prefer-exponentiation-operator` with `prefer-exponentiation-operator`
 
 #### Update to Unicorn 16.1.0
-- Added `unicorn/prefer-modern-dom-apis`
-- Added `unicorn/prefer-negative-index`
-- Added `unicorn/prefer-replace-all`
-- Added `unicorn/prefer-trim-start-end`
+- Add `unicorn/prefer-modern-dom-apis`
+- Add `unicorn/prefer-negative-index`
+- Add `unicorn/prefer-replace-all`
+- Add `unicorn/prefer-trim-start-end`
 
 #### Update JSDoc (jsdoc) to 21.0.0
-- Added `jsdoc/check-access`
-- Added `jsdoc/check-property-names`
-- Added `jsdoc/check-values`
-- Added `jsdoc/empty-tags`
-- Added `jsdoc/require-property`
-- Added `jsdoc/require-property-description`
-- Added `jsdoc/require-property-name`
-- Added `jsdoc/require-property-type`
+- Add `jsdoc/check-access`
+- Add `jsdoc/check-property-names`
+- Add `jsdoc/check-values`
+- Add `jsdoc/empty-tags`
+- Add `jsdoc/require-property`
+- Add `jsdoc/require-property-description`
+- Add `jsdoc/require-property-name`
+- Add `jsdoc/require-property-type`
 
 
 
 ## [1.4.4] - 2019-11-01
 ### Added
-- Creation of `@absolunet/eslint-config-json` - With JSON rules
+- Create `@absolunet/eslint-config-json` - With JSON rules
 
 ### Changed
 - Update JSDoc (jsdoc) to 17.0.0
@@ -210,11 +213,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.4.3] - 2019-10-31
 ### Added
-- In `@absolunet/eslint-config-nwayo` added `whatInput` as a global variable
+- In `@absolunet/eslint-config-nwayo` add `whatInput` as a global variable
 
 ### Changed
 - Switch `function-paren-newline` rule to `multiline` for more flexibility
-- In `@absolunet/eslint-config-nwayo` disabled `unicorn/consistent-function-scoping` because it conflicts with nwayo's architecture
+- In `@absolunet/eslint-config-nwayo` disable `unicorn/consistent-function-scoping` because it conflicts with nwayo's architecture
 - Update Jest (test) to 23.0.2
 - Maintenance updates
 
@@ -226,7 +229,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enable 'jsdoc' mode
 
 ### Fixed
-- In `@absolunet/eslint-config-react` disabled `unicorn/prevent-abbreviations` on filenames like in version 1.4.1
+- In `@absolunet/eslint-config-react` disable `unicorn/prevent-abbreviations` on filenames like in version 1.4.1
 
 
 
@@ -257,24 +260,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 #### Update to ESLint 6.5.1
-- Added `no-import-assign`
-- Added `prefer-regex-literals`
+- Add `no-import-assign`
+- Add `prefer-regex-literals`
 - Enforce these rules on classes
   - `use-isnan`
   - `accessor-pairs`
   - `computed-property-spacing`
 
 #### Update to Unicorn 12.0.2
-- Added `unicorn/consistent-function-scoping`
-- Added `unicorn/no-nested-ternary`
-- Added `unicorn/prefer-string-slice`
-- Upgraded `unicorn/no-abusive-eslint-disable` rule from warning to error
+- Add `unicorn/consistent-function-scoping`
+- Add `unicorn/no-nested-ternary`
+- Add `unicorn/prefer-string-slice`
+- Upgrade `unicorn/no-abusive-eslint-disable` rule from warning to error
 
 #### @absolunet/eslint-config-browser
-- Added `unicorn/prefer-dataset`
+- Add `unicorn/prefer-dataset`
 
 #### @absolunet/eslint-config-package
-- Added `unicorn/expiring-todo-comments`
+- Add `unicorn/expiring-todo-comments`
 
 #### Dependencies updates
 - JSDoc (jsdoc) to 15.10.0
@@ -289,7 +292,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Update to ESLint 6.2.2
 - Update ECMAScript version to 2020
-- Added `function-call-argument-newline` rule
+- Add `function-call-argument-newline` rule
 
 #### Dependencies updates
 - Airbnb (react) to 18.0.1
@@ -305,17 +308,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.4.0-beta.2] - 2019-08-09
 ### Added
-- Creation of @absolunet/eslint-config-test - With Jest rules
+- Create @absolunet/eslint-config-test - With Jest rules
 
 
 
 ## [1.4.0-beta.1] - 2019-08-05
 ### Added
-- Creation of `@absolunet/eslint-config-jsdoc`
-- Creation of `@absolunet/eslint-config-package`
+- Create `@absolunet/eslint-config-jsdoc`
+- Create `@absolunet/eslint-config-package`
 
 ### Removed
-- Deletion of `@absolunet/eslint-config-library`
+- Delete `@absolunet/eslint-config-library`
 
 ### Changed
 - `@absolunet/eslint-config-react` now depends on `eslint-config-airbnb`
@@ -323,49 +326,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `@absolunet/eslint-config-nwayo` includes jQuery environment directly
 
 #### Update to ESLint 6.1.0
-- Ajusted some rules to keep linting the same
+- Ajust some rules to keep linting the same
 
 #### Update to Unicorn 10.0.0
-- Added `unicorn/no-keyword-prefix`
-- Added `unicorn/prefer-event-key`
-- Added `unicorn/prefer-flat-map`
+- Add `unicorn/no-keyword-prefix`
+- Add `unicorn/prefer-event-key`
+- Add `unicorn/prefer-flat-map`
 
 #### Relaxation
-- Changed `object-shorthand` from `consistent` to `always`
-- Removed `unicorn/filename-case` because it's an irritant
+- Change `object-shorthand` from `consistent` to `always`
+- Remove `unicorn/filename-case` because it's an irritant
 
 
 
 ## [1.3.0] - 2019-03-28
 ### Added
-- Creation of `@absolunet/eslint-config-browser`
+- Create `@absolunet/eslint-config-browser`
 - Add an abstraction to nwayo config
 
 ### Changed
 #### Update to ESLint 5.15.3
-- Added `no-useless-catch`
-- Added `prefer-named-capture-group`
-- Changed indent option 'VariableDeclarator' to 'first'
-- Changed ecmaVersion to '2019'
+- Add `no-useless-catch`
+- Add `prefer-named-capture-group`
+- Change indent option 'VariableDeclarator' to 'first'
+- Change ecmaVersion to '2019'
 
 #### Update to Unicorn 8.0.1
-- Added `unicorn/no-console-spaces`
-- Added `unicorn/no-for-loop`
-- Added `unicorn/no-unreadable-array-destructuring`
-- Added `unicorn/no-unused-properties`
-- Added `unicorn/no-zero-fractions`
-- Added `unicorn/prefer-includes`
-- Added `unicorn/prefer-node-append`
-- Added `unicorn/prefer-node-remove`
-- Added `unicorn/prefer-query-selector`
-- Added `unicorn/prefer-text-content`
-- Added `unicorn/prevent-abbreviations`
+- Add `unicorn/no-console-spaces`
+- Add `unicorn/no-for-loop`
+- Add `unicorn/no-unreadable-array-destructuring`
+- Add `unicorn/no-unused-properties`
+- Add `unicorn/no-zero-fractions`
+- Add `unicorn/prefer-includes`
+- Add `unicorn/prefer-node-append`
+- Add `unicorn/prefer-node-remove`
+- Add `unicorn/prefer-query-selector`
+- Add `unicorn/prefer-text-content`
+- Add `unicorn/prevent-abbreviations`
 
 #### Relaxation
-- Changed `accessor-pairs` to allow getters without setters
-- Changed `key-spacing` option to enforce space after colon on single-line to be consistent
-- Removed `no-tabs` because it's an irritant to commented code
-- Removed `unicorn/no-unsafe-regex` because it's an irritant
+- Change `accessor-pairs` to allow getters without setters
+- Change `key-spacing` option to enforce space after colon on single-line to be consistent
+- Remove `no-tabs` because it's an irritant to commented code
+- Remove `unicorn/no-unsafe-regex` because it's an irritant
 
 
 
@@ -393,7 +396,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.0] - 2018-07-23
 ### Changed
 - Update to ESLint 5.2.0
-- Added 🦄 Unicorn
+- Add 🦄 Unicorn
 
 
 

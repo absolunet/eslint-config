@@ -24,7 +24,7 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 10"
+    "node": ">= 12"
   },
   "main": "dist/node",
   "scripts": {
@@ -36,7 +36,7 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "4.1.1"
+    "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
     "@absolunet/eslint-config-node": "2.2.0",
