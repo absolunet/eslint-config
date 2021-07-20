@@ -1,0 +1,46 @@
+{
+  "name": "@absolunet/eslint-config-spire",
+  "version": "2.2.0",
+  "description": "ESLint config for Spire",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "optimizely",
+    "spire"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "dist/node",
+  "scripts": {
+    "test": "node test --scope=all",
+    "test:standards": "node test --scope=standards",
+    "test:unit": "node test --scope=unit",
+    "test:feature": "node test --scope=feature",
+    "test:integration": "node test --scope=integration",
+    "test:endtoend": "node test --scope=endtoend"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "4.2.0"
+  },
+  "dependencies": {
+    "@absolunet/eslint-config-react": "2.2.0",
+    "@absolunet/eslint-loader": "^1.1.0",
+    "pkg-dir": "^5.0.0"
+  }
+}

@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- Create `@absolunet/eslint-config-pwastudio` - With PWA Studio rules
+- Create `@absolunet/eslint-config-spire` - With Spire rules
+
 ### Changed
 - Drop support for Node.js 10
 - Maintenance updates
