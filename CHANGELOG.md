@@ -19,6 +19,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Remove `@absolunet/eslint-loader` in favor of vanilla code
 - Maintenance updates
 
+#### Update to ESLint 7.31.0
+- Update ECMAScript version to latest
+- Modify `no-implicit-coercion` to add `disallowTemplateShorthand` option
+
+#### Update to Unicorn 34.0.1
+- Add `unicorn/no-array-method-this-argument`
+- Add `unicorn/no-static-only-class`
+- Add `unicorn/prefer-array-flat`
+- Add `unicorn/prefer-object-has-own`
+- Add `unicorn/prefer-prototype-methods`
+- Add `unicorn/prefer-switch`
+- Add `unicorn/require-array-join-separator`
+- Add `unicorn/require-number-to-fixed-digits-argument`
+- Add `unicorn/no-document-cookie` (in `browser`)
+- Add `unicorn/require-post-message-target-origin` (in `browser`)
+- Add `unicorn/prefer-module` (in `node`)
+- Add `unicorn/prefer-node-protocol` (in `node`)
+- Ignore `unicorn/prefer-at`
+- Ignore `unicorn/prefer-top-level-await`
+
+#### Update to JSDoc (jsdoc) 35.4.5
+- Add `jsdoc/no-multi-asterisks`
+- Add `jsdoc/require-asterisk-prefix`
+- Ignore `jsdoc/match-name`
+- Ignore `jsdoc/multiline-blocks`
+- Ignore `jsdoc/no-missing-syntax`
+- Ignore `jsdoc/no-restricted-syntax`
+- Ignore `jsdoc/tag-lines`
+
+#### React
+- Replace `babel-eslint` parser by `@babel/eslint-parser`
+
+#### Dependencies updates
+- Update JSON (json) to 3.0.0
+- Update Import (react) to 2.23.4
+- Update React (react) to 7.24.0
+- Update Jest (test) to 24.3.6
+
 
 
 ## [2.2.0] - 2021-02-15

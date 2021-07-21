@@ -8,7 +8,7 @@
 root: true
 parser: espree
 parserOptions:
-  ecmaVersion: 2021
+  ecmaVersion: latest
   sourceType: script
   ecmaFeatures:
     globalReturn: false
@@ -115,7 +115,7 @@ rules:
   no-fallthrough: [error]
   no-floating-decimal: [error]
   no-global-assign: [error]
-  no-implicit-coercion: [error]
+  no-implicit-coercion: [error, { disallowTemplateShorthand: true }]
   no-implicit-globals: [error]
   no-implied-eval: [error]
   no-invalid-this: [off]
@@ -368,9 +368,11 @@ rules:
   unicorn/no-abusive-eslint-disable: [error]
   unicorn/no-array-callback-reference: [off]
   unicorn/no-array-for-each: [off]
+  unicorn/no-array-method-this-argument: [error]
   unicorn/no-array-push-push: [error]
   unicorn/no-array-reduce: [off]
   unicorn/no-console-spaces: [error]
+  # unicorn/no-document-cookie (Per sub-config)
   unicorn/no-for-loop: [error]
   unicorn/no-hex-escape: [error]
   unicorn/no-instanceof-array: [error]
@@ -382,6 +384,7 @@ rules:
   # unicorn/no-process-exit (Per sub-config)
   unicorn/no-null: [off]
   unicorn/no-object-as-default-parameter: [error]
+  unicorn/no-static-only-class: [error]
   unicorn/no-this-assignment: [error]
   unicorn/no-unreadable-array-destructuring: [error]
   unicorn/no-unsafe-regex: [off]
@@ -392,9 +395,11 @@ rules:
   unicorn/numeric-separators-style: [error, { onlyIfContainsSeparator: true }]
   # unicorn/prefer-add-event-listener (Per sub-config)
   unicorn/prefer-array-find: [error]
+  unicorn/prefer-array-flat: [error]
   unicorn/prefer-array-flat-map: [error]
   unicorn/prefer-array-index-of: [error]
   unicorn/prefer-array-some: [error]
+  unicorn/prefer-at: [off] # No Node.js support
   unicorn/prefer-date-now: [error]
   unicorn/prefer-default-parameters: [error]
   # unicorn/prefer-dom-node-append (Per sub-config)
@@ -406,19 +411,28 @@ rules:
   # unicorn/prefer-modern-dom-apis (Per sub-config)
   unicorn/prefer-negative-index: [error]
   unicorn/prefer-math-trunc: [error]
+  # unicorn/prefer-module (Per sub-config)
+  # unicorn/prefer-node-protocol (Per sub-config)
   unicorn/prefer-number-properties: [error]
+  unicorn/prefer-object-has-own: [error]
   unicorn/prefer-optional-catch-binding: [error]
+  unicorn/prefer-prototype-methods: [error]
   # unicorn/prefer-query-selector (Per sub-config)
   unicorn/prefer-reflect-apply: [off]
+  unicorn/prefer-regexp-test: [error]
   unicorn/prefer-set-has: [off]
   unicorn/prefer-spread: [error]
   unicorn/prefer-string-replace-all: [error]
   unicorn/prefer-string-starts-ends-with: [error]
   unicorn/prefer-string-slice: [error]
   unicorn/prefer-string-trim-start-end: [error]
+  unicorn/prefer-switch: [error, { emptyDefaultCase: do-nothing-comment }]
   unicorn/prefer-ternary: [off]
-  unicorn/prefer-regexp-test: [error]
+  unicorn/prefer-top-level-await: [off] # Wait for Node.js 14+ and no CommonJS
   unicorn/prefer-type-error: [error]
   unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false }]
+  unicorn/require-array-join-separator: [error]
+  unicorn/require-number-to-fixed-digits-argument: [error]
+  # unicorn/require-post-message-target-origin (Per sub-config)
   unicorn/string-content: [off]
   unicorn/throw-new-error: [error]

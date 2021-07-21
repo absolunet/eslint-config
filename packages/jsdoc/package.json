@@ -38,8 +38,8 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/fss": "^1.7.0",
-    "eslint-plugin-jsdoc": "32.0.0",
+    "@absolunet/eslint-loader": "^1.1.0",
+    "eslint-plugin-jsdoc": "35.4.5",
     "pkg-dir": "^5.0.0"
   }
 }
