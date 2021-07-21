@@ -28,8 +28,14 @@ extends: '@absolunet/spire'
 ```
 
 
+## Used parser
+
+- [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) - Allow for ESLint to lint TypeScript
+
+
 ## Used plugins
 
+- [@typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) - Lint rules for TypeScript
 
 
 

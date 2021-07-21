@@ -1,0 +1,11 @@
+parser: '@typescript-eslint/parser'
+
+plugins:
+  - '@typescript-eslint'
+# - 'spire' (include yo-self since plugin source is in project)
+
+extends:
+  - 'plugin:@typescript-eslint/eslint-recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:react/recommended'
+  - '@absolunet/react'

@@ -1,0 +1,8 @@
+#plugins:
+# - 'package-json' (from @magento)
+
+extends:
+# - 'plugin:jsx-a11y/recommended'      (from @magento)
+# - 'plugin:package-json/recommended'  (from @magento)
+  - '@magento'
+  - '@absolunet/react'

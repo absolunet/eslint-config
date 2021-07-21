@@ -9,7 +9,7 @@
 
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [PWA Studio](https://pwastudio.io)
 
-Extends [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config)
+Extends [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config) and [@magento/eslint-config](https://github.com/magento/magento-eslint)
 
 
 ## Install
@@ -30,6 +30,7 @@ extends: '@absolunet/pwastudio'
 
 ## Used plugins
 
+- [eslint-plugin-package-json](https://github.com/zetlen/eslint-plugin-package-json) - package.json files rules
 
 
 ## Related
