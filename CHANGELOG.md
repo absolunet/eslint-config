@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Drop support for Node.js 10
+- Remove `@absolunet/eslint-loader` in favor of vanilla code
 - Maintenance updates
 
 

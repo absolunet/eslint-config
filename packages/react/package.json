@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-browser": "2.2.0",
-    "@absolunet/eslint-loader": "^1.1.0",
+    "@absolunet/fss": "^1.7.0",
     "babel-eslint": "10.1.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.22.1",

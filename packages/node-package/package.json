@@ -39,7 +39,7 @@
   "dependencies": {
     "@absolunet/eslint-config-node": "2.2.0",
     "@absolunet/eslint-config-package": "2.2.0",
-    "@absolunet/eslint-loader": "^1.1.0",
+    "@absolunet/fss": "^1.7.0",
     "pkg-dir": "^5.0.0"
   }
 }

@@ -38,7 +38,7 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "^1.1.0",
+    "@absolunet/fss": "^1.7.0",
     "eslint-plugin-json": "2.1.2",
     "pkg-dir": "^5.0.0"
   }

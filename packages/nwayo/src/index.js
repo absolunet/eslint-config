@@ -1,11 +1,11 @@
 //--------------------------------------------------------
 //-- ESLint config
 //--------------------------------------------------------
+import path   from 'path';
 import pkgDir from 'pkg-dir';
-import loader from '@absolunet/eslint-loader';
+import fss    from '@absolunet/fss';
 
-
-const config = loader(pkgDir.sync(__dirname));
-
-
-module.exports = config;
+module.exports = fss.readYaml(path.join(
+	pkgDir.sync(__dirname),
+	'shareable-config.yaml'
+));
