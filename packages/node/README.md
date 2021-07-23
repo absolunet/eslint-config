@@ -36,8 +36,6 @@ extends: '@absolunet/node'
 
 ## Related
 
-- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config YAML loader.
-
 - [@absolunet/tester](https://github.com/absolunet/node-tester) - Test suite for Node.js projects.
 
 - [Other configs](https://github.com/absolunet/eslint-config)

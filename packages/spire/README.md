@@ -35,8 +35,6 @@ extends: '@absolunet/spire'
 
 ## Related
 
-- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config YAML loader.
-
 - [Other configs](https://github.com/absolunet/eslint-config)
 
 

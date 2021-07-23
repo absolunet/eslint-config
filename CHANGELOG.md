@@ -11,10 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Add Prettier config as last overwrite for all config packages
 - Create `@absolunet/eslint-config-pwastudio` - With PWA Studio rules
 - Create `@absolunet/eslint-config-spire` - With Spire rules
 
 ### Changed
+- Remove `core` rules treated by Prettier
 - Drop support for Node.js 10
 - Remove `@absolunet/eslint-loader` in favor of vanilla code
 - Maintenance updates
