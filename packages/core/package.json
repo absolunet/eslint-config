@@ -37,8 +37,10 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "^1.1.0",
+    "@absolunet/fss": "^1.7.0",
+    "deepmerge": "^4.2.2",
     "eslint": "7.31.0",
+    "eslint-config-prettier": "8.3.0",
     "eslint-plugin-unicorn": "34.0.1",
     "pkg-dir": "^5.0.0"
   }

@@ -66,9 +66,14 @@ extends: '@absolunet/[RULESET]'
 - [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn) - Various awesome rules
 
 
+## Used configuration
+
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
+
+
 ## Related
 
-- [@absolunet/eslint-loader](https://github.com/absolunet/node-eslint-loader) - ESLint shareable config YAML loader.
+- [prettier-config](https://github.com/absolunet/prettier-config) - Opinionated Prettier shareable configs to use with these ESLint configurations.
 
 
 ## License
