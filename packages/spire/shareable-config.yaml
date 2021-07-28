@@ -2,10 +2,87 @@ parser: '@typescript-eslint/parser'
 
 plugins:
   - '@typescript-eslint'
-# - 'spire' (include yo-self since plugin source is in project)
 
 extends:
-  - 'plugin:@typescript-eslint/eslint-recommended'
-  - 'plugin:@typescript-eslint/recommended'
   - 'plugin:react/recommended'
   - '@absolunet/react'
+  - 'plugin:@typescript-eslint/recommended'
+
+settings:
+  react:
+    pragma: React
+    version: '16.10'
+
+# Note that most of the ones that are forced "off" but should be "error" are enabled with the rule sets list above.
+# Items can be removed from this list if they no longer need to be globally suppressed.
+rules:
+  '@typescript-eslint/consistent-type-assertions': [off]  # Should be "error"; inconsistent pattern used.
+  '@typescript-eslint/explicit-function-return-type': [off]  # Should be "off"; saves a lot of code to let TypeScript infer returns.
+  '@typescript-eslint/no-empty-function': [off]  # Should be "error"; Empty functions are wasteful.
+  '@typescript-eslint/no-empty-interface': [off]  # Should be "error"; empty interfaces suggest an architectural problem.
+  '@typescript-eslint/no-explicit-any': [off]  # Should be "error"; would be often suppressed, but may find some legitimate issues.
+  '@typescript-eslint/no-non-null-assertion': [off]  # Should be "error"; non-null assertions are risky and should be discouraged.
+  '@typescript-eslint/no-this-alias': [off]  # Should be "error"; suggests a structural issue.
+  '@typescript-eslint/no-unused-vars': [off]  # Should be "error"; could potentially find bugs about forgotten parameters.
+  '@typescript-eslint/no-unused-expressions': [off]  # Should be "error", affected syntax is wasteful and maybe should use `?.`.
+  '@typescript-eslint/no-use-before-define': [off]  # Should be "error"; cosmetic but sensible for better conceptual flow.
+  '@typescript-eslint/triple-slash-reference': [off]  # Should be "error"; will be suppressed occasionally but discourages legacy syntax.
+  arrow-body-style: [off]  # Should be "error"; unnecessary complexity.
+  consistent-return: [off]  # Should be "off"; handled nicely by TypeScript.
+  default-case: [off]  # Should be "off"; a switch with no default is well-understood and handled correctly by TypeScript.
+  dot-notation: [off]  # Should be "error"; unnecessary complexity.
+  func-names: [off]  # Should be configured for our needs.
+  guard-for-in: [off]  # Should be "error"; potential source of bugs.
+  import/first: [off]  # Should be "error"; keeps imports in the appropriate place.
+  import/export: [off]  # handled by ordered-imports
+  import/extensions: [off]  # Requires special configuration or customization to be usable.
+  import/no-extraneous-dependencies: [off]  # Should be "off"; the way this is built doesn't require it package.json to be perfect.
+  import/no-mutable-exports: [off]  # Should be "error"; may be occasional exceptions but this can lead to erratic behavior by consumers.
+  import/no-unresolved: [off]  # Should be "off"; dependency validation is handled by TypeScript and Webpack.
+  import/order: [off]  # Should be "error"; inconsistent import ordering makes reading the list harder than necessary.
+  import/prefer-default-export: [off]  # Should be "error"; not using a default export where appropriate makes things slightly harder to use.
+  jsx-a11y/accessible-emoji: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/anchor-is-valid: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/click-events-have-key-events: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/control-has-associated-label: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/html-has-lang: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/iframe-has-title: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/label-has-associated-control: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/mouse-events-have-key-events: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/no-noninteractive-element-interactions: [off]  # Should be "error"; accessibility issue.
+  jsx-a11y/no-static-element-interactions: [off]  # Should be "error"; accessibility issue.
+  lines-between-class-members: [off]  # Debatable, may be usable if customizable for packed fields but spaced functions.
+  no-await-in-loop: [off]  # Should be "off"; this isn't done unintentionally.
+  no-continue: [off]  # Should be "off"; we"re comfortable using `continue`.
+  no-loop-func: [off]  # Should be "error; complicated code organization.
+  no-multi-assign: [off]  # Debatable.
+  no-param-reassign: [off]  # Should be "off" or customized (if feasible);  our reducer+immer pattern requires it.
+  no-shadow: [off]  # Should be "error"; can make code confusing to read.
+  no-unused-expressions: [off]  # Doesn't support `?.` (at the time this comment was written); @typescript-eslint/no-unused-expressions works.
+  no-useless-escape: [off]  # Should be "error"; unnecessary syntax.
+  no-var: [warn]
+  one-var: [warn]
+  operator-assignment: [off]  # Should be "error"; unnecessary syntax.  Might occasionally be suppressed in edge cases.
+  ordered-imports/ordered-imports:
+      - warn
+      - declaration-ordering: [source, case-insensitive]
+        specifier-ordering: case-insensitive
+
+  prefer-destructuring: [off]  # Should be "error"; destructuring is break-even-or-better than direct access for minification.
+  react/button-has-type: [off]  # Debatable, probably "off" is fine as it should be well-understood what happens with an implicit type.
+  react/destructuring-assignment: [off]  # Should be "error";  destructuring is break-even-or-better than direct access for minification.
+  react/jsx-boolean-value: [off]  # Should be "error"; ={true} on a boolean is unnecessary.
+  react/jsx-filename-extension: [off]  # Should be "off"; covered by TypeScript.
+  react/jsx-props-no-spreading: [off]  # Should be reviewed.
+  react/no-access-state-in-setstate: [off]  # Should be "error"; potential source of bugs.
+  react/no-unescaped-entities: [off]  # Debatable--probably should be off since unescaped entities are safe and have cleaner code.
+  react/no-unused-state: [off]  # Should be "error"; potential source of bugs.
+  react/prop-types: [off]  # Should be "off"; React prop-types concepts are native to TypeScript.
+  react/self-closing-comp: [off]  # Should be "error"; wasteful React syntax.
+  react/sort-comp: [off]  # Should be "error"; non-standard React component format.
+  react/state-in-constructor: [off]  # Should be "error"; non-standard React component format.
+  react/static-property-placement: [off]  # Should be "error"; non-standard React component format.
+  react-hooks/rules-of-hooks: [off]  # Should be "error"; indicates hooks aren't being used correctly.
+  react-hooks/exhaustive-deps: [off]  # Should be "error"; indicates hooks aren't being used correctly.
+  require-atomic-updates: [off]  # Ideally would be "error", but would get triggered frequently by our front-end handler chain design.
+  vars-on-top: [off]  # Conflicts with the general ban on `var`.

@@ -6,3 +6,71 @@ extends:
 # - 'plugin:package-json/recommended'  (from @magento)
   - '@magento'
   - '@absolunet/react'
+
+
+globals:
+  process: readonly
+  module: readonly
+  googleMapsLoaded: readonly
+  STORE_NAME: readonly
+  STORE_CONFIGS: readonly
+  AVAILABLE_STORE_VIEWS: readonly
+  STORE_VIEW_LOCALE: readonly
+  STORE_VIEW_CODE: readonly
+  _ltk: readonly
+
+
+rules:
+
+  # Variables
+  no-undef: [off]
+
+
+  # Stylistic Issues
+  camelcase: [off]  # Not compatible with Magento naming convention
+
+
+  # Best Practices
+  no-useless-escape: [off]
+  no-warning-comments: [warn, { location: anywhere }]
+
+
+  # 🦄 Unicorn
+  unicorn/prevent-abbreviations:
+    - error
+    - checkProperties: true
+      checkFilenames: false
+      replacements:
+        props: false
+        params: true
+      allowList:
+        propClasses: true
+
+
+  # React - JSX-specific rules
+  react/jsx-no-literals:
+    - error
+    - allowedStrings: []
+      ignoreProps: true # Use ignoreProps: false to catch label/title/alt text, etc. Has the downside of erroring on "id" and other string props.
+      noStrings: true
+
+  react/jsx-one-expression-per-line: [off]
+  react/jsx-props-no-spreading: [off]
+
+
+  # React Hooks
+  react-hooks/exhaustive-deps: [warn]  # Until we decide on a strategy for refactoring useEffect with an empty array
+
+
+  # Import
+  # import/prefer-default-export: [off]
+
+
+overrides:
+  - files: ['*.spec.js']
+    env:
+      jest: true
+
+  - files: ['*.wrap.*']
+    rules:
+      func-names: [off]

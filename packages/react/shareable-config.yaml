@@ -18,20 +18,20 @@ parserOptions:
   sourceType: module
 
 
-# Globals
-#globals:
-#  pinki: readonly
-
-
 # Rules
-#rules:
-#
-#  no-restricted-globals: [off]
-#
-#  unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false, replacements: { props: false } }]
-#
-#  import/prefer-default-export: [off]
-#
-#  react/jsx-filename-extension: [error, { extensions: ['.js'] }]
-#  react/jsx-indent: [error, 'tab']
-#  react/jsx-indent-props: [error, 'tab']
+rules:
+
+  # Variables
+  no-restricted-globals: [off]
+
+
+  # 🦄 Unicorn
+  unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false, replacements: { props: false } }]
+
+
+  # React
+  react/no-danger: [error]
+
+
+  # React - JSX-specific rules
+  react/jsx-filename-extension: [error, { extensions: ['.js', '.jsx'] }]
