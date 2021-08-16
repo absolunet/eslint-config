@@ -41,6 +41,8 @@
   "dependencies": {
     "@absolunet/eslint-config-react": "2.2.0",
     "@absolunet/fss": "^1.7.0",
+    "@typescript-eslint/eslint-plugin": "4.28.4",
+    "@typescript-eslint/parser": "4.28.4",
     "deepmerge": "^4.2.2",
     "eslint-config-prettier": "8.3.0",
     "pkg-dir": "^5.0.0"

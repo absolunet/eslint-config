@@ -1,5 +1,14 @@
+plugins:
+# - import       (from airbnb)
+# - jsx-a11y     (from airbnb)
+  - ordered-imports
+# - react        (from airbnb)
+# - react-hooks  (from airbnb)
+
 extends:
   - 'airbnb'
+  - 'airbnb/hooks'
+  - 'eslint:recommended'
   - '@absolunet/browser'
 
 
@@ -9,20 +18,20 @@ parserOptions:
   sourceType: module
 
 
-# Globals
-globals:
-  pinki: readonly
-
-
 # Rules
 rules:
 
+  # Variables
   no-restricted-globals: [off]
 
+
+  # 🦄 Unicorn
   unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false, replacements: { props: false } }]
 
-  import/prefer-default-export: [off]
 
-  react/jsx-filename-extension: [error, { extensions: ['.js'] }]
-  react/jsx-indent: [error, 'tab']
-  react/jsx-indent-props: [error, 'tab']
+  # React
+  react/no-danger: [error]
+
+
+  # React - JSX-specific rules
+  react/jsx-filename-extension: [error, { extensions: ['.js', '.jsx'] }]
