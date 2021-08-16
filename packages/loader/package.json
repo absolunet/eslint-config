@@ -1,7 +1,7 @@
 {
-  "name": "@absolunet/eslint-config-browser",
+  "name": "@absolunet/eslint-loader",
   "version": "2.2.0",
-  "description": "ESLint config for browser",
+  "description": "ESLint YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
   "author": {
@@ -9,10 +9,10 @@
     "url": "https://absolunet.com"
   },
   "keywords": [
-    "browser",
     "eslint",
     "eslintconfig",
-    "eslint-config"
+    "eslint-config",
+    "yaml"
   ],
   "license": "MIT",
   "repository": {
@@ -35,10 +35,16 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "4.2.0"
+    "@absolunet/tester": "4.2.0",
+    "eslint-config-prettier": "8.3.0"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "2.2.0",
-    "@absolunet/eslint-loader": "2.2.0"
+    "@absolunet/fss": "^1.7.0",
+    "@absolunet/joi": "^0.3.0",
+    "deepmerge": "^4.2.2",
+    "pkg-dir": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint-config-prettier": "^8.3.0"
   }
 }
