@@ -40,9 +40,6 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-browser": "2.2.0",
-    "@absolunet/fss": "^1.7.0",
-    "deepmerge": "^4.2.2",
-    "eslint-config-prettier": "8.3.0",
-    "pkg-dir": "^5.0.0"
+    "@absolunet/eslint-loader": "2.2.0"
   }
 }
