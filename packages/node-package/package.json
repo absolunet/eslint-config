@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-node-package",
-  "version": "2.2.0",
+  "version": "3.0.0-beta.1",
   "description": "ESLint config for Node.js packages",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -37,8 +37,8 @@
     "@absolunet/tester": "4.2.0"
   },
   "dependencies": {
-    "@absolunet/eslint-config-node": "2.2.0",
-    "@absolunet/eslint-config-package": "2.2.0",
-    "@absolunet/eslint-loader": "2.2.0"
+    "@absolunet/eslint-config-node": "3.0.0-beta.1",
+    "@absolunet/eslint-config-package": "3.0.0-beta.1",
+    "@absolunet/eslint-loader": "3.0.0-beta.1"
   }
 }

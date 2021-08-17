@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [3.0.0-beta.1] - 2021-08-17
 ### Added
 - Add Prettier config as last overwrite for all config packages
 - Create `@absolunet/eslint-config-pwastudio` - With PWA Studio rules
@@ -490,7 +494,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/2.2.0...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0-beta.1...HEAD
+[3.0.0-beta.1]: https://github.com/absolunet/eslint-config/compare/2.2.0...3.0.0-beta.1
 [2.2.0]:        https://github.com/absolunet/eslint-config/compare/2.1.0...2.2.0
 [2.1.0]:        https://github.com/absolunet/eslint-config/compare/2.0.0...2.1.0
 [2.0.0]:        https://github.com/absolunet/eslint-config/compare/1.5.1...2.0.0
