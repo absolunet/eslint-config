@@ -44,7 +44,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make `params` work in `unicorn/prevent-abbreviations` (react)
 - Correct linting test
 
-
+### Changed
+#### React
+- Remove `import/prefer-default-export`
+- Remove `react/jsx-indent` and `react/jsx-indent-props` (Will be handled by `prettier`)
+- Add extends `airbnb/hooks`
+- Add plugin `ordered-imports`
+- Add `react/no-danger`
+- Add `import/order` and `ordered-imports/ordered-imports` to order imports
+- Ignore `react/react-in-jsx-scope`
+- Ignore `react/static-property-placement`
+- Update `react/jsx-filename-extension` (Support JSX file)
+- Update `unicorn/prevent-abbreviations` (Ignore for `props` and `params`)
 
 ## [3.0.0-beta.1] - 2021-08-17
 ### Added
