@@ -21,21 +21,18 @@ describe(`Validate that loader works`, () => {
 	});
 
 	test(`Ensure root path is mandatory`, () => {
-		when.packageIsLoaded();
 		when.functionIsCalled();
 		then.shouldHaveThrownMessageContaining('"root" is required');
 	});
 
 	test(`Ensure config contains parsed file content`, () => {
-		given.rootDefined();
-		when.packageIsLoaded();
+		given.root();
 		when.functionIsCalled();
 		then.configShouldContainFileContent();
 	});
 
 	test(`Ensure Prettier config overwrites file content`, () => {
-		given.rootDefined();
-		when.packageIsLoaded();
+		given.root();
 		when.functionIsCalled();
 		then.configShouldContainPrettierConfig();
 	});

@@ -34,7 +34,7 @@ given.noConfig = () => {
 
 
 //-- Given
-given.rootDefined = () => {
+given.root = () => {
 	root = path.join(__dirname, 'fixtures');
 };
 
@@ -45,6 +45,7 @@ when.packageIsLoaded = () => {
 };
 
 when.functionIsCalled = () => {
+	when.packageIsLoaded();
 	when.attempting(() => {
 		config = myFunction(root, file);
 	});
