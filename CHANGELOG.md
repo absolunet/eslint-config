@@ -10,6 +10,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Maintenance updates
+
+#### Update to Unicorn 35.0.0
+- Add `unicorn/no-useless-length-check`
+- Add `unicorn/no-useless-spread`
+- Add `unicorn/prefer-object-from-entries`
+
+#### Update to Jest (test) to 24.4.0
+- Ignore `jest/max-nested-describe`
+
+#### Dependencies updates
+- Update to ESLint 7.32.0
+- Update to JSDoc (jsdoc) 36.0.8
+- Update to JSON (json) 3.1.0
+- Update to Import (react) 2.24.2
+- Update to React (react) 7.25.1
 
 
 

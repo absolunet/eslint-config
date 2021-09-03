@@ -363,6 +363,8 @@ rules:
   unicorn/no-unreadable-array-destructuring: [error]
   unicorn/no-unsafe-regex: [off]
   unicorn/no-unused-properties: [error]
+  unicorn/no-useless-length-check: [error]
+  unicorn/no-useless-spread: [error]
   unicorn/no-useless-undefined: [error]
   unicorn/no-zero-fractions: [error]
   # unicorn/number-literal-case (Via Prettier)
@@ -388,6 +390,7 @@ rules:
   # unicorn/prefer-module (Per sub-config)
   # unicorn/prefer-node-protocol (Per sub-config)
   unicorn/prefer-number-properties: [error]
+  unicorn/prefer-object-from-entries: [error]
   unicorn/prefer-object-has-own: [error]
   unicorn/prefer-optional-catch-binding: [error]
   unicorn/prefer-prototype-methods: [error]

@@ -37,15 +37,15 @@
   },
   "devDependencies": {
     "@absolunet/tester": "4.2.0",
-    "@typescript-eslint/eslint-plugin": "4.28.4",
-    "@typescript-eslint/parser": "4.28.4"
+    "@typescript-eslint/eslint-plugin": "4.30.0",
+    "@typescript-eslint/parser": "4.30.0"
   },
   "dependencies": {
     "@absolunet/eslint-config-react": "3.0.0-beta.1",
     "@absolunet/eslint-loader": "3.0.0-beta.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@typescript-eslint/parser": "^4.28.4"
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0"
   }
 }

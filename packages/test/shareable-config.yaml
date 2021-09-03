@@ -21,6 +21,7 @@ rules:
   jest/consistent-test-it: [error, { fn: test }]
   jest/expect-expect: [off]
   jest/lowercase-name: [off]
+  jest/max-nested-describe: [off]
   jest/no-alias-methods: [off]
   jest/no-commented-out-tests: [off]
   jest/no-conditional-expect: [off]
