@@ -336,7 +336,7 @@ rules:
   unicorn/expiring-todo-comments: [off]
   unicorn/explicit-length-check: [error]
   unicorn/filename-case: [off]
-  unicorn/import-index: [error]
+  unicorn/import-index: [off]
   unicorn/import-style: [off]
   unicorn/new-for-builtins: [error]
   unicorn/no-abusive-eslint-disable: [error]

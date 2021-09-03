@@ -27,8 +27,8 @@ export default ({ given, when, then }) => {
 		then.shouldNotHaveThrown();
 	});
 
-	test(`Ensure config can be used`, () => {
-		when.configIsUsed();
+	test(`Ensure config can be used`, async () => {
+		await when.configIsUsed();
 		then.shouldNotHaveThrown();
 	});
 

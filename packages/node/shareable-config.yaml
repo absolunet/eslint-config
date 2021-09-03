@@ -5,9 +5,11 @@ extends: '@absolunet/core'
 env:
   node: true
 
+
 # Plugins
 plugins:
   - node
+
 
 # Rules
 rules:
@@ -28,7 +30,7 @@ rules:
   node/no-path-concat: [error]
   node/no-process-exit: [error]
   node/no-unpublished-bin: [error]
-  node/no-unpublished-import: [error]
+  node/no-unpublished-import: [off]
   node/no-unpublished-require: [error]
   node/no-unsupported-features/es-builtins: [off]  # Transpiler
   node/no-unsupported-features/es-syntax: [off]  # Transpiler
@@ -44,7 +46,7 @@ rules:
   # Node - Stylistic Issues
   node/callback-return: [error]
   node/exports-style: [error, 'module.exports']
-  node/file-extension-in-import: [error, always, { '.js': never }]
+  node/file-extension-in-import: [off]
   node/global-require: [error]
   node/no-mixed-requires: [error]
   node/no-process-env: [error]
@@ -65,5 +67,5 @@ rules:
   # 🦄 Unicorn
   unicorn/no-process-exit: [error]
   unicorn/no-new-buffer: [error]
-  unicorn/prefer-module: [error]
-  unicorn/prefer-node-protocol: [error]
+  unicorn/prefer-module: [off]
+  unicorn/prefer-node-protocol: [off]

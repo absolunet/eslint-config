@@ -11,7 +11,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Changed
+- Modify `jsdoc/check-types` to disable `unifyParentAndChildTypeChecks` option
+- Modify `node/file-extension-in-import` to force extension
+- Disable `unicorn/import-index`
+- Disable ESM rules in `test` because Jest runs in CommonJS
 - Maintenance updates
+
+#### Node.js
+- Move `node/file-extension-in-import` from `node` to `node-package` 
+- Move `node/no-unpublished-import` from `node` to `node-package` 
+- Move `node/prefer-module` from `node` to `node-package` 
+- Move `node/prefer-node-protocol` from `node` to `node-package` 
+- Disable `node/no-extraneous-require` (in `node-package`)
+- Disable `node/no-missing-require` (in `node-package`)
 
 #### Update to Unicorn 35.0.0
 - Add `unicorn/no-useless-length-check`
@@ -23,10 +35,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Dependencies updates
 - Update to ESLint 7.32.0
-- Update to JSDoc (jsdoc) 36.0.8
+- Update to JSDoc (jsdoc) 36.1.0
 - Update to JSON (json) 3.1.0
 - Update to Import (react) 2.24.2
 - Update to React (react) 7.25.1
+
+### Fixed
+- Make `params` work in `unicorn/prevent-abbreviations` (react)
+- Correct linting test
 
 
 
