@@ -7,9 +7,9 @@ plugins:
 
 
 extends:
-  - 'airbnb'
-  - 'airbnb/hooks'
-  - 'eslint:recommended'
+  - airbnb
+  - airbnb/hooks
+  - eslint:recommended
   - '@absolunet/browser'
 
 
@@ -26,89 +26,64 @@ rules:
   no-restricted-globals: [off]
 
   # 🦄 Unicorn
-  unicorn/prevent-abbreviations: [
-    error,
-    {
-      checkProperties: true,
-      checkFilenames: false,
+  unicorn/prevent-abbreviations:
+    - error
+    - checkProperties: true
+      checkFilenames: false
       replacements:
-      {
-        params: false,
+        params: false
         props: false
-      }
-    }
-  ]
 
   # Restrict file extensions that may contain JS
   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-  react/jsx-filename-extension: [
-    error,
-    {
-      extensions: ['.js', '.jsx']
-    }
-  ]
+  react/jsx-filename-extension:
+    - error
+    - extensions:
+        - .js
+        - .jsx
 
   # Enforce a convention in module import order
   # https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
-  import/order: [
-    error,
-    {
-      groups: [
-        'builtin',
-        'external',
-        'internal',
-        'parent',
-        'sibling',
-        'index'
-      ],
-      pathGroups: [
-        {
-          pattern: 'react',
-          group: 'builtin',
-          position: 'before'
-        }
-      ],
-      pathGroupsExcludedImportTypes: [react]
-    }
-  ]
+  import/order:
+    - error
+    - groups:
+        - builtin
+        - external
+        - internal
+        - parent
+        - sibling
+        - index
+      pathGroups:
+        - pattern: react
+          group: builtin
+          position: before
+      pathGroupsExcludedImportTypes:
+        - react
 
   # Ordered Imports
   # https://github.com/KyleMayes/eslint-plugin-ordered-imports/blob/master/README.md
-  ordered-imports/ordered-imports: [
-    error,
-    {
-      declaration-ordering: ['name', 'case-insensitive'],
-      specifier-ordering: 'case-insensitive',
-      group-ordering: [
-        {
-          name: 'react',
-          match: '^react',
+  ordered-imports/ordered-imports:
+    - error
+    - declaration-ordering:
+        - name
+        - case-insensitive
+      specifier-ordering: case-insensitive
+      group-ordering:
+        - name: react
+          match: ^react
           order: 10
-        },
-        {
-          name: 'project root',
-          match: '^@',
+        - name: project root
+          match: ^@
           order: 30
-        },
-        {
-          name: 'parent directories',
-          match: '^\.\.',
+        - name: parent directories
+          match: ^\.\.
           order: 40
-        },
-        {
-          name: 'current directory',
-          match: '^\.',
+        - name: current directory
+          match: ^\.
           order: 50
-        },
-        # Defined last because its regular expression matches every import declaration
-        {
-          name: 'third-party',
-          match: '.*',
+        - name: third-party
+          match: .*
           order: 20
-        }
-      ]
-    }
-  ]
 
   # Enforces where React component static properties should be positioned
   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
@@ -120,4 +95,4 @@ rules:
 
   # Prevent missing React when using JSX
   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-  react/react-in-jsx-scope: 'off'
+  react/react-in-jsx-scope: [off]
