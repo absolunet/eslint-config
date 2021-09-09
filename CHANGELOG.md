@@ -17,6 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disable ESM rules in `test` because Jest runs in CommonJS
 - Maintenance updates
 
+#### React
+- Add `import/order` and `ordered-imports/ordered-imports` to order imports
+- Ignore `react/static-property-placement`
+- Update `unicorn/prevent-abbreviations` (Ignore `params`)
+
 #### Node.js
 - Move `node/file-extension-in-import` from `node` to `node-package` 
 - Move `node/no-unpublished-import` from `node` to `node-package` 
@@ -44,11 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Make `params` work in `unicorn/prevent-abbreviations` (react)
 - Correct linting test
 
-### Changed
-#### React
-- Add `import/order` and `ordered-imports/ordered-imports` to order imports
-- Ignore `react/static-property-placement`
-- Update `unicorn/prevent-abbreviations` (Ignore `params`)
+
 
 ## [3.0.0-beta.1] - 2021-08-17
 ### Added
