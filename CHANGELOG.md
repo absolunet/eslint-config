@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [3.0.0-beta.2] - 2021-09-09
 ### Added
 - Add `import` plugin and rules to `node-package`
 
@@ -535,7 +539,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0-beta.1...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0-beta.2...HEAD
+[3.0.0-beta.2]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.1...3.0.0-beta.2
 [3.0.0-beta.1]: https://github.com/absolunet/eslint-config/compare/2.2.0...3.0.0-beta.1
 [2.2.0]:        https://github.com/absolunet/eslint-config/compare/2.1.0...2.2.0
 [2.1.0]:        https://github.com/absolunet/eslint-config/compare/2.0.0...2.1.0
