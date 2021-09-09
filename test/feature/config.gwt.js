@@ -56,10 +56,10 @@ when.configIsParsed = () => {
 	});
 };
 
-when.configIsUsed = () => {
+when.configIsUsed = async () => {
 	when.configIsParsed();
 
-	when.attemptingAsync(async () => {
+	await when.attemptingAsync(async () => {
 		await eslint.lintText('');
 	});
 };

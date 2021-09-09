@@ -8,6 +8,14 @@ rules:
 
   # Node - Possible Errors
   node/no-extraneous-import: [error]
-  node/no-extraneous-require: [error]
   node/no-missing-import: [error]
-  node/no-missing-require: [error]
+  node/no-unpublished-import: [error]
+
+
+  # Node - Stylistic Issues
+  node/file-extension-in-import: [error, always]
+
+
+  # 🦄 Unicorn
+  unicorn/prefer-module: [error]
+  unicorn/prefer-node-protocol: [error]

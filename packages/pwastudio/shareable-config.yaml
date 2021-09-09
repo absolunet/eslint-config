@@ -42,7 +42,7 @@ rules:
       checkFilenames: false
       replacements:
         props: false
-        params: true
+        params: false
       allowList:
         propClasses: true
 
