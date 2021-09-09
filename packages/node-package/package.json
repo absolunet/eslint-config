@@ -34,11 +34,15 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "4.2.0"
+    "@absolunet/tester": "4.2.0",
+    "eslint-plugin-import": "2.24.2"
   },
   "dependencies": {
     "@absolunet/eslint-config-node": "3.0.0-beta.1",
     "@absolunet/eslint-config-package": "3.0.0-beta.1",
     "@absolunet/eslint-loader": "3.0.0-beta.1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-import": "^2.24.2"
   }
 }
