@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- Add `import` plugin and rules to `node-package`
+
 ### Changed
 - Modify `jsdoc/check-types` to disable `unifyParentAndChildTypeChecks` option
 - Modify `node/file-extension-in-import` to force extension
