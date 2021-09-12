@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `import` plugin and rules to `node-package`
 
 ### Changed
-- Modify `jsdoc/check-types` to disable `unifyParentAndChildTypeChecks` option
+- Modify `jsdoc/check-types` to disable `unifyParentAndChildTypeChecks`
 - Modify `node/file-extension-in-import` to force extension
 - Disable `unicorn/import-index`
 - Disable ESM rules in `test` because Jest runs in CommonJS
@@ -72,7 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Update to ESLint 7.31.0
 - Update ECMAScript version to latest
-- Modify `no-implicit-coercion` to add `disallowTemplateShorthand` option
+- Modify `no-implicit-coercion` to add `disallowTemplateShorthand`
 
 #### Update to Unicorn 34.0.1
 - Add `unicorn/no-array-method-this-argument`
@@ -112,7 +112,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.2.0] - 2021-02-15
 ### Changed
-- Modify `no-unused-vars` to add `ignoreRestSiblings` option
+- Modify `no-unused-vars` to add `ignoreRestSiblings`
 - Update to ESLint 7.20.0
 - Update to Unicorn 28.0.1
 - Update to JSDoc (jsdoc) to 32.0.0
@@ -122,14 +122,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.1.0] - 2021-01-28
 ### Changed
 - Support Node.js 10+
-- Disable rule `node/no-unpublished-import` (in `test`)
-- Disable rule `node/no-unpublished-require` (in `test`)
+- Disable `node/no-unpublished-import` (in `test`)
+- Disable `node/no-unpublished-require` (in `test`)
 
 #### Update to Unicorn 27.0.0
 - Add `unicorn/no-array-push-push`
 - Add `unicorn/no-this-assignment`
 - Ignore `unicorn/no-array-for-each`
-- Modify `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator` option
+- Modify `unicorn/numeric-separators-style` to add `onlyIfContainsSeparator`
 
 #### Update to JSDoc (jsdoc) 31.4.0
 - Add `jsdoc/require-yields`
@@ -155,8 +155,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `no-unreachable-loop`
 - Add `no-unsafe-optional-chaining`
 - Add `no-nonoctal-decimal-escape`
-- Modify `no-extra-parens` to add `enforceForFunctionPrototypeMethods` option
-- Modify `array-callback-return` to add `allowImplicit` option
+- Modify `no-extra-parens` to add `enforceForFunctionPrototypeMethods`
+- Modify `array-callback-return` to add `allowImplicit`
 - Renamed `id-blacklist` to `id-denylist`
 - Remove `no-buffer-constructor`
 
@@ -257,7 +257,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.5.1] - 2020-02-20
 ### Changed
-- Disable `unicorn/no-keyword-prefix` rule
+- Disable `unicorn/no-keyword-prefix`
 - Maintenance updates
 
 
@@ -274,7 +274,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Update to ESLint 6.8.0
 - Add `no-dupe-else-if`
 - Add `no-setter-return`
-- Add `grouped-accessor-pairs` with `getBeforeSet` option
+- Add `grouped-accessor-pairs` with `getBeforeSet`
 - Add `prefer-exponentiation-operator`
 - Replaced `unicorn/prefer-exponentiation-operator` with `prefer-exponentiation-operator`
 
@@ -310,7 +310,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - In `@absolunet/eslint-config-nwayo` add `whatInput` as a global variable
 
 ### Changed
-- Switch `function-paren-newline` rule to `multiline` for more flexibility
+- Switch `function-paren-newline` to `multiline` for more flexibility
 - In `@absolunet/eslint-config-nwayo` disable `unicorn/consistent-function-scoping` because it conflicts with nwayo's architecture
 - Update Jest (test) to 23.0.2
 - Maintenance updates
@@ -365,7 +365,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `unicorn/consistent-function-scoping`
 - Add `unicorn/no-nested-ternary`
 - Add `unicorn/prefer-string-slice`
-- Upgrade `unicorn/no-abusive-eslint-disable` rule from warning to error
+- Upgrade `unicorn/no-abusive-eslint-disable` from warning to error
 
 #### @absolunet/eslint-config-browser
 - Add `unicorn/prefer-dataset`
@@ -386,7 +386,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Update to ESLint 6.2.2
 - Update ECMAScript version to 2020
-- Add `function-call-argument-newline` rule
+- Add `function-call-argument-newline`
 
 #### Dependencies updates
 - Airbnb (react) to 18.0.1
@@ -396,7 +396,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Now validates with ESM
 
 #### Relaxed rules
-- Remove `no-restricted-imports` rule
+- Remove `no-restricted-imports`
 
 
 
@@ -442,7 +442,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Update to ESLint 5.15.3
 - Add `no-useless-catch`
 - Add `prefer-named-capture-group`
-- Change indent option 'VariableDeclarator' to 'first'
+- Change `indent` option 'VariableDeclarator' to 'first'
 - Change ecmaVersion to '2019'
 
 #### Update to Unicorn 8.0.1

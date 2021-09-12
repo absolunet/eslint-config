@@ -1,8 +1,9 @@
 # ESLint config
-[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![Tests][tests-badge]][tests-url]
+[![Lerna][lerna-badge]][lerna-url]
 
 > Opinionated ESLint [shareable configs](https://eslint.org/docs/developer-guide/shareable-configs.html).
+
 
 ## Rulesets
 
@@ -88,5 +89,34 @@ extends: '@absolunet/[RULESET]'
 - [prettier-config](https://github.com/absolunet/prettier-config) - Opinionated Prettier shareable configs which are used with these ESLint configurations.
 
 
+## Documentation
+
+See the [full documentation](https://documentation.absolunet.com/eslint-config) for an in-depth look.
+
+See the [Changelog](CHANGELOG.md) to see what has changed.
+
+
+## Contribute
+
+See the [Contributing Guidelines](CONTRIBUTING.md) for ways to get started.
+
+See the [Support Guide](SUPPORT.md) for ways to get help.
+
+See the [Security Policy](SECURITY.md) for sharing vulnerability reports.
+
+This project has a [Code of Conduct](CODE_OF_CONDUCT.md).
+By interacting with this repository, organization, or community you agree to abide by its terms.
+
+
 ## License
-MIT © [Absolunet](https://absolunet.com)
+
+[MIT](LICENSE) © [Absolunet](https://absolunet.com)
+
+
+
+
+[tests-badge]: https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=production
+[lerna-badge]: https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg
+
+[tests-url]: https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Aproduction
+[lerna-url]: https://lernajs.io/

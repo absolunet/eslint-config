@@ -1,9 +1,11 @@
 # @absolunet/eslint-config-json
 
-[![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-json.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-json)
-[![npm dependencies](https://david-dm.org/absolunet/eslint-config/status.svg?path=packages/json)](https://david-dm.org/absolunet/eslint-config?path=packages/json)
-[![npms](https://badges.npms.io/%40absolunet%2Feslint-config-json.svg)](https://npms.io/search?q=%40absolunet%2Feslint-config-json)
-[![tests](https://github.com/absolunet/eslint-config/workflows/tests/badge.svg?branch=master)](https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Amaster)
+[![npm][npm-badge]][npm-url]
+[![npm dependencies][dependencies-badge]][dependencies-url]
+[![Tests][tests-badge]][tests-url]
+[![npms][npms-badge]][npms-url]
+[![License: MIT][license-badge]][license-url]
+
 
 > ESLint config for JSON
 
@@ -42,11 +44,20 @@ extends: '@absolunet/json'
 View [documentation](https://documentation.absolunet.com/eslint-config/json)
 
 
-
-
-
-
-<br><br>
-
 ## License
-MIT © [Absolunet](https://absolunet.com)
+[MIT](LICENSE) © [Absolunet](https://absolunet.com)
+
+
+
+
+[npm-badge]:          https://img.shields.io/npm/v/@absolunet/eslint-config-json?style=flat-square
+[dependencies-badge]: https://img.shields.io/david/absolunet/eslint-config?path=packages/json&style=flat-square
+[tests-badge]:        https://img.shields.io/github/workflow/status/absolunet/eslint-config/tests/production?label=tests&style=flat-square
+[npms-badge]:         https://badges.npms.io/%40absolunet%2Feslint-config-json.svg?style=flat-square
+[license-badge]:      https://img.shields.io/badge/license-MIT-green?style=flat-square
+
+[npm-url]:          https://www.npmjs.com/package/@absolunet/eslint-config-json
+[dependencies-url]: https://david-dm.org/absolunet/eslint-config?path=packages/json
+[tests-url]:        https://github.com/absolunet/eslint-config/actions?query=workflow%3Atests+branch%3Aproduction
+[npms-url]:         https://npms.io/search?q=%40absolunet%2Feslint-config-json
+[license-url]:      https://opensource.org/licenses/MIT
