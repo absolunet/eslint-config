@@ -1,10 +1,10 @@
-#plugins:
-# - 'package-json' (from @magento)
+plugins:
+ - 'package-json' # (from @magento/eslint-config)
 
 extends:
-# - 'plugin:jsx-a11y/recommended'      (from @magento)
-# - 'plugin:package-json/recommended'  (from @magento)
-  - '@magento'
+  - 'eslint:recommended'               # (from @magento/eslint-config)
+  - 'plugin:jsx-a11y/recommended'      # (from @magento/eslint-config)
+  - 'plugin:package-json/recommended'  # (from @magento/eslint-config)
   - '@absolunet/react'
 
 

@@ -41,9 +41,7 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-react": "3.0.0-beta.2",
-    "@absolunet/eslint-loader": "3.0.0-beta.2",
-    "@magento/eslint-config": "1.5.2",
-    "eslint-config-prettier": "8.3.0"
+    "@absolunet/eslint-loader": "3.0.0-beta.2"
   },
   "peerDependencies": {
     "eslint-plugin-package-json": "^0.1.4"
