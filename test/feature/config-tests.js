@@ -2,7 +2,6 @@
 //-- Config tests
 //--------------------------------------------------------
 export default ({ given, when, then }) => {
-
 	beforeEach(() => {
 		given.noException();
 		given.noRoot();
@@ -10,7 +9,6 @@ export default ({ given, when, then }) => {
 		given.noESLint();
 		given.currentRoot();
 	});
-
 
 	test(`Ensure YAML is parsable`, () => {
 		when.configIsLoaded();
@@ -31,5 +29,4 @@ export default ({ given, when, then }) => {
 		await when.configIsUsed();
 		then.shouldNotHaveThrown();
 	});
-
 };

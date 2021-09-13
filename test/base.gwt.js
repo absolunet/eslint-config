@@ -2,17 +2,15 @@
 //-- Base - Given-When-Then
 //--------------------------------------------------------
 const given = {};
-const when  = {};
-const then  = {};
+const when = {};
+const then = {};
 
 let exception;
-
 
 //-- Given - Reset
 given.noException = () => {
 	exception = undefined;
 };
-
 
 //-- When - Attemping
 when.attempting = (closure) => {
@@ -31,7 +29,6 @@ when.attemptingAsync = async (closure) => {
 	}
 };
 
-
 //-- Then -- Thrown
 then.shouldHaveThrown = () => {
 	expect(exception).toBeTruthy();
@@ -44,6 +41,5 @@ then.shouldHaveThrownMessageContaining = (message) => {
 then.shouldNotHaveThrown = () => {
 	expect((exception || {}).stack).toBeFalsy();
 };
-
 
 export { given, when, then };
