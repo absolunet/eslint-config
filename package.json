@@ -2,19 +2,20 @@
   "name": "eslint-config",
   "private": true,
   "engines": {
-    "node": ">= 12"
+    "node": ">= 12.20.0"
   },
   "scripts": {
     "postinstall": "npm run manager:install",
-    "manager:install": "node manager --task=install",
-    "manager:outdated": "node manager --task=outdated",
-    "manager:build": "node manager --task=build",
-    "manager:watch": "node manager --task=watch",
-    "manager:documentation": "node manager --task=documentation",
-    "manager:prepare": "node manager --task=prepare",
-    "manager:rebuild": "node manager --task=rebuild",
-    "manager:publish": "node manager --task=publish",
-    "manager:publish:unsafe": "node manager --task=publish:unsafe",
+    "manager:install": "node manager.mjs --task=install",
+    "manager:outdated": "node manager.mjs --task=outdated",
+    "manager:build": "node manager.mjs --task=build",
+    "manager:watch": "node manager.mjs --task=watch",
+    "manager:fix": "node manager.mjs --task=fix",
+    "manager:documentation": "node manager.mjs --task=documentation",
+    "manager:prepare": "node manager.mjs --task=prepare",
+    "manager:rebuild": "node manager.mjs --task=rebuild",
+    "manager:publish": "node manager.mjs --task=publish",
+    "manager:publish:unsafe": "node manager.mjs --task=publish:unsafe",
     "test": "node test --scope=all",
     "test:standards": "node test --scope=standards",
     "test:unit": "node test --scope=unit",
@@ -24,7 +25,7 @@
   },
   "devDependencies": {
     "@absolunet/fss": "1.7.0",
-    "@absolunet/manager": "2.1.0",
-    "@absolunet/tester": "4.2.0"
+    "@absolunet/manager": "3.0.0-beta.1",
+    "@absolunet/tester": "5.0.0-beta.1"
   }
 }

@@ -1,12 +1,12 @@
 //--------------------------------------------------------
 //-- Read and process shareable config
 //--------------------------------------------------------
-import deepMerge                 from 'deepmerge';
-import prettierConfig            from 'eslint-config-prettier';
 import path                      from 'path';
-import pkgDir                    from 'pkg-dir';
 import fss                       from '@absolunet/fss';
 import { Joi, validateArgument } from '@absolunet/joi';
+import deepMerge                 from 'deepmerge';
+import prettierConfig            from 'eslint-config-prettier';
+import pkgDir                    from 'pkg-dir';
 
 
 module.exports = (root, filename = 'shareable-config.yaml') => {

@@ -7,5 +7,6 @@ const { tester } = require('@absolunet/tester');
 
 tester.init({
 	repositoryType: 'sub-package',
-	packageType:    'simple'
+	packageType:    'simple',
+	nodeType:       'commonjs'
 });
