@@ -11,7 +11,7 @@
 
 Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [PWA Studio](https://pwastudio.io)
 
-Extends [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config) and [@magento/eslint-config](https://github.com/magento/magento-eslint)
+Extends [eslint:recommended](https://eslint.org/docs/rules/), [jsx-a11y/recommended](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y), [package-json/recommended](https://github.com/zetlen/eslint-plugin-package-json) and [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config)
 
 
 ## Install
@@ -37,6 +37,7 @@ extends: '@absolunet/pwastudio'
 
 ## Related
 
+- Implements [@magento/eslint-config](https://github.com/magento/magento-eslint)
 - [Other configs](https://github.com/absolunet/eslint-config)
 
 
