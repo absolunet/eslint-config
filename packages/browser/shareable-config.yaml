@@ -19,6 +19,7 @@ rules:
 
   # 🦄 Unicorn
   unicorn/no-document-cookie: [error]
+  unicorn/no-invalid-remove-event-listener: [error]
   unicorn/prefer-add-event-listener: [error]
   unicorn/prefer-dom-node-append: [error]
   unicorn/prefer-dom-node-dataset: [error]
