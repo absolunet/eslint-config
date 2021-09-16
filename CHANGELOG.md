@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Remove `@magento/eslint-config` because it is not maintained and is incompatible with recent version of ESLint
 - Manager and tester updates
+- Maintenance updates
+
+#### Update to Unicorn 36.0.0
+- Add `unicorn/no-invalid-remove-event-listener` (in `browser`)
+- Add `unicorn/no-useless-fallback-in-spread`
 
 
 
