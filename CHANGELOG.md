@@ -13,6 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [3.0.0-beta.4] - 2021-09-17
+### Changed
+- Disable `import/dynamic-import-chunkname` (in `node-package`)
+- Maintenance updates
+
+### Fixed
+- Make `eslint-config-prettier` a dependency and not a peer dependency
+
+
+
 ## [3.0.0-beta.3] - 2021-09-16
 ### Changed
 - Remove `@magento/eslint-config` because it is not maintained and is incompatible with recent version of ESLint
@@ -551,7 +561,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0-beta.3...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0-beta.4...HEAD
+[3.0.0-beta.4]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.3...3.0.0-beta.4
 [3.0.0-beta.3]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.2...3.0.0-beta.3
 [3.0.0-beta.2]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.1...3.0.0-beta.2
 [3.0.0-beta.1]: https://github.com/absolunet/eslint-config/compare/2.2.0...3.0.0-beta.1

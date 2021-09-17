@@ -138,4 +138,4 @@ rules:
   import/no-named-export: [off]
   import/no-anonymous-default-export: [error]
   import/group-exports: [error]
-  import/dynamic-import-chunkname: [error]
+  import/dynamic-import-chunkname: [off]
