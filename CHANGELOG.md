@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- Disable `import/dynamic-import-chunkname` (in `node-package`)
+- Maintenance updates
+
+### Fixed
+- Make `eslint-config-prettier` a dependency and not a peer dependency
 
 
 
