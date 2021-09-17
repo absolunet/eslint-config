@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-jsdoc",
-  "version": "3.0.0-beta.3",
+  "version": "3.0.0-beta.4",
   "description": "ESLint config for JSDoc",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -39,7 +39,7 @@
     "eslint-plugin-jsdoc": "36.1.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "3.0.0-beta.3"
+    "@absolunet/eslint-loader": "3.0.0-beta.4"
   },
   "peerDependencies": {
     "eslint-plugin-jsdoc": "^36.1.0"

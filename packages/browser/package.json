@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-browser",
-  "version": "3.0.0-beta.3",
+  "version": "3.0.0-beta.4",
   "description": "ESLint config for browser",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -38,7 +38,7 @@
     "@absolunet/tester": "5.0.0-beta.3"
   },
   "dependencies": {
-    "@absolunet/eslint-config-core": "3.0.0-beta.3",
-    "@absolunet/eslint-loader": "3.0.0-beta.3"
+    "@absolunet/eslint-config-core": "3.0.0-beta.4",
+    "@absolunet/eslint-loader": "3.0.0-beta.4"
   }
 }
