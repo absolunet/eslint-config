@@ -36,9 +36,9 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "5.0.0-beta.3",
-    "@typescript-eslint/eslint-plugin": "4.31.1",
-    "@typescript-eslint/parser": "4.31.1",
+    "@absolunet/tester": "5.0.0-beta.5",
+    "@typescript-eslint/eslint-plugin": "4.32.0",
+    "@typescript-eslint/parser": "4.32.0",
     "typescript": "4.4.3"
   },
   "dependencies": {
@@ -46,7 +46,7 @@
     "@absolunet/eslint-loader": "3.0.0-beta.4"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1"
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0"
   }
 }
