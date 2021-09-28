@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-spire",
-  "version": "3.0.0-beta.4",
+  "version": "3.0.0-beta.5",
   "description": "ESLint config for Spire",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -42,8 +42,8 @@
     "typescript": "4.4.3"
   },
   "dependencies": {
-    "@absolunet/eslint-config-react": "3.0.0-beta.4",
-    "@absolunet/eslint-loader": "3.0.0-beta.4"
+    "@absolunet/eslint-config-react": "3.0.0-beta.5",
+    "@absolunet/eslint-loader": "3.0.0-beta.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.32.0",
