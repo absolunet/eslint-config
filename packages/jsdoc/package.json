@@ -35,7 +35,7 @@
     "test:endtoend": "node test --scope=endtoend"
   },
   "devDependencies": {
-    "@absolunet/tester": "5.0.0-beta.3",
+    "@absolunet/tester": "5.0.0-beta.5",
     "eslint-plugin-jsdoc": "36.1.0"
   },
   "dependencies": {
