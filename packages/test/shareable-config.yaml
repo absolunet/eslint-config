@@ -21,6 +21,7 @@ rules:
   jest/consistent-test-it: [error, { fn: test }]
   jest/expect-expect: [off]
   jest/lowercase-name: [off]
+  jest/max-nested-describe: [off]
   jest/no-alias-methods: [off]
   jest/no-commented-out-tests: [off]
   jest/no-conditional-expect: [off]
@@ -62,3 +63,8 @@ rules:
   # Disable unpublished checks in tests
   node/no-unpublished-import: [off]
   node/no-unpublished-require: [off]
+
+  # Jest runs in CommonJS
+  unicorn/import-index: [error, { ignoreImports: true }]
+  unicorn/prefer-module: [off]
+  unicorn/prefer-node-protocol: [off]

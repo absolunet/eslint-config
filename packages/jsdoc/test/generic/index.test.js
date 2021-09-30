@@ -1,7 +1,6 @@
 //--------------------------------------------------------
 //-- Tester
 //--------------------------------------------------------
-import { tester } from '@absolunet/tester';
-import fileMatrix from '../../../../test/generic/matrix/file-matrix';
+import { tester } from "@absolunet/tester";
 
-tester.genericRepositoryTests({ fileMatrix });
+tester.genericRepositoryTests();
