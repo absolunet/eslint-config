@@ -32,10 +32,19 @@ extends: '@absolunet/react'
 
 ## Used plugins
 
-- [babel-eslint](https://github.com/babel/babel-eslint) - For flow
-- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - import/export syntax rules
-- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) - Accessibility rules on JSX elements
-- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) - React rules
+- [@babel/eslint-parser] - For flow
+- [eslint-plugin-import] - import/export syntax rules
+- [eslint-plugin-jsx-a11y] - Accessibility rules on JSX elements
+- [eslint-plugin-ordered-imports] - Sorting and grouping imports
+- [eslint-plugin-react] - React
+- [eslint-plugin-react-hooks] - Enforces rules for React Hooks
+
+[@babel/eslint-parser]: https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser
+[eslint-plugin-import]: https://github.com/benmosher/eslint-plugin-import
+[eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
+[eslint-plugin-ordered-imports]: https://github.com/KyleMayes/eslint-plugin-ordered-imports
+[eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
+[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
 
 
 ## Related

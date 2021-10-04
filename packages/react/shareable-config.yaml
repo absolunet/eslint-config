@@ -33,6 +33,7 @@ rules:
       replacements:
         params: false
         props: false
+        ref: false
 
   # Restrict file extensions that may contain JS
   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
