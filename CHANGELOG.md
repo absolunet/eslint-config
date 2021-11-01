@@ -10,6 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- React: Remove warning for the "Ref" abbreviation to be adjusted to "Reference" ([Issue #1](https://github.com/absolunet/eslint-config/issues/1))
+- React: Add missing plugin in package README
+
+
+
 ## [3.0.0] - 2021-09-30
 ### Changed
 - Official release
