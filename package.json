@@ -5,7 +5,6 @@
     "node": ">= 12.20.0"
   },
   "scripts": {
-    "postinstall": "npm run manager:install",
     "manager:install": "node manager.mjs --task=install",
     "manager:outdated": "node manager.mjs --task=outdated",
     "manager:build": "node manager.mjs --task=build",
@@ -26,6 +25,10 @@
   "devDependencies": {
     "@absolunet/fss": "1.7.0",
     "@absolunet/manager": "3.0.0-beta.6",
-    "@absolunet/tester": "5.0.0-beta.5"
-  }
+    "@absolunet/tester": "5.0.0-beta.5",
+    "eslint-plugin-unicorn": "37.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
