@@ -11,18 +11,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- `core`: Add `no-unused-private-class-members`
+- `core`: Add `unicorn/no-await-expression-member`
+- `core`: Add `unicorn/prefer-code-point`
+- `core`: Add `unicorn/prefer-export-from`
 - `core`: Add `unicorn/template-indent`
+- `core`: Ignore `unicorn/no-empty-file`
 - `test`: Add `jest/prefer-to-be`
 - `test`: Ignore `jest/prefer-expect-resolves`
 - `test`: Ignore `jest/require-hook`
 
 ### Changed
+- Update to ESLint 8
 - `react`: Remove warning for the "Ref" abbreviation to be adjusted to "Reference" ([Issue #1](https://github.com/absolunet/eslint-config/issues/1))
 - `react`: Add missing plugin in package README
 - Maintenance updates
 
 ### Removed
 - `node-package`: Remove patch for `node:*` imports
+
+### Fixed
+- Change ECMAScript version back to 2022 (issue with @babel/eslint-parser)
 
 
 

@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@absolunet/tester": "5.0.0-beta.5",
-    "eslint-plugin-import": "2.25.2"
+    "eslint-plugin-import": "2.25.3"
   },
   "dependencies": {
     "@absolunet/eslint-config-node": "3.0.0",
@@ -43,6 +43,6 @@
     "@absolunet/eslint-loader": "3.0.0"
   },
   "peerDependencies": {
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.3"
   }
 }
