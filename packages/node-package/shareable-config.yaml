@@ -8,59 +8,12 @@ plugins:
   - import
 
 
-# Settings - Shared Settings
-settings:
-
-  # Temporary patch until 'node:' is supported
-  import/core-modules:
-    - node:assert
-    - node:async_hooks
-    - node:buffer
-    - node:child_process
-    - node:cluster
-    - node:console
-    - node:constants
-    - node:crypto
-    - node:dgram
-    - node:dns
-    - node:domain
-    - node:events
-    - node:fs
-    - node:http
-    - node:http2
-    - node:https
-    - node:inspector
-    - node:module
-    - node:net
-    - node:os
-    - node:path
-    - node:perf_hooks
-    - node:process
-    - node:punycode
-    - node:querystring
-    - node:readline
-    - node:repl
-    - node:stream
-    - node:string_decoder
-    - node:timers
-    - node:tls
-    - node:trace_events
-    - node:tty
-    - node:url
-    - node:util
-    - node:v8
-    - node:vm
-    - node:wasi
-    - node:worker_threads
-    - node:zlib
-
-
 # Rules
 rules:
 
   # Node - Possible Errors
   node/no-extraneous-import: [error]
-  node/no-missing-import: [off]  # Enable only 'import/no-unresolved' until 'node:' is supported
+  node/no-missing-import: [error]
   node/no-unpublished-import: [error]
 
 

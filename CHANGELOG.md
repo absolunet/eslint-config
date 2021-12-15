@@ -10,9 +10,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- `core`: Add `unicorn/template-indent`
+- `test`: Add `jest/prefer-to-be`
+- `test`: Ignore `jest/prefer-expect-resolves`
+- `test`: Ignore `jest/require-hook`
+
 ### Changed
-- React: Remove warning for the "Ref" abbreviation to be adjusted to "Reference" ([Issue #1](https://github.com/absolunet/eslint-config/issues/1))
-- React: Add missing plugin in package README
+- `react`: Remove warning for the "Ref" abbreviation to be adjusted to "Reference" ([Issue #1](https://github.com/absolunet/eslint-config/issues/1))
+- `react`: Add missing plugin in package README
+- Maintenance updates
+
+### Removed
+- `node-package`: Remove patch for `node:*` imports
 
 
 
@@ -30,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.0.0-beta.4] - 2021-09-17
 ### Changed
-- Disable `import/dynamic-import-chunkname` (in `node-package`)
+- `node-package`: Disable `import/dynamic-import-chunkname`
 - Maintenance updates
 
 ### Fixed
@@ -45,14 +55,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Maintenance updates
 
 #### Update to Unicorn 36.0.0
-- Add `unicorn/no-invalid-remove-event-listener` (in `browser`)
+- `browser`: Add `unicorn/no-invalid-remove-event-listener`
 - Add `unicorn/no-useless-fallback-in-spread`
 
 
 
 ## [3.0.0-beta.2] - 2021-09-09
 ### Added
-- Add `import` plugin and rules to `node-package`
+- `node-package`: Add `import` plugin and rules
 
 ### Changed
 - Modify `jsdoc/check-types` to disable `unifyParentAndChildTypeChecks`
@@ -71,8 +81,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move `node/no-unpublished-import` from `node` to `node-package` 
 - Move `node/prefer-module` from `node` to `node-package` 
 - Move `node/prefer-node-protocol` from `node` to `node-package` 
-- Disable `node/no-extraneous-require` (in `node-package`)
-- Disable `node/no-missing-require` (in `node-package`)
+- `node-package`: Disable `node/no-extraneous-require`
+- `node-package`: Disable `node/no-missing-require`
 
 #### Update to Unicorn 35.0.0
 - Add `unicorn/no-useless-length-check`
@@ -120,10 +130,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add `unicorn/prefer-switch`
 - Add `unicorn/require-array-join-separator`
 - Add `unicorn/require-number-to-fixed-digits-argument`
-- Add `unicorn/no-document-cookie` (in `browser`)
-- Add `unicorn/require-post-message-target-origin` (in `browser`)
-- Add `unicorn/prefer-module` (in `node`)
-- Add `unicorn/prefer-node-protocol` (in `node`)
+- `browser`: Add `unicorn/no-document-cookie`
+- `browser`: Add `unicorn/require-post-message-target-origin`
+- `node`: Add `unicorn/prefer-module`
+- `node`: Add `unicorn/prefer-node-protocol`
 - Ignore `unicorn/prefer-at`
 - Ignore `unicorn/prefer-top-level-await`
 
@@ -159,8 +169,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.1.0] - 2021-01-28
 ### Changed
 - Support Node.js 10+
-- Disable `node/no-unpublished-import` (in `test`)
-- Disable `node/no-unpublished-require` (in `test`)
+- `test`: Disable `node/no-unpublished-import`
+- `test`: Disable `node/no-unpublished-require`
 
 #### Update to Unicorn 27.0.0
 - Add `unicorn/no-array-push-push`
@@ -236,10 +246,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Addition of Node (node) 11.1.0
 - Add `node/no-exports-assign`
-- Add `node/no-extraneous-import` (in node-package)
-- Add `node/no-extraneous-require` (in node-package)
-- Add `node/no-missing-import` (in node-package)
-- Add `node/no-missing-require` (in node-package)
 - Add `node/no-unpublished-bin`
 - Add `node/no-unpublished-import`
 - Add `node/no-unpublished-require`
@@ -272,6 +278,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Renamed `no-process-exit` to `node/no-process-exit`
 - Renamed `no-restricted-modules` to `node/no-restricted-require`
 - Renamed `no-sync` to `node/no-sync`
+- `node-package`: Add `node/no-extraneous-import`
+- `node-package`: Add `node/no-extraneous-require`
+- `node-package`: Add `node/no-missing-import`
+- `node-package`: Add `node/no-missing-require`
 
 #### Update to JSDoc (jsdoc) to 31.0.8
 - Add `jsdoc/no-bad-blocks`

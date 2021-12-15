@@ -414,4 +414,5 @@ rules:
   unicorn/require-number-to-fixed-digits-argument: [error]
   # unicorn/require-post-message-target-origin (Per sub-config)
   unicorn/string-content: [off]
+  unicorn/template-indent: [error]
   unicorn/throw-new-error: [error]
