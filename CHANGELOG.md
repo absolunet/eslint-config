@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [3.1.0] - 2021-12-17
 ### Added
 - `core`: Add `no-unused-private-class-members`
 - `core`: Add `unicorn/no-await-expression-member`
@@ -86,10 +90,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update `unicorn/prevent-abbreviations` (Ignore `params`)
 
 #### Node.js
-- Move `node/file-extension-in-import` from `node` to `node-package` 
-- Move `node/no-unpublished-import` from `node` to `node-package` 
-- Move `node/prefer-module` from `node` to `node-package` 
-- Move `node/prefer-node-protocol` from `node` to `node-package` 
+- Move `node/file-extension-in-import` from `node` to `node-package`
+- Move `node/no-unpublished-import` from `node` to `node-package`
+- Move `node/prefer-module` from `node` to `node-package`
+- Move `node/prefer-node-protocol` from `node` to `node-package`
 - `node-package`: Disable `node/no-extraneous-require`
 - `node-package`: Disable `node/no-missing-require`
 
@@ -109,7 +113,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update to React (react) 7.25.1
 
 ### Fixed
-- Make `params` work in `unicorn/prevent-abbreviations` (react)
+- Make `params` work in `unicorn/prevent-abbreviations` (react)
 - Correct linting test
 
 
@@ -122,7 +126,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Recover `@absolunet/eslint-loader` in this repository
 
 ### Changed
-- Remove `core` rules treated by Prettier
+- Remove `core` rules treated by Prettier
 - Drop support for Node.js 10
 - Maintenance updates
 
@@ -276,7 +280,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ignore `node/no-callback-literal`
 - Ignore `node/no-restricted-import`
 - Ignore `node/no-unsupported-features/es-builtins`
-- Ignore `node/no-unsupported-features/es-syntax` 
+- Ignore `node/no-unsupported-features/es-syntax`
 - Renamed `callback-return` to `node/callback-return`
 - Renamed `global-require` to `node/global-require`
 - Renamed `handle-callback-err` to `node/handle-callback-err`
@@ -595,7 +599,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.0.0...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.1.0...HEAD
+[3.1.0]:        https://github.com/absolunet/eslint-config/compare/3.0.0...3.1.0
 [3.0.0]:        https://github.com/absolunet/eslint-config/compare/3.0.0-beta.5...3.0.0
 [3.0.0-beta.5]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.4...3.0.0-beta.5
 [3.0.0-beta.4]: https://github.com/absolunet/eslint-config/compare/3.0.0-beta.3...3.0.0-beta.4

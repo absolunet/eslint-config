@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-pwastudio",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "ESLint config for PWA Studio",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -40,8 +40,8 @@
     "eslint-plugin-package-json": "0.1.4"
   },
   "dependencies": {
-    "@absolunet/eslint-config-react": "3.0.0",
-    "@absolunet/eslint-loader": "3.0.0"
+    "@absolunet/eslint-config-react": "3.1.0",
+    "@absolunet/eslint-loader": "3.1.0"
   },
   "peerDependencies": {
     "eslint-plugin-package-json": "^0.1.4"
