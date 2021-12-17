@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-loader",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "ESLint YAML configuration loader",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
