@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [3.2.0] - 2021-12-17
+## [3.2.0] - 2022-06-06
 ### Added
 - `pwastudio`: Add `no-restricted-globals` for SSR
 - `pwastudio`: Ignore `padded-blocks`
