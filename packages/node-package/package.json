@@ -38,9 +38,9 @@
     "eslint-plugin-import": "2.25.3"
   },
   "dependencies": {
-    "@absolunet/eslint-config-node": "3.1.0",
-    "@absolunet/eslint-config-package": "3.1.0",
-    "@absolunet/eslint-loader": "3.1.0"
+    "@absolunet/eslint-config-node": "3.2.0",
+    "@absolunet/eslint-config-package": "3.2.0",
+    "@absolunet/eslint-loader": "3.2.0"
   },
   "peerDependencies": {
     "eslint-plugin-import": "^2.25.3"
