@@ -1,5 +1,5 @@
 plugins:
- - 'package-json' # (from @magento/eslint-config)
+  - 'package-json' # (from @magento/eslint-config)
 
 extends:
   - 'eslint:recommended'               # (from @magento/eslint-config)
@@ -24,13 +24,19 @@ rules:
 
   # Variables
   no-undef: [off]
+  no-restricted-globals:
+    - error
+    - name: 'window'
+      message: ''
 
 
   # Stylistic Issues
   camelcase: [off]  # Not compatible with Magento naming convention
+  padded-blocks: [off] # Made the code look less structured
 
 
   # Best Practices
+  no-prototype-builtins: [off]
   no-useless-escape: [off]
   no-warning-comments: [warn, { location: anywhere }]
 
@@ -45,6 +51,12 @@ rules:
         params: false
       allowList:
         propClasses: true
+        useParams: true
+        ref: true
+  unicorn/no-keyword-prefix: [off]
+  unicorn/template-indent:
+    - error
+    - indent: 4
 
 
   # React - JSX-specific rules
@@ -56,6 +68,19 @@ rules:
 
   react/jsx-one-expression-per-line: [off]
   react/jsx-props-no-spreading: [off]
+  react/function-component-definition:
+    - error
+    - namedComponents: 'arrow-function'
+      unnamedComponents: 'arrow-function'
+  react/jsx-indent:
+    - error
+    - 4
+  react/jsx-indent-props:
+    - error
+    - 4
+  react/prop-types:
+    - error
+    - ignore: ['children']
 
 
   # React Hooks
@@ -66,6 +91,7 @@ rules:
   # import/prefer-default-export: [off]
 
 
+
 overrides:
   - files: ['*.spec.js']
     env:
@@ -74,3 +100,9 @@ overrides:
   - files: ['*.wrap.*']
     rules:
       func-names: [off]
+
+  - files: ['use*.js']
+    excludeFiles: ['*.spec.js', '*.wrap.js', '*.targetables.js', '*.gql.*']
+    rules:
+      import/prefer-default-export: [off]
+      import/no-default-export: [off]
