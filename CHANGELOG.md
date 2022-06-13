@@ -10,7 +10,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- `pwastudio`: Add `no-restricted-globals` for SSR
+- `pwastudio`: Ignore `padded-blocks`
+- `pwastudio`: Ignore `no-prototype-builtins`
+- `pwastudio`: Ignore `unicorn/no-keyword-prefix`
+- `pwastudio`: Add `unicorn/template-indent` with indent 4 for gql definitions
+- `pwastudio`: Add `react/jsx-indent` with indent 4
+- `pwastudio`: Add `react/jsx-indent-props` with indent 4
+- `pwastudio`: Add `react/function-component-definition` for arrow-function definitions
+- `pwastudio`: Add `react/function-component-definition` for arrow-function definitions
+- `pwastudio`: Add `react/prop-types` to ignore `children` definition
+- `pwastudio`: Add override to always have named exports for talons and hooks. This is important for extensions.
 
+### Changed
+- `pwastudio`: Add `useParams` and `ref` to allow list of `unicorn/prevent-abbreviations`
 
 
 ## [3.1.0] - 2021-12-17
