@@ -39,6 +39,12 @@ rules:
   no-prototype-builtins: [off]
   no-useless-escape: [off]
   no-warning-comments: [warn, { location: anywhere }]
+  no-restricted-imports:
+    - error
+    - paths:
+        - name: '@magento/venia-ui/lib/classify'
+          importNames: [ 'mergeClasses' ]
+          message: 'Please import "useStyle" instead.'
 
 
   # 🦄 Unicorn

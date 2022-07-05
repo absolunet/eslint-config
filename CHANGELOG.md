@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `pwastudio`: Add `react/function-component-definition` for arrow-function definitions
 - `pwastudio`: Add `react/prop-types` to ignore `children` definition
 - `pwastudio`: Add override to always have named exports for talons and hooks. This is important for extensions.
+- `pwastudio`: Add `no-restricted-imports` to restrict usage of `mergeClasses`
 
 ### Changed
 - `pwastudio`: Add `useParams` and `ref` to allow list of `unicorn/prevent-abbreviations`
