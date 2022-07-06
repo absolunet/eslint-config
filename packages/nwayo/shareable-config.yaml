@@ -53,3 +53,4 @@ rules:
 
   # 🦄 Unicorn
   unicorn/consistent-function-scoping: [off]
+  unicorn/no-unreadable-iife: [off]
