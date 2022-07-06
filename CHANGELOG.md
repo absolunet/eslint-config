@@ -11,6 +11,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- `core`: Add `no-constant-binary-expression`
+- `core`: Add `prefer-object-has-own`
+- `core`: Add `unicorn/no-thenable`
+- `core`: Add `unicorn/no-unreadable-iife`
+- `core`: Add `unicorn/no-useless-promise-resolve-reject`
+- `core`: Add `unicorn/no-useless-switch-case`
+- `core`: Add `unicorn/prefer-logical-operator-over-ternary`
+- `core`: Add `unicorn/prefer-modern-math-apis`
+- `core`: Add `unicorn/prefer-native-coercion-functions`
+- `core`: Add `unicorn/relative-url-style`
+- `jsdoc`: Add `jsdoc/sort-tags`
+- `node`: Add `unicorn/prefer-event-target`
+- `node`: Add `unicorn/text-encoding-identifier-case`
+- `node`: Ignore `unicorn/prefer-json-parse-buffer`
+- `nwayo`: Ignore `unicorn/no-unreadable-iife`
 - `pwastudio`: Add `no-restricted-globals` for SSR
 - `pwastudio`: Ignore `padded-blocks`
 - `pwastudio`: Ignore `no-prototype-builtins`
@@ -23,9 +38,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `pwastudio`: Add `react/prop-types` to ignore `children` definition
 - `pwastudio`: Add override to always have named exports for talons and hooks. This is important for extensions.
 - `pwastudio`: Add `no-restricted-imports` to restrict usage of `mergeClasses`
+- `test`: Ignore `jest/no-conditional-in-test`
+- `test`: Ignore `jest/prefer-comparison-matcher`
+- `test`: Ignore `jest/prefer-equality-matcher`
+- `test`: Ignore `jest/prefer-snapshot-hint`
+- `test`: Ignore `jest/prefer-hooks-in-order`
+- `test`: Remove deprecated `jest/no-if`
 
 ### Changed
 - `pwastudio`: Add `useParams` and `ref` to allow list of `unicorn/prevent-abbreviations`
+- Maintenance updates
 
 
 ## [3.1.0] - 2021-12-17

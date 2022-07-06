@@ -41,7 +41,7 @@
     "@absolunet/fss": "^1.7.0",
     "@absolunet/joi": "^0.3.0",
     "deepmerge": "^4.2.2",
-    "eslint-config-prettier": "8.3.0",
+    "eslint-config-prettier": "8.5.0",
     "pkg-dir": "^5.0.0"
   }
 }
