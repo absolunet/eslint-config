@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-core",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "ESLint config - Core rules",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -39,7 +39,7 @@
     "eslint-plugin-unicorn": "43.0.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "3.1.0"
+    "@absolunet/eslint-loader": "3.2.0"
   },
   "peerDependencies": {
     "eslint": "^8.19.0",
