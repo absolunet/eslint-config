@@ -108,7 +108,7 @@ overrides:
       func-names: [off]
 
   - files: ['use*.js']
-    excludeFiles: ['*.spec.js', '*.wrap.js', '*.targetables.js', '*.gql.*']
+    excludedFiles: ['*.spec.js', '*.wrap.js', '*.targetables.js', '*.gql.*']
     rules:
       import/prefer-default-export: [off]
       import/no-default-export: [off]
