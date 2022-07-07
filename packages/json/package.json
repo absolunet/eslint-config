@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-json",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "ESLint config for JSON",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -39,7 +39,7 @@
     "eslint-plugin-json": "3.1.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "3.2.0"
+    "@absolunet/eslint-loader": "3.2.1"
   },
   "peerDependencies": {
     "eslint-plugin-json": "^3.1.0"
