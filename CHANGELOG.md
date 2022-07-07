@@ -10,8 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+
+
+## [3.2.1] - 2022-07-07
 ### Fixed
 - `pwastudio`: Fix overrides typo
+
 
 
 ## [3.2.0] - 2022-07-06
@@ -642,7 +647,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.2.0...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.2.1...HEAD
+[3.2.1]:        https://github.com/absolunet/eslint-config/compare/3.2.0...3.2.1
 [3.2.0]:        https://github.com/absolunet/eslint-config/compare/3.1.0...3.2.0
 [3.1.0]:        https://github.com/absolunet/eslint-config/compare/3.0.0...3.1.0
 [3.0.0]:        https://github.com/absolunet/eslint-config/compare/3.0.0-beta.5...3.0.0
