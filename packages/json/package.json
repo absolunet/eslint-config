@@ -1,6 +1,6 @@
 {
   "name": "@absolunet/eslint-config-json",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "ESLint config for JSON",
   "definition": "",
   "homepage": "https://github.com/absolunet/eslint-config",
@@ -23,7 +23,7 @@
     "url": "https://github.com/absolunet/eslint-config/issues"
   },
   "engines": {
-    "node": ">= 12.20.0"
+    "node": ">= 14.13.1"
   },
   "main": "dist/node",
   "scripts": {
@@ -39,7 +39,7 @@
     "eslint-plugin-json": "3.1.0"
   },
   "dependencies": {
-    "@absolunet/eslint-loader": "3.2.1"
+    "@absolunet/eslint-loader": "3.2.2"
   },
   "peerDependencies": {
     "eslint-plugin-json": "^3.1.0"

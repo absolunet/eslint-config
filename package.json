@@ -2,7 +2,7 @@
   "name": "eslint-config",
   "private": true,
   "engines": {
-    "node": ">= 12.20.0"
+    "node": ">= 14.13.1"
   },
   "scripts": {
     "manager:install": "node manager.mjs --task=install",
