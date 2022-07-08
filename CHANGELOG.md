@@ -10,8 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
-### Changed
+### Fixed
+- `browser`: Allow `jQuery` in `unicorn/prevent-abbreviations`
 - `pwastudio`: Add message to `no-restricted-globals` for `window` alternative
+
 
 
 ## [3.2.1] - 2022-07-07
