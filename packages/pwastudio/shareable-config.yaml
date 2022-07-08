@@ -27,7 +27,7 @@ rules:
   no-restricted-globals:
     - error
     - name: 'window'
-      message: ''
+      message: 'Use globalThis instead'
 
 
   # Stylistic Issues

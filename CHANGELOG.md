@@ -13,6 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [3.2.2] - 2022-07-09
+### Fixed
+- `browser`: Allow `jQuery` in `unicorn/prevent-abbreviations`
+- `pwastudio`: Add message to `no-restricted-globals` for `window` alternative
+
+
+
 ## [3.2.1] - 2022-07-07
 ### Fixed
 - `pwastudio`: Fix overrides typo
@@ -647,7 +654,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.2.1...HEAD
+[Unreleased]:   https://github.com/absolunet/eslint-config/compare/3.2.2...HEAD
+[3.2.2]:        https://github.com/absolunet/eslint-config/compare/3.2.1...3.2.2
 [3.2.1]:        https://github.com/absolunet/eslint-config/compare/3.2.0...3.2.1
 [3.2.0]:        https://github.com/absolunet/eslint-config/compare/3.1.0...3.2.0
 [3.1.0]:        https://github.com/absolunet/eslint-config/compare/3.0.0...3.1.0
