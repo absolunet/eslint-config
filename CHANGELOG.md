@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
-
+- `pwastudio`: Allow `ref` in `unicorn/prevent-abbreviations`
 
 
 ## [3.2.2] - 2022-07-09
