@@ -48,17 +48,6 @@ rules:
 
 
   # 🦄 Unicorn
-  unicorn/prevent-abbreviations:
-    - error
-    - checkProperties: true
-      checkFilenames: false
-      replacements:
-        props: false
-        params: false
-        ref: false
-      allowList:
-        propClasses: true
-        useParams: true
   unicorn/no-keyword-prefix: [off]
   unicorn/template-indent:
     - error
