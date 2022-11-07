@@ -47,6 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Deprecate `@absolunet/eslint-config-node-package`
 - Deprecate `@absolunet/eslint-config-package`
 
+### Changed
+- `react`: Allow `ts` and `tsx` extension for react react project
 
 
 ## [3.2.2] - 2022-07-09

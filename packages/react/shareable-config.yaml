@@ -38,6 +38,8 @@ rules:
     - extensions:
         - .js
         - .jsx
+        - .ts
+        - .tsx
 
   # Enforce a convention in module import order
   # https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
