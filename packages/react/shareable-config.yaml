@@ -34,6 +34,9 @@ rules:
         params: false
         props: false
         ref: false
+      allowList:
+        propClasses: true
+        useParams: true
 
   # Restrict file extensions that may contain JS
   # https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
