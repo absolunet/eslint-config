@@ -36,6 +36,11 @@ extends: '@absolunet/node'
 
 
 
+## Used configuration
+
+- [plugin:node/recommended-script](https://github.com/mysticatea/eslint-plugin-node#-configs) - Recommended rules by Node.js.
+
+
 ## Related
 
 - [@absolunet/tester](https://github.com/absolunet/node-tester) - Test suite for Node.js projects.
