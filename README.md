@@ -61,6 +61,8 @@ extends: '@absolunet/[RULESET]'
 
 ## Used configuration
 
+- [eslint:recommended](https://eslint.org/docs/latest/user-guide/configuring/configuration-files#using-eslintrecommended) - Recommended rules by ESLint.
+- [plugin:unicorn/recommended](https://github.com/sindresorhus/eslint-plugin-unicorn#recommended-config) - Recommended rules by unicorn.
 - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Turns off all rules that are unnecessary or might conflict with Prettier.
 
 

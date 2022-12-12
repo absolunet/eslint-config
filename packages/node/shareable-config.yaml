@@ -65,10 +65,5 @@ rules:
 
 
   # 🦄 Unicorn
-  unicorn/no-process-exit: [error]
-  unicorn/no-new-buffer: [error]
-  unicorn/prefer-event-target: [error]
-  unicorn/prefer-json-parse-buffer: [off]
   unicorn/prefer-module: [off]
   unicorn/prefer-node-protocol: [off]
-  unicorn/text-encoding-identifier-case: [error]

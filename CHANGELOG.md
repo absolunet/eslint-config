@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Changed
+- `core`: Use `eslint:recommended` and `plugin:unicorn/recommended`
 - `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
 
