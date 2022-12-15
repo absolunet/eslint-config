@@ -16,8 +16,6 @@
 | [@absolunet/eslint-config-nwayo](packages/nwayo) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-nwayo.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-nwayo) | [nwayo](https://documentation.absolunet.com/nwayo/) rules | [docs](https://documentation.absolunet.com/eslint-config/nwayo) |
 | [@absolunet/eslint-config-react](packages/react) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-react.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-react) | React rules | [docs](https://documentation.absolunet.com/eslint-config/react) |
 | [@absolunet/eslint-config-jsdoc](packages/jsdoc) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-jsdoc.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-jsdoc) | JSDoc rules | [docs](https://documentation.absolunet.com/eslint-config/jsdoc) |
-| [@absolunet/eslint-config-package](packages/package) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-package.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-package) | Package rules | [docs](https://documentation.absolunet.com/eslint-config/package) |
-| [@absolunet/eslint-config-node-package](packages/node-package) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-node-package.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-node-package) | Node.js package rules | [docs](https://documentation.absolunet.com/eslint-config/node-package) |
 | [@absolunet/eslint-config-json](packages/json) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-config-json.svg)](https://www.npmjs.com/package/@absolunet/eslint-config-json) | JSON rules | [docs](https://documentation.absolunet.com/eslint-config/json) |
 |-|-|-|-|
 | [@absolunet/eslint-loader](packages/loader) | [![npm](https://img.shields.io/npm/v/@absolunet/eslint-loader.svg)](https://www.npmjs.com/package/@absolunet/eslint-loader) | Config loader | [docs](https://documentation.absolunet.com/eslint-config/loader) |
@@ -30,9 +28,7 @@
       browser --> nwayo & react
         react --> pwastudio & spire
       node --> test
-    jsdoc --> package
-
-    node & package --> node-package
+    jsdoc
 
     json
 ```

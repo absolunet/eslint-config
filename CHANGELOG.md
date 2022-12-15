@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
 
+### Removed
+- Deprecate `@absolunet/eslint-config-node-package`
+- Deprecate `@absolunet/eslint-config-package`
+
 
 
 ## [3.2.2] - 2022-07-09
