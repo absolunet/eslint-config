@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+### Added
+- `node`: Expose the default script/CommonJS version at `@absolunet/eslint-config-node/script`
+- `node`: Expose a module/ESM version at `@absolunet/eslint-config-node/module`
+
 ### Changed
 - `core`: Use `eslint:recommended` and `plugin:unicorn/recommended`
 - `node`: Use `plugin:node/recommended-script`

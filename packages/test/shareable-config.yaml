@@ -1,9 +1,4 @@
-extends: '@absolunet/node'
-
-
-# Parser Options
-parserOptions:
-  sourceType: module
+extends: "@absolunet/node/module"
 
 
 # Environments

@@ -25,20 +25,29 @@ $ npm install @absolunet/eslint-config-node
 
 Add some ESLint config to your `.eslintrc.yaml`:
 
+For type `script` or CommonJS
 ```yaml
 extends: '@absolunet/node'
+# or
+extends: '@absolunet/node/script'
 ```
 
+For type `module` or ESM
+```yaml
+extends: '@absolunet/node/module'
+```
 
 ## Used plugins
 
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - import/export syntax rules
 - [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node) - Additional ESLint's rules for Node.js
 
 
 
 ## Used configuration
 
-- [plugin:node/recommended-script](https://github.com/mysticatea/eslint-plugin-node#-configs) - Recommended rules by Node.js.
+- [plugin:node/recommended-script](https://github.com/mysticatea/eslint-plugin-node#-configs) - Recommended rules for Node.js with CommonJS.
+- [plugin:node/recommended-module](https://github.com/mysticatea/eslint-plugin-node#-configs) - Recommended rules for Node.js with ESM.
 
 
 ## Related

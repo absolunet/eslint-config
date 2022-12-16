@@ -1,6 +1,6 @@
 //--------------------------------------------------------
 //-- ESLint config
 //--------------------------------------------------------
-import loader from "@absolunet/eslint-loader";
+import config from "./script";
 
-module.exports = loader(__dirname);
+module.exports = config;

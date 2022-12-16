@@ -24,12 +24,11 @@
 ### Dependency tree
 ```mermaid
   graph TD;
-    core --> browser & node
+    core --> browser & node/script & node/module
       browser --> nwayo & react
         react --> pwastudio & spire
-      node --> test
+      node/module --> test
     jsdoc
-
     json
 ```
 

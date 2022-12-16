@@ -25,6 +25,11 @@
     "node": ">= 14.13.1"
   },
   "main": "dist/node",
+  "exports": {
+    ".": "./dist/node/index.js",
+    "./script": "./dist/node/script.js",
+    "./module": "./dist/node/module.js"
+  },
   "scripts": {
     "test": "node test --scope=all",
     "test:standards": "node test --scope=standards",
@@ -39,9 +44,11 @@
   },
   "dependencies": {
     "@absolunet/eslint-config-core": "3.2.2",
-    "@absolunet/eslint-loader": "3.2.2"
+    "@absolunet/eslint-loader": "3.2.2",
+    "deepmerge": "^4.2.2"
   },
   "peerDependencies": {
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0"
   }
 }
