@@ -2,11 +2,11 @@
 //-- Package - Given-When-Then
 //--------------------------------------------------------
 import fss from "@absolunet/fss";
-import * as gwt from "../base.gwt";
+import { given as baseGiven, when as baseWhen, then as baseThen } from "../base.gwt.js";
 
-const given = { ...gwt.given };
-const when = { ...gwt.when };
-const then = { ...gwt.then };
+const given = { ...baseGiven };
+const when = { ...baseWhen };
+const then = { ...baseThen };
 
 let root;
 let packageConfig;

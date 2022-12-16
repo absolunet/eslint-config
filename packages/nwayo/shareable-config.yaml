@@ -1,12 +1,8 @@
-extends: '@absolunet/browser'
+extends: "@absolunet/eslint-config-browser"
 
-
-# Environments
 env:
   jquery: true
 
-
-# Globals
 globals:
   global: readonly
 
@@ -37,20 +33,11 @@ globals:
   WebFont: readonly
   whatInput: readonly
 
-
-# Rules
 rules:
-
-  # Possible Errors
   no-console: [warn]
   no-debugger: [warn]
-
-
-  # Best Practices
   no-alert: [warn]
   no-warning-comments: [warn, { location: anywhere }]
 
-
-  # 🦄 Unicorn
   unicorn/consistent-function-scoping: [off]
   unicorn/no-unreadable-iife: [off]

@@ -1,6 +1,7 @@
 //--------------------------------------------------------
 //-- Config tests
 //--------------------------------------------------------
+// eslint-disable-next-line import/no-anonymous-default-export
 export default ({ given, when, then }) => {
 	beforeEach(() => {
 		given.noException();

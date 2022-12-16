@@ -1,8 +1,7 @@
 # Extends - Extend other config
 extends:
-- eslint:recommended
-- plugin:unicorn/recommended
-
+  - "eslint:recommended"
+  - "plugin:unicorn/recommended"
 
 # Parser Options
 root: true
@@ -15,28 +14,22 @@ parserOptions:
     impliedStrict: false
     jsx: false
 
-
 # Environments
 env:
   es6: true
 
-
 # Globals
 globals: {}
-
 
 # Plugins - Additional plugins
 plugins:
   - unicorn
 
-
 # Settings - Shared Settings
 # settings:
 
-
 # Rules
 rules:
-
   # Possible Problems
   array-callback-return: [error, { allowImplicit: true }]
   no-await-in-loop: [error]
@@ -56,7 +49,6 @@ rules:
   require-atomic-updates: [error]
   use-isnan: [error, { enforceForIndexOf: true }]
   valid-typeof: [error, { requireStringLiterals: true }]
-
 
   # Suggestions
   accessor-pairs: [error]
@@ -145,25 +137,21 @@ rules:
   spaced-comment:
     - error
     - always
-    - exceptions: ['-', '*']
-      markers: ['=', '--']
+    - exceptions: ["-", "*"]
+      markers: ["=", "--"]
       block:
         balanced: true
   symbol-description: [error]
   vars-on-top: [error]
   yoda: [error]
 
-
   # Layout & Formatting
   lines-between-class-members: [error, always, { exceptAfterSingleLine: true }]
   max-statements-per-line: [error, { max: 2 }]
   padding-line-between-statements:
     - error
-    - { blankLine: always, prev: directive, next: '*' }
-    - { blankLine: always, prev: '*', next: return }
-
-
-
+    - { blankLine: always, prev: directive, next: "*" }
+    - { blankLine: always, prev: "*", next: return }
 
   # 🦄 Unicorn
   unicorn/consistent-destructuring: [off]

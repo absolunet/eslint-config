@@ -1,14 +1,10 @@
 extends:
-- "@absolunet/core"
-- "plugin:node/recommended-module"
-- "plugin:import/recommended"
+  - "@absolunet/eslint-config-core"
+  - "plugin:node/recommended-module"
+  - "plugin:import/recommended"
 
-# Rules
 rules:
-
-  # Node.js
   node/file-extension-in-import: [error, always]
-
 
   # Import - Helpful warnings
   import/no-deprecated: [error]
@@ -18,13 +14,11 @@ rules:
   import/no-named-as-default-member: [error]
   import/no-unused-modules: [error]
 
-
   # Import - Module systems
   import/no-amd: [error]
   import/no-commonjs: [error]
   import/no-import-module-exports: [error]
   import/unambiguous: [error]
-
 
   # Import - Static analysis
   import/no-absolute-path: [error]
@@ -34,7 +28,6 @@ rules:
   import/no-self-import: [error]
   import/no-useless-path-segments: [error]
   import/no-webpack-loader-syntax: [error]
-
 
   # Import - Style guide
   import/exports-last: [error]

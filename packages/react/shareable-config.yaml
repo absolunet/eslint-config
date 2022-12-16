@@ -1,3 +1,12 @@
+extends:
+  - airbnb
+  - airbnb/hooks
+  - "@absolunet/eslint-config-browser"
+
+parser: "@babel/eslint-parser"
+parserOptions:
+  sourceType: module
+
 plugins:
   # - import       # (From airbnb)
   # - jsx-a11y     # (From airbnb)
@@ -5,27 +14,11 @@ plugins:
   # - react        # (From airbnb)
   # - react-hooks  # (From airbnb)
 
-
-extends:
-  - airbnb
-  - airbnb/hooks
-  - eslint:recommended
-  - '@absolunet/browser'
-
-
-# Parser Options
-parser: '@babel/eslint-parser'
-parserOptions:
-  sourceType: module
-
-
 # Rules
 rules:
-
   # Disallow specific global variables (Disabled since we will need 'window')
   no-restricted-globals: [off]
 
-  # 🦄 Unicorn
   unicorn/prevent-abbreviations:
     - error
     - checkProperties: true

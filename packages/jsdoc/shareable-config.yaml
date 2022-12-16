@@ -1,20 +1,18 @@
 # Settings
 settings:
   jsdoc:
-    mode: 'jsdoc'
+    mode: "jsdoc"
     tagNamePreference:
       linkcode: link
       linkplain: link
     preferredTypes:
-      'any': '*'
-      '[]': '<>'
-      '.<>': '<>'
-
+      "any": "*"
+      "[]": "<>"
+      ".<>": "<>"
 
 # Plugins
 plugins:
   - jsdoc
-
 
 # Rules
 rules:
@@ -48,16 +46,21 @@ rules:
   jsdoc/require-example: [off]
   jsdoc/require-file-overview: [off]
   jsdoc/require-hyphen-before-param-description: [error]
-  jsdoc/require-jsdoc: [error, {
-    require: {
-      ArrowFunctionExpression: false,
-      ClassDeclaration: true,
-      ClassExpression: true,
-      FunctionDeclaration: false,
-      FunctionExpression: false,
-      MethodDefinition: true
-    }
-  }]
+  jsdoc/require-jsdoc:
+    [
+      error,
+      {
+        require:
+          {
+            ArrowFunctionExpression: false,
+            ClassDeclaration: true,
+            ClassExpression: true,
+            FunctionDeclaration: false,
+            FunctionExpression: false,
+            MethodDefinition: true,
+          },
+      },
+    ]
   jsdoc/require-param-description: [error]
   jsdoc/require-param-name: [error]
   jsdoc/require-param-type: [error]

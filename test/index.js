@@ -1,8 +1,10 @@
 //--------------------------------------------------------
 //-- Tester
 //--------------------------------------------------------
-"use strict"; // eslint-disable-line strict
+// eslint-disable-next-line import/unambiguous
+"use strict";
 
+// eslint-disable-next-line import/no-commonjs
 const { tester } = require("@absolunet/tester");
 
 tester.init({

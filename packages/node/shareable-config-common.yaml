@@ -1,16 +1,10 @@
-# Parser Options
 parserOptions:
   ecmaVersion: 2022
 
-
-# Environments
 env:
   node: true
 
-
-# Rules
 rules:
-
   # Node - Possible Errors
   node/handle-callback-err: [error]
   node/no-new-require: [error]
@@ -20,7 +14,7 @@ rules:
 
   # Node - Stylistic Issues
   node/callback-return: [error]
-  node/exports-style: [error, 'module.exports']
+  node/exports-style: [error, "module.exports"]
   node/global-require: [error]
   node/no-mixed-requires: [error]
   node/no-process-env: [error]

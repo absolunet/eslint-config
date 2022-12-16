@@ -1,17 +1,13 @@
 extends:
-- "@absolunet/core"
-- "plugin:node/recommended-script"
+  - "@absolunet/eslint-config-core"
+  - "plugin:node/recommended-script"
 
 rules:
   strict: [error, global]
 
-
-  # Node.js
   node/no-extraneous-import: [off]
   node/no-missing-import: [off]
   node/no-unpublished-import: [off]
 
-
-  # 🦄 Unicorn
   unicorn/prefer-module: [off]
   unicorn/prefer-node-protocol: [off]

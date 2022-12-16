@@ -3,7 +3,7 @@
 //--------------------------------------------------------
 import { fileURLToPath, URL } from "node:url";
 import fss from "@absolunet/fss"; // eslint-disable-line node/no-unpublished-import
-import { manager } from "@absolunet/manager"; // eslint-disable-line node/no-unpublished-import,import/no-unresolved,node/no-missing-import
+import { manager } from "@absolunet/manager"; // eslint-disable-line node/no-unpublished-import, import/no-unresolved, node/no-missing-import
 
 manager.init({
 	repositoryType: "multi-package",

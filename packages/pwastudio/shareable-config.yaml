@@ -1,12 +1,7 @@
-plugins:
-  - 'package-json' # (from @magento/eslint-config)
-
 extends:
-  - 'eslint:recommended'               # (from @magento/eslint-config)
-  - 'plugin:jsx-a11y/recommended'      # (from @magento/eslint-config)
-  - 'plugin:package-json/recommended'  # (from @magento/eslint-config)
-  - '@absolunet/react'
-
+  - "plugin:jsx-a11y/recommended" # (from @magento/eslint-config)
+  - "plugin:package-json/recommended" # (from @magento/eslint-config)
+  - "@absolunet/eslint-config-react"
 
 globals:
   process: readonly
@@ -19,42 +14,32 @@ globals:
   STORE_VIEW_CODE: readonly
   _ltk: readonly
 
+plugins:
+  - "package-json" # (from @magento/eslint-config)
 
 rules:
-
-  # Variables
   no-undef: [off]
   no-restricted-globals:
     - error
-    - name: 'window'
-      message: 'Use globalThis instead'
-
-
-  # Stylistic Issues
-  camelcase: [off]  # Not compatible with Magento naming convention
+    - name: "window"
+      message: "Use globalThis instead"
+  camelcase: [off] # Not compatible with Magento naming convention
   padded-blocks: [off] # Made the code look less structured
-
-
-  # Best Practices
   no-prototype-builtins: [off]
   no-useless-escape: [off]
   no-warning-comments: [warn, { location: anywhere }]
   no-restricted-imports:
     - error
     - paths:
-        - name: '@magento/venia-ui/lib/classify'
-          importNames: [ 'mergeClasses' ]
+        - name: "@magento/venia-ui/lib/classify"
+          importNames: ["mergeClasses"]
           message: 'Please import "useStyle" instead.'
 
-
-  # 🦄 Unicorn
   unicorn/no-keyword-prefix: [off]
   unicorn/template-indent:
     - error
     - indent: 4
 
-
-  # React - JSX-specific rules
   react/jsx-no-literals:
     - error
     - allowedStrings: []
@@ -65,8 +50,8 @@ rules:
   react/jsx-props-no-spreading: [off]
   react/function-component-definition:
     - error
-    - namedComponents: 'arrow-function'
-      unnamedComponents: 'arrow-function'
+    - namedComponents: "arrow-function"
+      unnamedComponents: "arrow-function"
   react/jsx-indent:
     - error
     - 4
@@ -75,29 +60,21 @@ rules:
     - 4
   react/prop-types:
     - error
-    - ignore: ['children']
+    - ignore: ["children"]
 
-
-  # React Hooks
-  react-hooks/exhaustive-deps: [warn]  # Until we decide on a strategy for refactoring useEffect with an empty array
-
-
-  # Import
-  # import/prefer-default-export: [off]
-
-
+  react-hooks/exhaustive-deps: [warn] # Until we decide on a strategy for refactoring useEffect with an empty array
 
 overrides:
-  - files: ['*.spec.js']
+  - files: ["*.spec.js"]
     env:
       jest: true
 
-  - files: ['*.wrap.*']
+  - files: ["*.wrap.*"]
     rules:
       func-names: [off]
 
-  - files: ['use*.js']
-    excludedFiles: ['*.spec.js', '*.wrap.js', '*.targetables.js', '*.gql.*']
+  - files: ["use*.js"]
+    excludedFiles: ["*.spec.js", "*.wrap.js", "*.targetables.js", "*.gql.*"]
     rules:
       import/prefer-default-export: [off]
       import/no-default-export: [off]

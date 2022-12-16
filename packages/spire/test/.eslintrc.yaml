@@ -1,2 +1,2 @@
 extends:
-  - '@absolunet/test'
+  - "@absolunet/eslint-config-test"
