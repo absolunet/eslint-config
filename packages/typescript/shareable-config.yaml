@@ -1,0 +1,12 @@
+extends:
+  - "plugin:@typescript-eslint/recommended"
+  - "plugin:@typescript-eslint/recommended-requiring-type-checking"
+
+# Rules
+rules:
+  node/file-extension-in-import: [off]
+
+  "@typescript-eslint/strict-boolean-expressions":
+    - 2
+    - allowString: false
+      allowNumber: false

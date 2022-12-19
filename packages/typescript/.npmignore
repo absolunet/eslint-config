@@ -1,0 +1,6 @@
+.eslintignore
+.eslintrc.yaml
+src
+test
+!dist/**
+.DS_Store

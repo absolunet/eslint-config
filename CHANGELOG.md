@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+- Create `@absolunet/eslint-config-typescript` - With TypeScript rules
 - `node`: Expose the default script/CommonJS version at `@absolunet/eslint-config-node/script`
 - `node`: Expose a module/ESM version at `@absolunet/eslint-config-node/module`
 

@@ -1,0 +1,53 @@
+{
+  "name": "@absolunet/eslint-config-typescript",
+  "version": "3.2.2",
+  "description": "ESLint config for TypeScript",
+  "definition": "",
+  "homepage": "https://github.com/absolunet/eslint-config",
+  "author": {
+    "name": "Absolunet",
+    "url": "https://absolunet.com"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/absolunet/eslint-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/absolunet/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 14.13.1"
+  },
+  "main": "dist/node",
+  "scripts": {
+    "test": "node test --scope=all",
+    "test:standards": "node test --scope=standards",
+    "test:unit": "node test --scope=unit",
+    "test:feature": "node test --scope=feature",
+    "test:integration": "node test --scope=integration",
+    "test:endtoend": "node test --scope=endtoend"
+  },
+  "devDependencies": {
+    "@absolunet/tester": "5.0.0-beta.5",
+    "@typescript-eslint/eslint-plugin": "5.47.0",
+    "@typescript-eslint/parser": "5.47.0",
+    "eslint": "8.19.0",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "@absolunet/eslint-loader": "3.2.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.19.0",
+    "typescript": "^4.9.4"
+  }
+}

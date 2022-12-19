@@ -7,8 +7,10 @@ export default ({ given, when, then }) => {
 		given.noException();
 		given.noRoot();
 		given.noConfig();
+		given.noExtraConfig();
 		given.noESLint();
 		given.currentRoot();
+		given.currentExtraConfig();
 	});
 
 	test(`Ensure YAML is parsable`, () => {
