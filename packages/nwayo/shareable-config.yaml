@@ -37,7 +37,6 @@ rules:
   no-console: [warn]
   no-debugger: [warn]
   no-alert: [warn]
-  no-warning-comments: [warn, { location: anywhere }]
 
   unicorn/consistent-function-scoping: [off]
   unicorn/no-unreadable-iife: [off]

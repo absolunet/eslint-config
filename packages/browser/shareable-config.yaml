@@ -7,8 +7,5 @@ rules:
   strict: [error, function]
   no-restricted-globals: [error, window]
 
-  # IE11 incompatibility
-  require-unicode-regexp: [off]
-
   unicorn/prevent-abbreviations: [error, { checkProperties: true, checkFilenames: false, allowList: { jQuery: true } }]
   unicorn/require-post-message-target-origin: [error]

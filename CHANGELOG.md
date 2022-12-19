@@ -17,13 +17,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
-- `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
 
 #### Base configurations on recommanded rules
 - `core`: Use `eslint:recommended` and `unicorn/recommended`
 - `jsdoc`: Use `jsdoc/recommended`
 - `node`: Use `node/recommended-script` or `node/recommended-module`
 - `test`: Use `jest/recommended` and `jest/style`
+
+#### Rules
+- `browser`: Reactivate `require-unicode-regexp` since IE11 is deprecated
+- `core`: Default back `arrow-body-style` to `as-needed`
+- `core`: Warn `no-console` instead of error
+- `core`: Warn `no-warning-comments` instead of error
+- `core`: Warn `unicorn/expiring-todo-comments`
+- `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
 
 ### Removed
 - Deprecate `@absolunet/eslint-config-node-package`

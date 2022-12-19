@@ -27,7 +27,6 @@ rules:
   padded-blocks: [off] # Made the code look less structured
   no-prototype-builtins: [off]
   no-useless-escape: [off]
-  no-warning-comments: [warn, { location: anywhere }]
   no-restricted-imports:
     - error
     - paths:
