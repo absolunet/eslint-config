@@ -15,10 +15,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `node`: Expose a module/ESM version at `@absolunet/eslint-config-node/module`
 
 ### Changed
-- `core`: Use `eslint:recommended` and `unicorn/recommended`
-- `node`: Use `node/recommended-script`
-- `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
+- `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
+
+#### Base configurations on recommanded rules
+- `core`: Use `eslint:recommended` and `unicorn/recommended`
+- `jsdoc`: Use `jsdoc/recommended`
+- `node`: Use `node/recommended-script` or `node/recommended-module`
+- `test`: Use `jest/recommended` and `jest/style`
 
 ### Removed
 - Deprecate `@absolunet/eslint-config-node-package`

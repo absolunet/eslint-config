@@ -30,6 +30,10 @@ extends: "@absolunet/eslint-config-jsdoc"
 
 - [eslint-plugin-jsdoc](https://github.com/gajus/eslint-plugin-jsdoc) - JSDoc linting rules
 
+## Used configuration
+
+- [jsdoc/recommended](https://github.com/gajus/eslint-plugin-jsdoc#configuration) - Recommended rules for JSDoc
+
 ## Related
 
 - [Other configs](https://github.com/absolunet/eslint-config)

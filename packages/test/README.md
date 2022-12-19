@@ -30,6 +30,11 @@ extends: "@absolunet/eslint-config-test"
 
 - [eslint-plugin-jest](https://github.com/jest-community/eslint-plugin-jest) - Jest syntax rules
 
+## Used configurations
+
+- [jest/recommended](https://github.com/jest-community/eslint-plugin-jest#recommended) - Recommended rules for Jest
+- [jest/style](https://github.com/jest-community/eslint-plugin-jest#style) - Style rules for Jest
+
 ## Related
 
 - [Other configs](https://github.com/absolunet/eslint-config)

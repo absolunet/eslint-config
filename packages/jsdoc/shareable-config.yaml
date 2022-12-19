@@ -1,4 +1,9 @@
-# Settings
+extends:
+  - "plugin:jsdoc/recommended"
+
+plugins:
+  - jsdoc
+
 settings:
   jsdoc:
     mode: "jsdoc"
@@ -10,17 +15,9 @@ settings:
       "[]": "<>"
       ".<>": "<>"
 
-# Plugins
-plugins:
-  - jsdoc
-
-# Rules
 rules:
   jsdoc/check-access: [error]
   jsdoc/check-alignment: [error]
-  jsdoc/check-examples: [off]
-  jsdoc/check-indentation: [off] # cuz of @example
-  jsdoc/check-line-alignment: [off]
   jsdoc/check-param-names: [error]
   jsdoc/check-property-names: [error]
   jsdoc/check-syntax: [error]
@@ -29,22 +26,14 @@ rules:
   jsdoc/check-values: [error]
   jsdoc/empty-tags: [error]
   jsdoc/implements-on-classes: [error]
-  jsdoc/match-description: [off]
-  jsdoc/match-name: [off]
   jsdoc/multiline-blocks: [off]
   jsdoc/newline-after-description: [error, always]
   jsdoc/no-bad-blocks: [error]
-  jsdoc/no-defaults: [off]
-  jsdoc/no-missing-syntax: [off]
   jsdoc/no-multi-asterisks: [error]
-  jsdoc/no-restricted-syntax: [off]
-  jsdoc/no-types: [off] # Remove for TypeScript
-  jsdoc/no-undefined-types: [off] # Custom types too complicated
+  jsdoc/no-undefined-types: [off]
   jsdoc/require-asterisk-prefix: [error]
   jsdoc/require-description-complete-sentence: [error]
   jsdoc/require-description: [error, { descriptionStyle: body }]
-  jsdoc/require-example: [off]
-  jsdoc/require-file-overview: [off]
   jsdoc/require-hyphen-before-param-description: [error]
   jsdoc/require-jsdoc:
     [
