@@ -1,12 +1,7 @@
 extends:
   - "plugin:react/recommended"
   - "@absolunet/eslint-config-react"
-  - "plugin:@typescript-eslint/recommended"
-
-parser: "@typescript-eslint/parser"
-
-plugins:
-  - "@typescript-eslint"
+  - "@absolunet/eslint-config-typescript"
 
 settings:
   react:
@@ -16,17 +11,33 @@ settings:
 # Note that most of the ones that are forced "off" but should be "error" are enabled with the rule sets list above.
 # Items can be removed from this list if they no longer need to be globally suppressed.
 rules:
+  "@typescript-eslint/await-thenable": [off]
   "@typescript-eslint/consistent-type-assertions": [off] # Should be "error"; inconsistent pattern used.
   "@typescript-eslint/explicit-function-return-type": [off] # Should be "off"; saves a lot of code to let TypeScript infer returns.
   "@typescript-eslint/no-empty-function": [off] # Should be "error"; Empty functions are wasteful.
   "@typescript-eslint/no-empty-interface": [off] # Should be "error"; empty interfaces suggest an architectural problem.
   "@typescript-eslint/no-explicit-any": [off] # Should be "error"; would be often suppressed, but may find some legitimate issues.
+  "@typescript-eslint/no-floating-promises": [off]
+  "@typescript-eslint/no-for-in-array": [off]
+  "@typescript-eslint/no-implied-eval": [off]
+  "@typescript-eslint/no-misused-promises": [off]
   "@typescript-eslint/no-non-null-assertion": [off] # Should be "error"; non-null assertions are risky and should be discouraged.
   "@typescript-eslint/no-this-alias": [off] # Should be "error"; suggests a structural issue.
-  "@typescript-eslint/no-unused-vars": [off] # Should be "error"; could potentially find bugs about forgotten parameters.
+  "@typescript-eslint/no-unnecessary-type-assertion": [off]
+  "@typescript-eslint/no-unsafe-argument": [off]
+  "@typescript-eslint/no-unsafe-assignment": [off]
+  "@typescript-eslint/no-unsafe-call": [off]
+  "@typescript-eslint/no-unsafe-member-access": [off]
+  "@typescript-eslint/no-unsafe-return": [off]
   "@typescript-eslint/no-unused-expressions": [off] # Should be "error", affected syntax is wasteful and maybe should use `?.`.
+  "@typescript-eslint/no-unused-vars": [off] # Should be "error"; could potentially find bugs about forgotten parameters.
   "@typescript-eslint/no-use-before-define": [off] # Should be "error"; cosmetic but sensible for better conceptual flow.
+  "@typescript-eslint/require-await": [off]
+  "@typescript-eslint/restrict-plus-operands": [off]
+  "@typescript-eslint/restrict-template-expressions": [off]
+  "@typescript-eslint/strict-boolean-expressions": [off]
   "@typescript-eslint/triple-slash-reference": [off] # Should be "error"; will be suppressed occasionally but discourages legacy syntax.
+  "@typescript-eslint/unbound-method": [off]
   arrow-body-style: [off] # Should be "error"; unnecessary complexity.
   consistent-return: [off] # Should be "off"; handled nicely by TypeScript.
   default-case: [off] # Should be "off"; a switch with no default is well-understood and handled correctly by TypeScript.

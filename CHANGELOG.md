@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
+- `spire`: Extend `@absolunet/eslint-config-typescript` instead of native TypeScript configuration
 
 #### Base configurations on recommanded rules
 - `core`: Use `eslint:recommended` and `unicorn/recommended`

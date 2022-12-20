@@ -8,9 +8,9 @@
 
 > ESLint config for Spire
 
-Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [Spire](https://www.episerver.com/products/b2b-commerce-cloud)
+Opinionated ESLint [shareable config](https://eslint.org/docs/developer-guide/shareable-configs.html) for [Spire](https://www.optimizely.com/products/monetize/configured-commerce/)
 
-Extends [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config)
+Extends [@absolunet/eslint-config-react](https://github.com/absolunet/eslint-config) and [@absolunet/eslint-config-typescript](https://github.com/absolunet/eslint-config)
 
 ## Install
 
@@ -26,18 +26,9 @@ Add some ESLint config to your `.eslintrc.yaml`:
 extends: "@absolunet/eslint-config-spire"
 ```
 
-## Used parser
-
-- [@typescript-eslint/parser](https://typescript-eslint.io/) - Allow for ESLint to lint TypeScript
-
-## Used plugins
-
-- [@typescript-eslint](https://typescript-eslint.io/) - Lint rules for TypeScript
-
 ## Used configurations
 
 - [react/recommended](https://github.com/jsx-eslint/eslint-plugin-react#recommended) - Recommended rules for React.js
-- [@typescript-eslint/recommended](https://typescript-eslint.io/linting/configs#recommended) - Recommended rules for TypeScript
 
 ## Related
 
