@@ -1,7 +1,7 @@
 extends:
   - "plugin:jest/recommended"
   - "plugin:jest/style"
-  - "@absolunet/node/module"
+  - "@absolunet/eslint-config-node/module"
 
 globals:
   require: readonly
@@ -21,7 +21,6 @@ rules:
 
   jest/consistent-test-it: [error, { fn: test }]
   jest/expect-expect: [off]
-  jest/no-alias-methods: [off]
   jest/no-commented-out-tests: [off]
   jest/no-conditional-expect: [off]
   jest/no-deprecated-functions: [off]
@@ -32,7 +31,6 @@ rules:
   jest/no-identical-title: [off]
   jest/no-interpolation-in-snapshots: [off]
   jest/no-jasmine-globals: [off]
-  jest/no-jest-import: [off]
   jest/no-mocks-import: [off]
   jest/no-standalone-expect: [off]
   jest/no-test-prefixes: [off]

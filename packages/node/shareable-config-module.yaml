@@ -8,6 +8,7 @@ rules:
 
   # Import - Helpful warnings
   import/no-deprecated: [error]
+  import/no-empty-named-blocks: [error]
   import/no-extraneous-dependencies: [error]
   import/no-mutable-exports: [error]
   import/no-named-as-default: [error]
@@ -30,6 +31,7 @@ rules:
   import/no-webpack-loader-syntax: [error]
 
   # Import - Style guide
+  import/consistent-type-specifier-style: [error]
   import/exports-last: [error]
   import/extensions: [error, always]
   import/first: [error]

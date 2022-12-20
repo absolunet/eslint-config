@@ -16,8 +16,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `node`: Expose a module/ESM version at `@absolunet/eslint-config-node/module`
 
 ### Changed
+- `core`: Update to ESLint 8.30.0 / unicorn 45.0.2
+- `jsdoc`: Update to JSDoc 39.6.4
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
+- `react`: Update to JSX A11Y 6.6.1 / React 7.31.11 / Babel dependencies
 - `spire`: Extend `@absolunet/eslint-config-typescript` instead of native TypeScript configuration
+- `test`: Update to Jest 27.1.7
 
 #### Base configurations on recommanded rules
 - `core`: Use `eslint:recommended` and `unicorn/recommended`
@@ -26,12 +30,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `test`: Use `jest/recommended` and `jest/style`
 
 #### Rules
-- `browser`: Reactivate `require-unicode-regexp` since IE11 is deprecated
+- `browser`: Reactivate `require-unicode-regexp` as IE11 is deprecated
 - `core`: Default back `arrow-body-style` to `as-needed`
+- `core`: Activate `logical-assignment-operators`
 - `core`: Warn `no-console` instead of error
+- `core`: Activate `no-empty-static-block`
+- `core`: Activate `no-new-native-nonconstructor`
 - `core`: Warn `no-warning-comments` instead of error
 - `core`: Warn `unicorn/expiring-todo-comments`
+- `node/module`: Activate `import/consistent-type-specifier-style`
+- `node/module`: Activate `import/no-empty-named-blocks`
 - `react`: Allow `propClasses` and `useParams` in `unicorn/prevent-abbreviations`
+- `test`: Reactivate `jest/no-alias-methods` as the methods themselves will be removed in the next major version of Jest
 
 ### Removed
 - Deprecate `@absolunet/eslint-config-node-package`

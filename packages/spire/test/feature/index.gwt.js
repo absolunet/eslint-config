@@ -12,4 +12,12 @@ given.currentRoot = () => {
 	given.root(path.join(__dirname, "..", "..", "dist", "node"));
 };
 
+given.currentExtraConfig = () => {
+	given.extraConfig({
+		parserOptions: {
+			project: [path.join(__dirname, "fixtures", "tsconfig.json")],
+		},
+	});
+};
+
 export { given, when, then };
