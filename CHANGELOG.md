@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `jsdoc`: Update to JSDoc 39.6.4
 - `pwastudio`: Inherit config from `react` for `unicorn/prevent-abbreviations`
 - `react`: Update to JSX A11Y 6.6.1 / React 7.31.11 / Babel dependencies
+- `react`: Allow `ts` and `tsx` extensions
 - `spire`: Extend `@absolunet/eslint-config-typescript` instead of native TypeScript configuration
 - `test`: Update to Jest 27.1.7
 
@@ -47,8 +48,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Deprecate `@absolunet/eslint-config-node-package`
 - Deprecate `@absolunet/eslint-config-package`
 
-### Changed
-- `react`: Allow `ts` and `tsx` extension for react react project
 
 
 ## [3.2.2] - 2022-07-09
